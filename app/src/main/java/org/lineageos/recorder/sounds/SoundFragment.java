@@ -19,42 +19,76 @@ import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v7.app.AlertDialog;
+import android.support.v7.widget.CardView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 import org.lineageos.recorder.R;
 import org.lineageos.recorder.RecorderActivity;
 import org.lineageos.recorder.ui.SoundVisualizer;
+import org.lineageos.recorder.utils.LastRecordHelper;
 import org.lineageos.recorder.utils.Utils;
 
-public class SoundFragment extends Fragment {
+public class SoundFragment extends Fragment implements View.OnClickListener {
+    private static final String TYPE = "audio/wav";
 
     private Activity mActivity;
     private TextView mCardTitle;
     private SoundVisualizer mVisualizer;
     private Button mStopButton;
+    private ImageButton mPlayButton;
+    private ImageButton mShareButton;
+    private ImageButton mDeleteButton;
+    private CardView mLastCard;
+    private TextView mLastMessage;
 
     public SoundFragment() {
     }
 
     @Override
-    public View onCreateView(LayoutInflater mInflater, ViewGroup mContainer,
-                             Bundle mSavedInstance) {
-        View mView = mInflater.inflate(R.layout.fragment_sound, mContainer, false);
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        View view = inflater.inflate(R.layout.fragment_sound, container, false);
 
         mActivity = getActivity();
 
-        mCardTitle = (TextView) mView.findViewById(R.id.sound_recording_title);
-        mVisualizer = (SoundVisualizer) mView.findViewById(R.id.sound_visualizer);
-        mStopButton = (Button) mView.findViewById(R.id.sound_recording_button);
-        mStopButton.setOnClickListener(mButtonView ->
-                ((RecorderActivity) mActivity).toggleSoundRecorder());
+        mCardTitle = (TextView) view.findViewById(R.id.sound_recording_title);
+        mVisualizer = (SoundVisualizer) view.findViewById(R.id.sound_visualizer);
+        mStopButton = (Button) view.findViewById(R.id.sound_recording_button);
+        mLastCard = (CardView) view.findViewById(R.id.sound_card_last);
+        mLastMessage = (TextView) view.findViewById(R.id.sound_last_message);
+        mPlayButton = (ImageButton) view.findViewById(R.id.sound_last_play);
+        mShareButton = (ImageButton) view.findViewById(R.id.sound_last_share);
+        mDeleteButton = (ImageButton) view.findViewById(R.id.sound_last_delete);
 
-        refresh(getContext());
-        return mView;
+        mStopButton.setOnClickListener(this);
+        mPlayButton.setOnClickListener(this);
+        mShareButton.setOnClickListener(this);
+        mDeleteButton.setOnClickListener(this);
+
+        refresh();
+        return view;
+    }
+
+    @Override
+    public void onClick(View v) {
+        if (v == mStopButton) {
+            ((RecorderActivity) getActivity()).toggleSoundRecorder();
+        } else if (v == mPlayButton) {
+            startActivityForResult(
+                    LastRecordHelper.getOpenIntent(getContext(), getFile(), TYPE), 0);
+        } else if (v == mShareButton) {
+            startActivity(LastRecordHelper.getShareIntent(getContext(), getFile(), TYPE));
+        } else if (v == mDeleteButton) {
+            AlertDialog dialog = LastRecordHelper.deleteFile(getContext(), getFile(), true);
+            dialog.setOnDismissListener(d -> refresh());
+            dialog.show();
+        }
     }
 
     public SoundVisualizer getVisualizer() {
@@ -62,20 +96,36 @@ public class SoundFragment extends Fragment {
     }
 
     // Pass context to avoid unexpected NPE when refreshing from RecorderActivity
-    public void refresh(Context mContext) {
-        if (mActivity == null) {
+    public void refresh() {
+        final Context context = getActivity();
+        if (context == null) {
             return;
         }
 
-        if (Utils.isRecording(mContext)) {
-            mCardTitle.setText(mContext.getString(Utils.isSoundRecording(mContext) ?
-                    R.string.sound_recording_title_working : R.string.sound_recording_title_busy));
-        } else {
-            mCardTitle.setText(mContext.getString(R.string.sound_recording_title_ready));
-        }
+        boolean recording = Utils.isRecording(context);
+        boolean recordingSound = Utils.isSoundRecording(context);
+        mCardTitle.setText(context.getString(
+                recordingSound ? R.string.sound_recording_title_working :
+                        recording ? R.string.sound_recording_title_busy :
+                                R.string.sound_recording_title_ready));
+
         mVisualizer.onAudioLevelUpdated(0);
-        mStopButton.setVisibility(Utils.isSoundRecording(mContext) ? View.VISIBLE : View.GONE);
+        mStopButton.setVisibility(recordingSound ? View.VISIBLE : View.GONE);
+        boolean hasLastRecord = getFile() != null;
+        mLastCard.setVisibility(hasLastRecord ? View.VISIBLE : View.GONE);
+        if (hasLastRecord) {
+            mLastMessage.setText(mActivity.getString(R.string.sound_last_message,
+                    LastRecordHelper.getLastItemDate(context, true),
+                    LastRecordHelper.getLastItemDuration(context, true) / 100));
+        }
     }
 
+    private String getFile() {
+        final Context context = getActivity();
+        if (context == null) {
+            return null;
+        }
 
+        return LastRecordHelper.getLastItemPath(context, true);
+    }
 }

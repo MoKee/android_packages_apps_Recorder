@@ -26,17 +26,17 @@ import android.content.IntentFilter;
 import android.media.AudioFormat;
 import android.media.AudioRecord;
 import android.media.MediaRecorder;
-import android.net.Uri;
 import android.os.Environment;
 import android.os.IBinder;
 import android.support.v4.app.NotificationCompat;
 import android.support.v4.content.ContextCompat;
-import android.support.v4.content.FileProvider;
 import android.text.format.DateUtils;
 import android.util.Log;
 
 import org.lineageos.recorder.R;
 import org.lineageos.recorder.RecorderActivity;
+import org.lineageos.recorder.utils.LastRecordHelper;
+import org.lineageos.recorder.utils.Utils;
 
 import java.io.BufferedOutputStream;
 import java.io.File;
@@ -51,8 +51,8 @@ import java.util.TimerTask;
 public class SoundRecorderService extends Service {
 
     static final String EXTENSION = ".pcm";
-    private static final String EXTRA_STARTED = "org.lineageos.recorder.sounds.STARTED_SOUND";
-    private static final String EXTRA_STOPPED = "org.lineageos.recorder.sounds.STOPPED_SOUND";
+    private static final String ACTION_STARTED = "org.lineageos.recorder.sounds.STARTED_SOUND";
+    private static final String ACTION_STOPPED = "org.lineageos.recorder.sounds.STOPPED_SOUND";
     private static final String EXTRA_FILE = "extra_filename";
 
     private static final String TAG = "SoundRecorderService";
@@ -67,20 +67,22 @@ public class SoundRecorderService extends Service {
     private static final int NOTIFICATION_ID = 60;
     private final IBinder mBinder = new RecorderBinder(this);
     private int mElapsedTime;
-
     private TimerTask mTask;
     private OnTimerUpdatedListener mTimerListener;
     private OnAudioLevelUpdatedListener mAudioListener;
-
     private String mFilePath;
     private String mOutFilePath;
-
     private AudioRecord mRecord;
     private Thread mRecordThread;
     private Thread mVisualizerThread;
-
     private byte[] mData;
     private RecorderStatus mStatus = RecorderStatus.STOPPED;
+    private final BroadcastReceiver mShutdownReceiver = new BroadcastReceiver() {
+        @Override
+        public void onReceive(Context context, Intent intent) {
+            stopRecording();
+        }
+    };
 
     @Override
     public IBinder onBind(Intent mIntent) {
@@ -88,11 +90,11 @@ public class SoundRecorderService extends Service {
     }
 
     @Override
-    public int onStartCommand(Intent mIntent, int mFlags, int mStartId) {
-        if (mIntent != null) {
-            if (EXTRA_STARTED.equals(mIntent.getAction())) {
+    public int onStartCommand(Intent intent, int flags, int startId) {
+        if (intent != null) {
+            if (ACTION_STARTED.equals(intent.getAction())) {
                 startRecording();
-            } else if (EXTRA_STOPPED.equals(mIntent.getAction())) {
+            } else if (ACTION_STOPPED.equals(intent.getAction())) {
                 stopRecording();
             }
         }
@@ -100,17 +102,16 @@ public class SoundRecorderService extends Service {
         return START_STICKY;
     }
 
+    @Override
     public void onCreate() {
-        BroadcastReceiver mShutdownReceiver = new BroadcastReceiver() {
-            @Override
-            public void onReceive(Context mContext, Intent mIntent) {
-                stopRecording();
-            }
-        };
+        super.onCreate();
+        registerReceiver(mShutdownReceiver, new IntentFilter(Intent.ACTION_SHUTDOWN));
+    }
 
-        IntentFilter mFilter = new IntentFilter();
-        mFilter.addAction(Intent.ACTION_SHUTDOWN);
-        registerReceiver(mShutdownReceiver, mFilter);
+    @Override
+    public void onDestroy() {
+        unregisterReceiver(mShutdownReceiver);
+        super.onDestroy();
     }
 
     public boolean isRecording() {
@@ -125,13 +126,13 @@ public class SoundRecorderService extends Service {
             return;
         }
 
-        File mFile = createNewAudioFile();
-        if (mFile == null) {
+        File file = createNewAudioFile();
+        if (file == null) {
             return;
         }
 
-        mFilePath = mFile.getAbsolutePath();
-        String mFileName = mFile.getName().replace(EXTENSION, "");
+        mFilePath = file.getAbsolutePath();
+        String fileName = file.getName().replace(EXTENSION, "");
 
         mRecord = new AudioRecord(MediaRecorder.AudioSource.DEFAULT,
                 SAMPLING_RATE, CHANNEL_IN, FORMAT, BUFFER_SIZE);
@@ -145,13 +146,13 @@ public class SoundRecorderService extends Service {
 
         startTimer();
 
-        Intent mIntent = new Intent(EXTRA_STARTED);
-        mIntent.putExtra(EXTRA_FILE, mFileName);
+        Intent intent = new Intent(ACTION_STARTED);
+        intent.putExtra(EXTRA_FILE, fileName);
         startForeground(NOTIFICATION_ID, createRecordingNotification());
     }
 
     public void stopRecording() {
-        Log.d(TAG, "Sound recorder service stopped recording\u2026");
+        Log.d(TAG, "Sound recorder service stopped recording");
         if (mTask != null) {
             mTask.cancel();
             mTask = null;
@@ -167,44 +168,44 @@ public class SoundRecorderService extends Service {
             mVisualizerThread = null;
         }
 
-        File mTmpFile = new File(mFilePath);
-        if (!mTmpFile.exists()) {
+        File tmpFile = new File(mFilePath);
+        if (!tmpFile.exists()) {
             mFilePath = null;
             return;
         }
 
         mOutFilePath = mFilePath.replace(EXTENSION, PcmConverter.WAV_EXTENSION);
         PcmConverter.convertToWave(mOutFilePath, BUFFER_SIZE);
-        File mOldFile = new File(mFilePath);
-        if (mOldFile.exists()) {
+        File oldFile = new File(mFilePath);
+        if (oldFile.exists()) {
             //noinspection ResultOfMethodCallIgnored
-            mOldFile.delete();
+            oldFile.delete();
         }
 
         mStatus = RecorderStatus.STOPPED;
-        Intent mIntent = new Intent(EXTRA_STOPPED);
-        mIntent.putExtra(EXTRA_FILE, mOutFilePath);
-        sendBroadcast(mIntent);
+        Intent intent = new Intent(ACTION_STOPPED);
+        intent.putExtra(EXTRA_FILE, mOutFilePath);
+        sendBroadcast(intent);
         stopForeground(true);
     }
 
     private File createNewAudioFile() {
-        SimpleDateFormat mDateFormat = new SimpleDateFormat("yyyy-MM-dd-HH-mm-ss",
+        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd-HH-mm-ss",
                 Locale.getDefault());
-        File mFile = new File(RECORDINGS_DIR,
-                "SoundRecord-" + mDateFormat.format(new Date()) + EXTENSION);
+        File file = new File(RECORDINGS_DIR,
+                "SoundRecord-" + dateFormat.format(new Date()) + EXTENSION);
         if (!RECORDINGS_DIR.exists()) {
             //noinspection ResultOfMethodCallIgnored
             RECORDINGS_DIR.mkdirs();
         }
-        return mFile;
+        return file;
     }
 
     private void startRecordingThread() {
         mRecordThread = new Thread(() -> {
-            BufferedOutputStream mOut = null;
+            BufferedOutputStream out = null;
             try {
-                mOut = new BufferedOutputStream(new FileOutputStream(mFilePath));
+                out = new BufferedOutputStream(new FileOutputStream(mFilePath));
 
                 while (mStatus == RecorderStatus.RECORDING) {
                     int mStatus = mRecord.read(mData, 0, mData.length);
@@ -213,13 +214,13 @@ public class SoundRecorderService extends Service {
                         Log.e(TAG, "Error reading audio record data");
                         return;
                     }
-                    mOut.write(mData, 0, BUFFER_SIZE);
+                    out.write(mData, 0, BUFFER_SIZE);
 
                 }
-
-                mOut.close();
             } catch (IOException e) {
                 Log.e(TAG, e.getMessage());
+            } finally {
+                Utils.closeQuietly(out);
             }
         });
         mRecordThread.start();
@@ -229,34 +230,34 @@ public class SoundRecorderService extends Service {
         mVisualizerThread = new Thread(() -> {
             while (isRecording()) {
                 try {
-                    Thread.sleep((long) 100);
+                    Thread.sleep(100L);
                 } catch (InterruptedException e) {
                     Log.e(TAG, e.getMessage());
                 }
 
-                double mVal = 0d;
-                for (int mCounter = 0; mCounter < BUFFER_SIZE - 1; mCounter++) {
-                    mVal += Math.pow(mData[mCounter], 2);
+                double val = 0d;
+                for (byte mByte : mData) {
+                    val += Math.pow(mByte, 2);
                 }
-                mVal /= BUFFER_SIZE;
+                val /= mData.length;
                 if (mAudioListener != null) {
-                    mAudioListener.onAudioLevelUpdated((int) Math.sqrt(mVal));
+                    mAudioListener.onAudioLevelUpdated((int) Math.sqrt(val));
                 }
             }
         });
         mVisualizerThread.start();
     }
 
-    public void setAudioListener(OnAudioLevelUpdatedListener mAudioListener) {
-        this.mAudioListener = mAudioListener;
+    public void setAudioListener(OnAudioLevelUpdatedListener audioListener) {
+        mAudioListener = audioListener;
     }
 
     private void startTimer() {
-        Timer mTimer = new Timer();
-        mTimerListener = (mSeconds -> {
-            NotificationManager mManager = (NotificationManager)
+        Timer timer = new Timer();
+        mTimerListener = (seconds -> {
+            NotificationManager nm = (NotificationManager)
                     getSystemService(Context.NOTIFICATION_SERVICE);
-            mManager.notify(NOTIFICATION_ID, createRecordingNotification());
+            nm.notify(NOTIFICATION_ID, createRecordingNotification());
         });
 
         mTask = new TimerTask() {
@@ -268,68 +269,62 @@ public class SoundRecorderService extends Service {
                 }
             }
         };
-        mTimer.scheduleAtFixedRate(mTask, 1000, 1000);
+        timer.scheduleAtFixedRate(mTask, 1000, 1000);
     }
 
     private Notification createRecordingNotification() {
-        Context mContext = getApplicationContext();
+        Intent intent = new Intent(this, RecorderActivity.class);
+        // Fake launcher intent to resume previous activity - FIXME: use singleTop instead?
+        intent.setAction(Intent.ACTION_MAIN);
+        intent.addCategory(Intent.CATEGORY_LAUNCHER);
+        PendingIntent pi = PendingIntent.getActivity(this, 0, intent, 0);
 
-        Intent mIntent = new Intent(this, RecorderActivity.class);
-        // Fake launcher intent to resume previous activity
-        mIntent.setAction("android.intent.action.MAIN");
-        mIntent.addCategory("android.intent.category.LAUNCHER");
-        PendingIntent mPIntent = PendingIntent.getActivity(mContext, 0, mIntent, 0);
-
-        NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(mContext)
+        NotificationCompat.Builder builder = new NotificationCompat.Builder(this)
                 .setContentTitle(getString(R.string.sound_notification_title))
-                .setContentText(String.format(
-                        getString(R.string.sound_notification_message),
+                .setContentText(getString(R.string.sound_notification_message,
                         DateUtils.formatElapsedTime(mElapsedTime)))
                 .setOngoing(true)
                 .setSmallIcon(R.drawable.ic_action_sound_record)
-                .setContentIntent(mPIntent)
-                .setColor(ContextCompat.getColor(mContext, R.color.colorPrimary));
+                .setContentIntent(pi)
+                .setColor(ContextCompat.getColor(this, R.color.colorPrimary));
 
-        return mBuilder.build();
+        return builder.build();
     }
 
     public void createShareNotification() {
-        Intent mShareIntent = new Intent(Intent.ACTION_SEND);
-        mShareIntent.setType("audio/wav");
-        Uri mFileUri = FileProvider.getUriForFile(getApplicationContext(),
-                "org.lineageos.recorder.fileprovider", new File(mOutFilePath));
-        mShareIntent.putExtra(Intent.EXTRA_STREAM, mFileUri);
-        mShareIntent.putExtra(Intent.EXTRA_SUBJECT, new File(mOutFilePath).getName());
-        Intent mChooserIntent = Intent.createChooser(mShareIntent, null);
-        mChooserIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
+        Intent intent = new Intent(this, RecorderActivity.class);
+        // Fake launcher intent to resume previous activity - FIXME: use singleTop instead?
+        intent.setAction(Intent.ACTION_MAIN);
+        intent.addCategory(Intent.CATEGORY_LAUNCHER);
+        PendingIntent pi = PendingIntent.getActivity(this, 0, intent, 0);
 
-        Intent mContentIntent = new Intent(Intent.ACTION_VIEW);
-        mContentIntent.setDataAndType(mFileUri, "audio/wav");
-        mContentIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-        mContentIntent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
-        PendingIntent mContentPIntent = PendingIntent.getActivity(this, 0,
-                mContentIntent, PendingIntent.FLAG_CANCEL_CURRENT);
+        PendingIntent playPIntent = PendingIntent.getActivity(this, 0,
+                LastRecordHelper.getOpenIntent(this, mOutFilePath, "audio/wav"),
+                PendingIntent.FLAG_CANCEL_CURRENT);
+        PendingIntent sharePIntent = PendingIntent.getActivity(this, 0,
+                LastRecordHelper.getShareIntent(this, mOutFilePath, "audio/wav"),
+                PendingIntent.FLAG_CANCEL_CURRENT);
 
-        Notification mNotification = new NotificationCompat.Builder(this)
+        LastRecordHelper.setLastItem(this, mOutFilePath, mElapsedTime, true);
+
+        Notification notification = new NotificationCompat.Builder(this)
                 .setWhen(System.currentTimeMillis())
                 .setSmallIcon(R.drawable.ic_action_sound_record)
                 .setContentTitle(getString(R.string.sound_notification_title))
                 .setContentText(getString(R.string.sound_notification_message,
                         DateUtils.formatElapsedTime(mElapsedTime)))
-                .addAction(R.drawable.ic_share, getString(R.string.share),
-                        PendingIntent.getActivity(this, 0, mChooserIntent,
-                                PendingIntent.FLAG_CANCEL_CURRENT))
-                .setContentIntent(mContentPIntent)
+                .addAction(R.drawable.ic_play, getString(R.string.play), playPIntent)
+                .addAction(R.drawable.ic_share, getString(R.string.share), sharePIntent)
+                .setContentIntent(pi)
                 .build();
 
-        NotificationManager mManager = (NotificationManager)
+        NotificationManager nm = (NotificationManager)
                 getSystemService(Context.NOTIFICATION_SERVICE);
-        mManager.notify(NOTIFICATION_ID, mNotification);
+        nm.notify(NOTIFICATION_ID, notification);
     }
 
     public enum RecorderStatus {
         STOPPED,
         RECORDING
     }
-
 }
