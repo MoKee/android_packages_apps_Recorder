@@ -35,7 +35,8 @@
                 <TextView
                     android:id="@+id/sound_recording_title"
                     style="@style/CardTheme.Title"
-                    android:text="@string/sound_recording_title_ready" />
+                    android:text="@string/sound_recording_title_ready"
+                    android:textSize="20sp" />
 
                 <ImageView
                     style="@style/CardTheme.Icon"
