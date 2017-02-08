@@ -72,7 +72,8 @@
                 <TextView
                     android:id="@+id/screen_audio_title"
                     style="@style/CardTheme.Title"
-                    android:text="@string/screen_audio_title" />
+                    android:text="@string/screen_audio_title"
+                    android:textSize="20sp" />
 
                 <ImageView
                     style="@style/CardTheme.Icon"
