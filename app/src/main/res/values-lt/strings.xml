@@ -22,6 +22,12 @@
   <!-- Share action for notification -->
   <string name="share">Bendrinti</string>
   <!-- Stop action for notification -->
+  <!-- Play action -->
+  <!-- Delete action -->
+  <string name="delete">Ištrinti</string>
+  <!-- Delete confirm title -->
+  <!-- Delete confirm message -->
+  <!-- Date for last item %1 is year, %2 month, %3 day, %4 hour, %5 min -->
   <!-- Permissions -->
   <!-- Sound recorder -->
   <!-- Sound recorder notification title -->
@@ -29,6 +35,8 @@
   <!-- Sound recorder status card title ready -->
   <!-- Sound recorder status card title recording -->
   <!-- Sound recorder status card title busy -->
+  <!-- Sound recorder last item title -->
+  <!-- Sound recorder last item message -->
   <!-- Screen recorder -->
   <!-- Screen recorder audio card title -->
   <!-- Screen recorder enabled audio card message -->
@@ -42,6 +50,8 @@
   <!-- Screen recorder notification share title -->
   <!-- Screen recorder status card title -->
   <!-- Screen recorder status message -->
+  <!-- Screen recorder last item title -->
+  <!-- Screen recorder last item message -->
   <!-- Permissions -->
   <!-- Permissions dialog title -->
   <string name="dialog_permissions_title">Leidimai</string>
