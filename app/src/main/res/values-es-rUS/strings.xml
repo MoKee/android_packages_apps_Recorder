@@ -17,13 +17,16 @@
 <resources>
   <!-- Fragment titles -->
   <!-- Sound recorder fragment title -->
+  <string name="fragment_sounds">Sonido</string>
   <!-- Screen recorder fragment title -->
+  <string name="fragment_screen">Pantalla</string>
   <!-- Common actions -->
   <!-- Share action for notification -->
   <string name="share">Compartir</string>
   <!-- Stop action for notification -->
   <string name="stop">Parar</string>
   <!-- Play action -->
+  <string name="play">Reproducir</string>
   <!-- Delete action -->
   <string name="delete">Eliminar</string>
   <!-- Delete confirm title -->
@@ -40,6 +43,7 @@
   <!-- Sound recorder last item message -->
   <!-- Screen recorder -->
   <!-- Screen recorder audio card title -->
+  <string name="screen_audio_title">Micrófono</string>
   <!-- Screen recorder enabled audio card message -->
   <!-- Screen recorder disabled audio card message -->
   <!-- Screen recorder audio permission request card message -->
@@ -47,6 +51,7 @@
   <!-- Screen recorder notification storage error title -->
   <!-- Screen recorder notification storage error message -->
   <!-- Screen recorder notification title -->
+  <string name="screen_notification_title">Grabadora de pantalla</string>
   <!-- Screen recorder notification message -->
   <!-- Screen recorder notification share title -->
   <!-- Screen recorder status card title -->

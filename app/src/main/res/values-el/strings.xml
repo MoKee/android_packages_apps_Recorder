@@ -15,33 +15,52 @@
      limitations under the License.
 -->
 <resources>
+  <string name="app_name">Πρόγραμμα εγγραφής</string>
   <!-- Fragment titles -->
   <!-- Sound recorder fragment title -->
+  <string name="fragment_sounds">Ήχος</string>
   <!-- Screen recorder fragment title -->
+  <string name="fragment_screen">Οθόνη</string>
   <!-- Common actions -->
   <!-- Share action for notification -->
   <string name="share">Κοινοποίηση</string>
   <!-- Stop action for notification -->
+  <string name="stop">Διακοπή</string>
   <!-- Play action -->
+  <string name="play">Αναπαραγωγή</string>
   <!-- Delete action -->
   <string name="delete">Διαγραφή</string>
   <!-- Delete confirm title -->
+  <string name="delete_title">Διαγραφή εγγραφής</string>
   <!-- Delete confirm message -->
+  <string name="delete_message">Είστε βέβαιοι ότι θέλετε να διαγράψετε %1$s; Αυτό δεν μπορεί να αναιρεθεί</string>
   <!-- Date for last item %1 is year, %2 month, %3 day, %4 hour, %5 min -->
+  <string name="date_format">%3$s-%2$s-%1$s-%4$s-%5$s</string>
   <!-- Permissions -->
   <!-- Sound recorder -->
   <!-- Sound recorder notification title -->
+  <string name="sound_notification_title">Εγγραφέας Ήχου</string>
   <!-- Sound recorder notification message -->
+  <string name="sound_notification_message">Μήκος ήχου: %1$s</string>
   <!-- Sound recorder status card title ready -->
+  <string name="sound_recording_title_ready">Έτοιμο για καταγραφή</string>
   <!-- Sound recorder status card title recording -->
+  <string name="sound_recording_title_working">Γίνεται εγγραφή</string>
   <!-- Sound recorder status card title busy -->
+  <string name="sound_recording_title_busy">Απενεργοποιημένο κατά την εγγραφή οθόνης</string>
   <!-- Sound recorder last item title -->
+  <string name="sound_last_title">Τελευταία εγγραφή</string>
   <!-- Sound recorder last item message -->
+  <string name="sound_last_message">Ημερομηνία: %1$s\n Διάρκεια: %2$d δευτερόλεπτα</string>
   <!-- Screen recorder -->
   <!-- Screen recorder audio card title -->
+  <string name="screen_audio_title">Μικρόφωνο</string>
   <!-- Screen recorder enabled audio card message -->
+  <string name="screen_audio_message_on">Ο ήχος από το μικρόφωνο θα συμπεριληφθεί στο βίντεο</string>
   <!-- Screen recorder disabled audio card message -->
+  <string name="screen_audio_message_off">Ο ήχος από το μικρόφωνο δεν θα συμπεριληφθεί στο βίντεο</string>
   <!-- Screen recorder audio permission request card message -->
+  <string name="screen_audio_warning_message">Θα πρέπει να παραχωρήσετε πρόσβαση στο μικρόφωνο για να προσθέσετε ήχο στην εγγραφή. Πατήστε παρακάτω για αποδοχή πρόσβασης για αυτή την εφαρμογή</string>
   <!-- Screen recorder audio permission request card button -->
   <!-- Screen recorder notification storage error title -->
   <!-- Screen recorder notification storage error message -->
@@ -49,9 +68,12 @@
   <!-- Screen recorder notification message -->
   <!-- Screen recorder notification share title -->
   <!-- Screen recorder status card title -->
+  <string name="screen_recording_title">Γίνεται εγγραφή</string>
   <!-- Screen recorder status message -->
   <!-- Screen recorder last item title -->
+  <string name="screen_last_title">Τελευταία εγγραφή</string>
   <!-- Screen recorder last item message -->
+  <string name="screen_last_message">Ημερομηνία: %1$s\n Διάρκεια: %2$d δευτερόλεπτα</string>
   <!-- Permissions -->
   <!-- Permissions dialog title -->
   <string name="dialog_permissions_title">Άδειες</string>
@@ -64,5 +86,6 @@
   <!-- Message: microphone, storage and phone status access denied -->
   <!-- Permissions dialog action: ask permissions access again -->
   <!-- Permissions dialog action: dismiss dialog -->
+  <string name="dialog_permissions_dismiss">Απόρριψη</string>
   <!-- No permissions granted error -->
 </resources>
