@@ -54,9 +54,11 @@
   <string name="screen_notification_title">Grabadora de pantalla</string>
   <!-- Screen recorder notification message -->
   <!-- Screen recorder notification share title -->
+  <string name="screen_notification_message_done">Listo para compartir</string>
   <!-- Screen recorder status card title -->
   <string name="screen_recording_title">Grabando</string>
   <!-- Screen recorder status message -->
+  <string name="screen_recording_message">Grabando pantalla</string>
   <!-- Screen recorder last item title -->
   <string name="screen_last_title">Ultima grabación</string>
   <!-- Screen recorder last item message -->
@@ -72,5 +74,6 @@
   <!-- Message: microphone, storage and phone status access denied -->
   <!-- Permissions dialog action: ask permissions access again -->
   <!-- Permissions dialog action: dismiss dialog -->
+  <string name="dialog_permissions_dismiss">Descartar</string>
   <!-- No permissions granted error -->
 </resources>

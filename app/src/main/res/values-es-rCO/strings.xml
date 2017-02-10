@@ -54,8 +54,10 @@
   <string name="screen_notification_title">Grabadora de pantalla</string>
   <!-- Screen recorder notification message -->
   <!-- Screen recorder notification share title -->
+  <string name="screen_notification_message_done">Listo para compartir</string>
   <!-- Screen recorder status card title -->
   <!-- Screen recorder status message -->
+  <string name="screen_recording_message">Grabando pantalla</string>
   <!-- Screen recorder last item title -->
   <!-- Screen recorder last item message -->
   <!-- Permissions -->
