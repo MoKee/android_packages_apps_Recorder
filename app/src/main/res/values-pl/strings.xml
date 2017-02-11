@@ -33,30 +33,43 @@
   <!-- Delete confirm title -->
   <string name="delete_title">Usuwanie rekordu</string>
   <!-- Delete confirm message -->
+  <string name="delete_message">Czy na pewno chcesz usunąć %1$s? Tej operacji nie da się cofnąć</string>
   <!-- Date for last item %1 is year, %2 month, %3 day, %4 hour, %5 min -->
   <!-- Permissions -->
   <!-- Sound recorder -->
   <!-- Sound recorder notification title -->
+  <string name="sound_notification_title">Rejestrator dźwięku</string>
   <!-- Sound recorder notification message -->
+  <string name="sound_notification_message">Długość dźwięku: %1$s</string>
   <!-- Sound recorder status card title ready -->
+  <string name="sound_recording_title_ready">Gotowy do nagrywania</string>
   <!-- Sound recorder status card title recording -->
+  <string name="sound_recording_title_working">Nagrywanie</string>
   <!-- Sound recorder status card title busy -->
+  <string name="sound_recording_title_busy">Wyłączone podczas nagrywania ekranu</string>
   <!-- Sound recorder last item title -->
+  <string name="sound_last_title">Ostatnie nagranie</string>
   <!-- Sound recorder last item message -->
   <!-- Screen recorder -->
   <!-- Screen recorder audio card title -->
+  <string name="screen_audio_title">Mikrofon</string>
   <!-- Screen recorder enabled audio card message -->
   <!-- Screen recorder disabled audio card message -->
   <!-- Screen recorder audio permission request card message -->
   <!-- Screen recorder audio permission request card button -->
+  <string name="screen_audio_warning_button_ask">Pytaj</string>
   <!-- Screen recorder notification storage error title -->
   <!-- Screen recorder notification storage error message -->
   <!-- Screen recorder notification title -->
+  <string name="screen_notification_title">Rejestrator Ekranu</string>
   <!-- Screen recorder notification message -->
   <!-- Screen recorder notification share title -->
   <!-- Screen recorder status card title -->
+  <string name="screen_recording_title">Nagrywanie</string>
   <!-- Screen recorder status message -->
+  <string name="screen_recording_message">Ekran jest nagrywany\u2026</string>
   <!-- Screen recorder last item title -->
+  <string name="screen_last_title">Ostatnie nagranie</string>
   <!-- Screen recorder last item message -->
   <!-- Permissions -->
   <!-- Permissions dialog title -->
@@ -69,6 +82,7 @@
   <!-- Message: storage and phone status access denied -->
   <!-- Message: microphone, storage and phone status access denied -->
   <!-- Permissions dialog action: ask permissions access again -->
+  <string name="dialog_permissions_ask">Zapytaj ponownie</string>
   <!-- Permissions dialog action: dismiss dialog -->
   <string name="dialog_permissions_dismiss">Odrzuć</string>
   <!-- No permissions granted error -->
