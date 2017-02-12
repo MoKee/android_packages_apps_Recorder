@@ -15,6 +15,7 @@
      limitations under the License.
 -->
 <resources>
+  <string name="app_name">Inspelare</string>
   <!-- Fragment titles -->
   <!-- Sound recorder fragment title -->
   <string name="fragment_sounds">Ljud</string>
@@ -24,7 +25,9 @@
   <!-- Share action for notification -->
   <string name="share">Dela</string>
   <!-- Stop action for notification -->
+  <string name="stop">Stopp</string>
   <!-- Play action -->
+  <string name="play">Spela</string>
   <!-- Delete action -->
   <string name="delete">Ta bort</string>
   <!-- Delete confirm title -->
@@ -36,35 +39,45 @@
   <!-- Sound recorder notification title -->
   <string name="sound_notification_title">Ljudinspelare</string>
   <!-- Sound recorder notification message -->
+  <string name="sound_notification_message">Ljudlängd: %1$s</string>
   <!-- Sound recorder status card title ready -->
+  <string name="sound_recording_title_ready">Redo att spela in</string>
   <!-- Sound recorder status card title recording -->
   <string name="sound_recording_title_working">Spelar in</string>
   <!-- Sound recorder status card title busy -->
+  <string name="sound_recording_title_busy">Inaktiverat under skärminspelning</string>
   <!-- Sound recorder last item title -->
   <!-- Sound recorder last item message -->
   <!-- Screen recorder -->
   <!-- Screen recorder audio card title -->
   <string name="screen_audio_title">Mikrofon</string>
   <!-- Screen recorder enabled audio card message -->
+  <string name="screen_audio_message_on">Ljud från mikrofonen kommer inkluderas i videon</string>
   <!-- Screen recorder disabled audio card message -->
   <!-- Screen recorder audio permission request card message -->
   <!-- Screen recorder audio permission request card button -->
   <string name="screen_audio_warning_button_ask">Fråga</string>
   <!-- Screen recorder notification storage error title -->
+  <string name="screen_insufficient_storage">Otillräckligt med utrymme</string>
   <!-- Screen recorder notification storage error message -->
+  <string name="screen_not_enough_storage">Inte tillräckligt med lagringsutrymme ledigt</string>
   <!-- Screen recorder notification title -->
   <string name="screen_notification_title">Skärminspelare</string>
   <!-- Screen recorder notification message -->
+  <string name="screen_notification_message">Videolängd: %s</string>
   <!-- Screen recorder notification share title -->
+  <string name="screen_notification_message_done">Redo att dela</string>
   <!-- Screen recorder status card title -->
   <string name="screen_recording_title">Spelar in</string>
   <!-- Screen recorder status message -->
+  <string name="screen_recording_message">Skärmen spelas in\u2026</string>
   <!-- Screen recorder last item title -->
   <!-- Screen recorder last item message -->
   <!-- Permissions -->
   <!-- Permissions dialog title -->
   <string name="dialog_permissions_title">Behörigheter</string>
   <!-- Message: microphone access denied -->
+  <string name="dialog_permissions_mic">Inspelare behöver mikrofonbehörighet för att spela in ljud</string>
   <!-- Message: storage access denied -->
   <!-- Message: phone status denied -->
   <!-- Message: microphone and storage access denied -->

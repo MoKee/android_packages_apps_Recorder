@@ -101,6 +101,7 @@
   <!-- Permissions dialog action: ask permissions access again -->
   <string name="dialog_permissions_ask">Demander à nouveau</string>
   <!-- Permissions dialog action: dismiss dialog -->
+  <string name="dialog_permissions_dismiss">Refuser</string>
   <!-- No permissions granted error -->
   <string name="snack_permissions_no_permission">Les autorisations requises ont été refusées, activez-les depuis les Paramètres de l\'application pour commencer à enregistrer</string>
 </resources>
