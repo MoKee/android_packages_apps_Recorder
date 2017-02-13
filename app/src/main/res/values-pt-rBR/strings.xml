@@ -27,11 +27,15 @@
   <!-- Stop action for notification -->
   <string name="stop">Parar</string>
   <!-- Play action -->
+  <string name="play">Escutar</string>
   <!-- Delete action -->
   <string name="delete">Excluir</string>
   <!-- Delete confirm title -->
+  <string name="delete_title">Excluindo registro</string>
   <!-- Delete confirm message -->
+  <string name="delete_message">Tem certeza de que quer excluir %1$s? Isto não pode ser desfeito</string>
   <!-- Date for last item %1 is year, %2 month, %3 day, %4 hour, %5 min -->
+  <string name="date_format">%1$s-%2$s-%3$s %4$s:%5$s</string>
   <!-- Permissions -->
   <!-- Sound recorder -->
   <!-- Sound recorder notification title -->
@@ -45,7 +49,9 @@
   <!-- Sound recorder status card title busy -->
   <string name="sound_recording_title_busy">Desativado durante a gravação da tela</string>
   <!-- Sound recorder last item title -->
+  <string name="sound_last_title">Último registro</string>
   <!-- Sound recorder last item message -->
+  <string name="sound_last_message">Data: %1$s\nDuração: %2$d segundos</string>
   <!-- Screen recorder -->
   <!-- Screen recorder audio card title -->
   <string name="screen_audio_title">Microfone</string>
@@ -72,7 +78,9 @@
   <!-- Screen recorder status message -->
   <string name="screen_recording_message">Tela está sendo gravada\u2026</string>
   <!-- Screen recorder last item title -->
+  <string name="screen_last_title">Último registro</string>
   <!-- Screen recorder last item message -->
+  <string name="screen_last_message">Data: %1$s\nDuração: %2$d segundos</string>
   <!-- Permissions -->
   <!-- Permissions dialog title -->
   <string name="dialog_permissions_title">Permissões</string>
