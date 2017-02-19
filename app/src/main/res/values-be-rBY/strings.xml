@@ -33,7 +33,7 @@
   <!-- Delete confirm title -->
   <string name="delete_title">Выдаліць запіс</string>
   <!-- Delete confirm message -->
-  <string name="delete_message">Вы ўпэўненыя, што хочаце выдаліць %1$s? Гэта дзеянне не можа быць адменена</string>
+  <string name="delete_message">Вы ўпэўненыя, што хочаце выдаліць %1$s? Гэта дзеянне не можа быць скасавана</string>
   <!-- Date for last item %1 is year, %2 month, %3 day, %4 hour, %5 min -->
   <string name="date_format">%1$s-%2$s-%3$s %4$s:%5$s</string>
   <!-- Permissions -->
