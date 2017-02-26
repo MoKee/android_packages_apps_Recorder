@@ -27,7 +27,7 @@
   <!-- Stop action for notification -->
   <string name="stop">Konec</string>
   <!-- Play action -->
-  <string name="play">Hrat</string>
+  <string name="play">Hrát</string>
   <!-- Delete action -->
   <string name="delete">Smazat</string>
   <!-- Delete confirm title -->
