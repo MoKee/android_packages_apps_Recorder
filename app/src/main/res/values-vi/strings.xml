@@ -15,26 +15,37 @@
      limitations under the License.
 -->
 <resources>
+  <string name="app_name">Ghi âm</string>
   <!-- Fragment titles -->
   <!-- Sound recorder fragment title -->
+  <string name="fragment_sounds">Âm thanh</string>
   <!-- Screen recorder fragment title -->
+  <string name="fragment_screen">Màn hình</string>
   <!-- Common actions -->
   <!-- Share action for notification -->
   <string name="share">Chia sẻ</string>
   <!-- Stop action for notification -->
   <string name="stop">Ngừng</string>
   <!-- Play action -->
+  <string name="play">Phát</string>
   <!-- Delete action -->
   <string name="delete">Xóa</string>
   <!-- Delete confirm title -->
+  <string name="delete_title">Xoá bản ghi</string>
   <!-- Delete confirm message -->
+  <string name="delete_message">Bạn chắc chắn muốn xoá %1$s? Không thể hoàn tác việc này</string>
   <!-- Date for last item %1 is year, %2 month, %3 day, %4 hour, %5 min -->
+  <string name="date_format">%1$s-%2$s-%3$s %4$s:%5$s</string>
   <!-- Permissions -->
   <!-- Sound recorder -->
   <!-- Sound recorder notification title -->
+  <string name="sound_notification_title">Ghi âm</string>
   <!-- Sound recorder notification message -->
+  <string name="sound_notification_message">Thời lượng âm thanh: %1$s</string>
   <!-- Sound recorder status card title ready -->
+  <string name="sound_recording_title_ready">Sẵn sàng ghi âm</string>
   <!-- Sound recorder status card title recording -->
+  <string name="sound_recording_title_working">Đang ghi âm</string>
   <!-- Sound recorder status card title busy -->
   <!-- Sound recorder last item title -->
   <!-- Sound recorder last item message -->
@@ -50,6 +61,7 @@
   <!-- Screen recorder notification message -->
   <!-- Screen recorder notification share title -->
   <!-- Screen recorder status card title -->
+  <string name="screen_recording_title">Đang ghi âm</string>
   <!-- Screen recorder status message -->
   <!-- Screen recorder last item title -->
   <!-- Screen recorder last item message -->
