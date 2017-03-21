@@ -63,5 +63,6 @@
   <!-- Message: microphone, storage and phone status access denied -->
   <!-- Permissions dialog action: ask permissions access again -->
   <!-- Permissions dialog action: dismiss dialog -->
+  <string name="dialog_permissions_dismiss">Opusti</string>
   <!-- No permissions granted error -->
 </resources>

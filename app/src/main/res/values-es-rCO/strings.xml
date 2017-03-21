@@ -101,6 +101,7 @@
   <!-- Permissions dialog action: ask permissions access again -->
   <string name="dialog_permissions_ask">Preguntar de nuevo</string>
   <!-- Permissions dialog action: dismiss dialog -->
+  <string name="dialog_permissions_dismiss">Descartar</string>
   <!-- No permissions granted error -->
   <string name="snack_permissions_no_permission">Permisos necesarios denegados, actívelos desde la aplicación de Ajustes para iniciar la grabación</string>
 </resources>

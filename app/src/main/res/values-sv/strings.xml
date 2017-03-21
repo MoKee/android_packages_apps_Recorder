@@ -87,5 +87,6 @@
   <!-- Permissions dialog action: ask permissions access again -->
   <string name="dialog_permissions_ask">Fråga igen</string>
   <!-- Permissions dialog action: dismiss dialog -->
+  <string name="dialog_permissions_dismiss">Avvisa</string>
   <!-- No permissions granted error -->
 </resources>
