@@ -52,6 +52,8 @@
   <!-- Screen recorder status message -->
   <!-- Screen recorder last item title -->
   <!-- Screen recorder last item message -->
+  <!-- Screen recorder notification overlay title -->
+  <!-- Screen recorder notification overlay message -->
   <!-- Permissions -->
   <!-- Permissions dialog title -->
   <!-- Message: microphone access denied -->
@@ -64,5 +66,6 @@
   <!-- Permissions dialog action: ask permissions access again -->
   <!-- Permissions dialog action: dismiss dialog -->
   <string name="dialog_permissions_dismiss">Opusti</string>
+  <!-- Message: overlay permission denied. Make sure "Draw over other apps" matches settings strings -->
   <!-- No permissions granted error -->
 </resources>

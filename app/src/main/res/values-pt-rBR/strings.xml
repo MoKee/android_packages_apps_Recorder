@@ -81,6 +81,9 @@
   <string name="screen_last_title">Último registro</string>
   <!-- Screen recorder last item message -->
   <string name="screen_last_message">Data: %1$s\nDuração: %2$d segundos</string>
+  <!-- Screen recorder notification overlay title -->
+  <string name="screen_overlay_notif_title">Pronto para gravar</string>
+  <!-- Screen recorder notification overlay message -->
   <!-- Permissions -->
   <!-- Permissions dialog title -->
   <string name="dialog_permissions_title">Permissões</string>
@@ -102,6 +105,7 @@
   <string name="dialog_permissions_ask">Perguntar de novo</string>
   <!-- Permissions dialog action: dismiss dialog -->
   <string name="dialog_permissions_dismiss">Dispensar</string>
+  <!-- Message: overlay permission denied. Make sure "Draw over other apps" matches settings strings -->
   <!-- No permissions granted error -->
   <string name="snack_permissions_no_permission">As permissões necessárias foram negadas, ative-as nas Configurações do aprarelho para iniciar a gravação</string>
 </resources>

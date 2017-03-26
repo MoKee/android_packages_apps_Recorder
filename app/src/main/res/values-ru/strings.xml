@@ -81,6 +81,10 @@
   <string name="screen_last_title">Последняя запись</string>
   <!-- Screen recorder last item message -->
   <string name="screen_last_message">Дата: %1$s\nДлительность: %2$d сек.</string>
+  <!-- Screen recorder notification overlay title -->
+  <string name="screen_overlay_notif_title">Готов к записи</string>
+  <!-- Screen recorder notification overlay message -->
+  <string name="screen_overlay_notif_message">Нажмите на кнопку Запись, когда вы будете готовы</string>
   <!-- Permissions -->
   <!-- Permissions dialog title -->
   <string name="dialog_permissions_title">Права</string>
@@ -102,6 +106,8 @@
   <string name="dialog_permissions_ask">Спросить снова</string>
   <!-- Permissions dialog action: dismiss dialog -->
   <string name="dialog_permissions_dismiss">Отклонить</string>
+  <!-- Message: overlay permission denied. Make sure "Draw over other apps" matches settings strings -->
+  <string name="dialog_permissions_overlay">Запись экрана нуждается в разрешении «Наложения поверх других окон». Нажмите \"Разрешить\" в настройках и вернитесь к Записи экрана</string>
   <!-- No permissions granted error -->
   <string name="snack_permissions_no_permission">Отказано в необходимых разрешениях. Измените разрешения в настройках для возможности записи</string>
 </resources>

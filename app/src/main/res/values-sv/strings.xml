@@ -73,6 +73,9 @@
   <string name="screen_recording_message">Skärmen spelas in\u2026</string>
   <!-- Screen recorder last item title -->
   <!-- Screen recorder last item message -->
+  <!-- Screen recorder notification overlay title -->
+  <string name="screen_overlay_notif_title">Redo att spela in</string>
+  <!-- Screen recorder notification overlay message -->
   <!-- Permissions -->
   <!-- Permissions dialog title -->
   <string name="dialog_permissions_title">Behörigheter</string>
@@ -88,5 +91,6 @@
   <string name="dialog_permissions_ask">Fråga igen</string>
   <!-- Permissions dialog action: dismiss dialog -->
   <string name="dialog_permissions_dismiss">Avvisa</string>
+  <!-- Message: overlay permission denied. Make sure "Draw over other apps" matches settings strings -->
   <!-- No permissions granted error -->
 </resources>

@@ -74,6 +74,9 @@
   <string name="screen_last_title">Τελευταία εγγραφή</string>
   <!-- Screen recorder last item message -->
   <string name="screen_last_message">Ημερομηνία: %1$s\n Διάρκεια: %2$d δευτερόλεπτα</string>
+  <!-- Screen recorder notification overlay title -->
+  <string name="screen_overlay_notif_title">Έτοιμο για καταγραφή</string>
+  <!-- Screen recorder notification overlay message -->
   <!-- Permissions -->
   <!-- Permissions dialog title -->
   <string name="dialog_permissions_title">Άδειες</string>
@@ -87,5 +90,6 @@
   <!-- Permissions dialog action: ask permissions access again -->
   <!-- Permissions dialog action: dismiss dialog -->
   <string name="dialog_permissions_dismiss">Απόρριψη</string>
+  <!-- Message: overlay permission denied. Make sure "Draw over other apps" matches settings strings -->
   <!-- No permissions granted error -->
 </resources>
