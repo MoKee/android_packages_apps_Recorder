@@ -84,6 +84,7 @@
   <!-- Screen recorder notification overlay title -->
   <string name="screen_overlay_notif_title">Prêt à enregistrer</string>
   <!-- Screen recorder notification overlay message -->
+  <string name="screen_overlay_notif_message">Appuyez sur le bouton d\'enregistrement lorsque vous êtes prêt à démarrer</string>
   <!-- Permissions -->
   <!-- Permissions dialog title -->
   <string name="dialog_permissions_title">Permissions</string>

@@ -84,6 +84,7 @@
   <!-- Screen recorder notification overlay title -->
   <string name="screen_overlay_notif_title">Prêt à enregistrer</string>
   <!-- Screen recorder notification overlay message -->
+  <string name="screen_overlay_notif_message">Appuyez sur le bouton d\'enregistrement lorsque vous êtes prêt à démarrer</string>
   <!-- Permissions -->
   <!-- Permissions dialog title -->
   <string name="dialog_permissions_title">Permissions</string>
@@ -96,9 +97,9 @@
   <!-- Message: microphone and storage access denied -->
   <string name="dialog_permissions_mic_storage">Autoriser l\'accès au microphone et à l\'espace de stockage pour enregistrer et stocker les fichiers audio</string>
   <!-- Message: microphone and phone status access denied -->
-  <string name="dialog_permissions_mic_phone">Le magnétophone requiert un accès au microphone et téléphone pour empêcher l’enregistrement lors d\'un appel</string>
+  <string name="dialog_permissions_mic_phone">Le magnétophone requiert un accès au microphone et au téléphone pour empêcher l’enregistrement lors d\'un appel</string>
   <!-- Message: storage and phone status access denied -->
-  <string name="dialog_permissions_storage_phone">L\'accès à l\'espace de stockage et à l\'état du téléphone par le magnétophone est requis pour sauvegarder les fichiers et empêcher l’enregistrement lors d\'un appel</string>
+  <string name="dialog_permissions_storage_phone">Le magnétophone requiert un accès à l\'espace de stockage et à l\'état du téléphone pour empêcher l’enregistrement lors d\'un appel</string>
   <!-- Message: microphone, storage and phone status access denied -->
   <string name="dialog_permissions_mic_storage_phone">Le magnétophone requiert un accès au microphone pour l\'enregistrement audio, à l\'espace de stockage pour la sauvegarde de fichiers et à l\'état du téléphone pour empêcher l’enregistrement lors d\'un appel</string>
   <!-- Permissions dialog action: ask permissions access again -->
