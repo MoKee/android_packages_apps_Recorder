@@ -107,6 +107,7 @@
   <!-- Permissions dialog action: dismiss dialog -->
   <string name="dialog_permissions_dismiss">Refuser</string>
   <!-- Message: overlay permission denied. Make sure "Draw over other apps" matches settings strings -->
+  <string name="dialog_permissions_overlay">L\'enregistreur requiert l\'autorisation de \"Se superposer aux autres applis\" pour enregistrer votre écran. Appuyez sur autoriser, puis accorder l\'autorisation dans les paramètres et revenez à dans l\'enregistreur</string>
   <!-- No permissions granted error -->
   <string name="snack_permissions_no_permission">Les autorisations requises ont été refusées, activez-les depuis les Paramètres de l\'application pour commencer à enregistrer</string>
 </resources>
