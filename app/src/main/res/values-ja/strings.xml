@@ -15,44 +15,65 @@
      limitations under the License.
 -->
 <resources>
+  <string name="app_name">レコーダー</string>
   <!-- Fragment titles -->
   <!-- Sound recorder fragment title -->
+  <string name="fragment_sounds">音声</string>
   <!-- Screen recorder fragment title -->
+  <string name="fragment_screen">スクリーン</string>
   <!-- Common actions -->
   <!-- Share action for notification -->
   <string name="share">共有</string>
   <!-- Stop action for notification -->
   <string name="stop">停止</string>
   <!-- Play action -->
+  <string name="play">再生</string>
   <!-- Delete action -->
   <string name="delete">削除</string>
   <!-- Delete confirm title -->
+  <string name="delete_title">レコードの削除</string>
   <!-- Delete confirm message -->
+  <string name="delete_message">%1$s を削除してよろしいですか。その後は元に戻すことはできません。</string>
   <!-- Date for last item %1 is year, %2 month, %3 day, %4 hour, %5 min -->
+  <string name="date_format">%1$s-%2$s-%3$s %4$s:%5$s</string>
   <!-- Permissions -->
   <!-- Sound recorder -->
   <!-- Sound recorder notification title -->
+  <string name="sound_notification_title">音声レコーダー</string>
   <!-- Sound recorder notification message -->
+  <string name="sound_notification_message">音声の長さ: %1$s</string>
   <!-- Sound recorder status card title ready -->
   <!-- Sound recorder status card title recording -->
+  <string name="sound_recording_title_working">録音中</string>
   <!-- Sound recorder status card title busy -->
+  <string name="sound_recording_title_busy">録音中には無効になります</string>
   <!-- Sound recorder last item title -->
+  <string name="sound_last_title">最後のレコード</string>
   <!-- Sound recorder last item message -->
+  <string name="sound_last_message">日時: %1$s\n長さ: %2$d 秒</string>
   <!-- Screen recorder -->
   <!-- Screen recorder audio card title -->
+  <string name="screen_audio_title">マイク</string>
   <!-- Screen recorder enabled audio card message -->
   <!-- Screen recorder disabled audio card message -->
   <!-- Screen recorder audio permission request card message -->
+  <string name="screen_audio_warning_message">録音するにはマイクの権限を許可する必要があります。下のボタンをタップするとこのアプリの権限を許可できます</string>
   <!-- Screen recorder audio permission request card button -->
+  <string name="screen_audio_warning_button_ask">要求する</string>
   <!-- Screen recorder notification storage error title -->
+  <string name="screen_insufficient_storage">ストレージが足りない</string>
   <!-- Screen recorder notification storage error message -->
   <!-- Screen recorder notification title -->
   <!-- Screen recorder notification message -->
+  <string name="screen_notification_message">ビデオの長さ: %s</string>
   <!-- Screen recorder notification share title -->
   <!-- Screen recorder status card title -->
+  <string name="screen_recording_title">録音中</string>
   <!-- Screen recorder status message -->
   <!-- Screen recorder last item title -->
+  <string name="screen_last_title">最後のレコード</string>
   <!-- Screen recorder last item message -->
+  <string name="screen_last_message">日時: %1$s\n長さ: %2$d 秒</string>
   <!-- Screen recorder notification overlay title -->
   <!-- Screen recorder notification overlay message -->
   <!-- Permissions -->
@@ -66,8 +87,11 @@
   <!-- Message: storage and phone status access denied -->
   <!-- Message: microphone, storage and phone status access denied -->
   <!-- Permissions dialog action: ask permissions access again -->
+  <string name="dialog_permissions_ask">再度請求する</string>
   <!-- Permissions dialog action: dismiss dialog -->
   <string name="dialog_permissions_dismiss">閉じる</string>
   <!-- Message: overlay permission denied. Make sure "Draw over other apps" matches settings strings -->
+  <string name="dialog_permissions_overlay">レコーダーには画面を録画するために「他のアプリの上に重ねて表示」権限が必要です。権限を許可してからレコーダーに戻ってください</string>
   <!-- No permissions granted error -->
+  <string name="snack_permissions_no_permission">必要なアクセス許可が拒否された、録画を開始するためにアクセス許可を有効にしてください</string>
 </resources>
