@@ -105,7 +105,7 @@
   <!-- Permissions dialog action: ask permissions access again -->
   <string name="dialog_permissions_ask">Opýtať sa znovu</string>
   <!-- Permissions dialog action: dismiss dialog -->
-  <string name="dialog_permissions_dismiss">Zavrieť</string>
+  <string name="dialog_permissions_dismiss">Odmietnuť</string>
   <!-- Message: overlay permission denied. Make sure "Draw over other apps" matches settings strings -->
   <string name="dialog_permissions_overlay">Pre nahrávanie obrazovky potrebuje rekordér získať oprávenie \"Vykresliť cez ďalšie aplikácie\". Stlačte povoliť v nastaveniach a vráťte sa do rekordér</string>
   <!-- No permissions granted error -->
