@@ -23,7 +23,7 @@
   <string name="fragment_screen">Экран</string>
   <!-- Common actions -->
   <!-- Share action for notification -->
-  <string name="share">Поделится</string>
+  <string name="share">Поделиться</string>
   <!-- Stop action for notification -->
   <string name="stop">Стоп</string>
   <!-- Play action -->
