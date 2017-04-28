@@ -33,7 +33,7 @@
   <!-- Delete confirm title -->
   <string name="delete_title">Borrar grabación</string>
   <!-- Delete confirm message -->
-  <string name="delete_message">¿Está seguro que quiere borrar %1$s? Esto no puede deshacerse</string>
+  <string name="delete_message">¿Estás seguro que quieres borrar %1$s? Esto no puede deshacerse</string>
   <!-- Date for last item %1 is year, %2 month, %3 day, %4 hour, %5 min -->
   <string name="date_format">%1$s-%2$s-%3$s %4$s:%5$s</string>
   <!-- Permissions -->
@@ -47,7 +47,7 @@
   <!-- Sound recorder status card title recording -->
   <string name="sound_recording_title_working">Grabando</string>
   <!-- Sound recorder status card title busy -->
-  <string name="sound_recording_title_busy">Desactivar mientras graba la pantalla</string>
+  <string name="sound_recording_title_busy">Desactivar mientras se graba la pantalla</string>
   <!-- Sound recorder last item title -->
   <string name="sound_last_title">Última grabación</string>
   <!-- Sound recorder last item message -->
@@ -60,7 +60,7 @@
   <!-- Screen recorder disabled audio card message -->
   <string name="screen_audio_message_off">El audio grabado por el micrófono no se incluirá en el vídeo</string>
   <!-- Screen recorder audio permission request card message -->
-  <string name="screen_audio_warning_message">Debe permitir el acceso al micrófono para añadir el audio a la grabación. Pulse debajo para permitir el acceso a esta aplicación</string>
+  <string name="screen_audio_warning_message">Debes permitir el acceso al micrófono para añadir el audio a la grabación. Pulsa debajo para permitir el acceso a esta aplicación</string>
   <!-- Screen recorder audio permission request card button -->
   <string name="screen_audio_warning_button_ask">Preguntar</string>
   <!-- Screen recorder notification storage error title -->
@@ -89,13 +89,13 @@
   <!-- Permissions dialog title -->
   <string name="dialog_permissions_title">Permisos</string>
   <!-- Message: microphone access denied -->
-  <string name="dialog_permissions_mic">La grabadora necesita permisos del micrófono para grabar el audio</string>
+  <string name="dialog_permissions_mic">La grabadora necesita el permiso del micrófono para grabar el audio</string>
   <!-- Message: storage access denied -->
   <string name="dialog_permissions_storage">La grabadora necesita acceder a la memoria para guardar las grabaciones</string>
   <!-- Message: phone status denied -->
   <string name="dialog_permissions_phone">La grabadora de sonidos necesita acceder al estado del teléfono para evitar grabar durante una llamada</string>
   <!-- Message: microphone and storage access denied -->
-  <string name="dialog_permissions_mic_storage">Grabadora necesita permiso de acceso al micrófono para grabar audio y de almacenamiento para guardar las grabaciones</string>
+  <string name="dialog_permissions_mic_storage">La grabadora necesita permiso de acceso al micrófono para grabar audio y de almacenamiento para guardar las grabaciones</string>
   <!-- Message: microphone and phone status access denied -->
   <string name="dialog_permissions_mic_phone">La grabadora necesita acceder al micrófono para grabar audio y al estado del teléfono para evitar grabar durante una llamada</string>
   <!-- Message: storage and phone status access denied -->
@@ -109,5 +109,5 @@
   <!-- Message: overlay permission denied. Make sure "Draw over other apps" matches settings strings -->
   <string name="dialog_permissions_overlay">La Grabadora debe tener el permiso de \"Dibujar sobre otras aplicaciones\" para grabar la pantalla. Pulsa en conceder, para activar los permisos en los ajustes y volver a la Grabadora</string>
   <!-- No permissions granted error -->
-  <string name="snack_permissions_no_permission">Permisos necesarios denegados, actívelos desde la aplicación de Ajustes para iniciar la grabación</string>
+  <string name="snack_permissions_no_permission">Permisos necesarios denegados, actívalos desde la aplicación de Ajustes para iniciar la grabación</string>
 </resources>
