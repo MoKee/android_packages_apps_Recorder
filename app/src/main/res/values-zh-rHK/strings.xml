@@ -18,7 +18,7 @@
   <string name="app_name">錄製工具</string>
   <!-- Fragment titles -->
   <!-- Sound recorder fragment title -->
-  <string name="fragment_sounds">音效</string>
+  <string name="fragment_sounds">聲音</string>
   <!-- Screen recorder fragment title -->
   <string name="fragment_screen">螢幕畫面</string>
   <!-- Common actions -->
