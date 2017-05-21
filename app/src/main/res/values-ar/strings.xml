@@ -15,14 +15,19 @@
      limitations under the License.
 -->
 <resources>
+  <string name="app_name">المسجِّل</string>
   <!-- Fragment titles -->
   <!-- Sound recorder fragment title -->
+  <string name="fragment_sounds">الصوت</string>
   <!-- Screen recorder fragment title -->
+  <string name="fragment_screen">الشاشة</string>
   <!-- Common actions -->
   <!-- Share action for notification -->
   <string name="share">مشاركة</string>
   <!-- Stop action for notification -->
+  <string name="stop">توقف</string>
   <!-- Play action -->
+  <string name="play">تشغيل</string>
   <!-- Delete action -->
   <string name="delete">حذف</string>
   <!-- Delete confirm title -->
@@ -33,8 +38,11 @@
   <!-- Sound recorder notification title -->
   <!-- Sound recorder notification message -->
   <!-- Sound recorder status card title ready -->
+  <string name="sound_recording_title_ready">مستعد للتسجيل</string>
   <!-- Sound recorder status card title recording -->
+  <string name="sound_recording_title_working">جارٍ التسجيل</string>
   <!-- Sound recorder status card title busy -->
+  <string name="sound_recording_title_busy">الغاء التفعيل أثناء تسجيل الشاشة</string>
   <!-- Sound recorder last item title -->
   <!-- Sound recorder last item message -->
   <!-- Screen recorder -->
@@ -49,10 +57,12 @@
   <!-- Screen recorder notification message -->
   <!-- Screen recorder notification share title -->
   <!-- Screen recorder status card title -->
+  <string name="screen_recording_title">جارٍ التسجيل</string>
   <!-- Screen recorder status message -->
   <!-- Screen recorder last item title -->
   <!-- Screen recorder last item message -->
   <!-- Screen recorder notification overlay title -->
+  <string name="screen_overlay_notif_title">مستعد للتسجيل</string>
   <!-- Screen recorder notification overlay message -->
   <!-- Permissions -->
   <!-- Permissions dialog title -->
