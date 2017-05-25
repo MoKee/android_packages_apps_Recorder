@@ -51,12 +51,18 @@
   <!-- Sound recorder last item title -->
   <string name="sound_last_title">التسجيل الأخير</string>
   <!-- Sound recorder last item message -->
+  <string name="sound_last_message">التاريخ: %1$s\nالمدة: %2$d ثانية</string>
   <!-- Screen recorder -->
   <!-- Screen recorder audio card title -->
+  <string name="screen_audio_title">الميكروفون</string>
   <!-- Screen recorder enabled audio card message -->
+  <string name="screen_audio_message_on">سيتم تضمين الصوت من الميكروفون في الفيديو</string>
   <!-- Screen recorder disabled audio card message -->
+  <string name="screen_audio_message_off">لن يتم تضمين الصوت من الميكروفون في الفيديو</string>
   <!-- Screen recorder audio permission request card message -->
+  <string name="screen_audio_warning_message">أنت بحاجة إلى منح الوصول إلى الميكروفون لإضافة الصوت إلى التسجيل. اضغط أدناه للسماح بالوصول لهذا التطبيق</string>
   <!-- Screen recorder audio permission request card button -->
+  <string name="screen_audio_warning_button_ask">اسأل</string>
   <!-- Screen recorder notification storage error title -->
   <string name="screen_insufficient_storage">مساحة التخزين غير كافية</string>
   <!-- Screen recorder notification storage error message -->
@@ -74,6 +80,7 @@
   <!-- Screen recorder last item title -->
   <string name="screen_last_title">التسجيل الأخير</string>
   <!-- Screen recorder last item message -->
+  <string name="screen_last_message">التاريخ: %1$s\nالمدة: %2$d ثانية</string>
   <!-- Screen recorder notification overlay title -->
   <string name="screen_overlay_notif_title">مستعد للتسجيل</string>
   <!-- Screen recorder notification overlay message -->
