@@ -84,6 +84,7 @@
   <!-- Screen recorder notification overlay title -->
   <string name="screen_overlay_notif_title">Pronto per registrare</string>
   <!-- Screen recorder notification overlay message -->
+  <string name="screen_overlay_notif_message">Premere il pulsante di registrazione quando si è pronti per iniziare</string>
   <!-- Permissions -->
   <!-- Permissions dialog title -->
   <string name="dialog_permissions_title">Permessi</string>
@@ -106,6 +107,7 @@
   <!-- Permissions dialog action: dismiss dialog -->
   <string name="dialog_permissions_dismiss">Tralascia</string>
   <!-- Message: overlay permission denied. Make sure "Draw over other apps" matches settings strings -->
+  <string name="dialog_permissions_overlay">Il registratore richiede l\'autorizzazione \"Disegnare sopra altre applicazioni\" per registrare il vostro schermo. Premi acconsenti, attiva l\'autorizzazione nelle impostazioni di sviluppo e torna al registratore</string>
   <!-- No permissions granted error -->
   <string name="snack_permissions_no_permission">I permessi richiesti sono stati negati, abilitali dall\'app Impostazioni per iniziare a registrare</string>
 </resources>
