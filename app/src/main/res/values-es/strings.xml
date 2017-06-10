@@ -84,6 +84,7 @@
   <!-- Screen recorder notification overlay title -->
   <string name="screen_overlay_notif_title">Listo para grabar</string>
   <!-- Screen recorder notification overlay message -->
+  <string name="screen_overlay_notif_message">Presiona el botón de grabación cuando estés listo para comenzar</string>
   <!-- Permissions -->
   <!-- Permissions dialog title -->
   <string name="dialog_permissions_title">Permisos</string>
@@ -106,6 +107,7 @@
   <!-- Permissions dialog action: dismiss dialog -->
   <string name="dialog_permissions_dismiss">Descartar</string>
   <!-- Message: overlay permission denied. Make sure "Draw over other apps" matches settings strings -->
+  <string name="dialog_permissions_overlay">La grabadora necesita permiso para \"Escribir sobre otras aplicaciones\" y grabar su pantalla. Presiona conceder, activa el permiso en los ajustes y vuelve a la grabadora</string>
   <!-- No permissions granted error -->
   <string name="snack_permissions_no_permission">Permisos necesarios denegados, actívelos desde la aplicación de Ajustes para iniciar la grabación</string>
 </resources>
