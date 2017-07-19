@@ -18,22 +18,32 @@
   <string name="app_name">레코더</string>
   <!-- Fragment titles -->
   <!-- Sound recorder fragment title -->
+  <string name="fragment_sounds">사운드</string>
   <!-- Screen recorder fragment title -->
+  <string name="fragment_screen">화면</string>
   <!-- Common actions -->
   <!-- Share action for notification -->
   <string name="share">공유</string>
   <!-- Stop action for notification -->
+  <string name="stop">중지</string>
   <!-- Play action -->
+  <string name="play">재생</string>
   <!-- Delete action -->
   <string name="delete">삭제</string>
   <!-- Delete confirm title -->
+  <string name="delete_title">기록 삭제</string>
   <!-- Delete confirm message -->
+  <string name="delete_message">정말 %1$s을(를) 삭제하시겠습니까? 이 작업은 되돌릴 수 없습니다.</string>
   <!-- Date for last item %1 is year, %2 month, %3 day, %4 hour, %5 min -->
+  <string name="date_format">%1$s-%2$s-%3$s %4$s:%5$s</string>
   <!-- Permissions -->
   <!-- Sound recorder -->
   <!-- Sound recorder notification title -->
+  <string name="sound_notification_title">사운드 레코더</string>
   <!-- Sound recorder notification message -->
+  <string name="sound_notification_message">오디오 길이: %1$s</string>
   <!-- Sound recorder status card title ready -->
+  <string name="sound_recording_title_ready">녹음 준비 완료</string>
   <!-- Sound recorder status card title recording -->
   <!-- Sound recorder status card title busy -->
   <!-- Sound recorder last item title -->
@@ -54,6 +64,7 @@
   <!-- Screen recorder last item title -->
   <!-- Screen recorder last item message -->
   <!-- Screen recorder notification overlay title -->
+  <string name="screen_overlay_notif_title">녹음 준비 완료</string>
   <!-- Screen recorder notification overlay message -->
   <!-- Permissions -->
   <!-- Permissions dialog title -->
