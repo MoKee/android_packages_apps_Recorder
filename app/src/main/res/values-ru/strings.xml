@@ -15,7 +15,7 @@
      limitations under the License.
 -->
 <resources>
-  <string name="app_name">Запись</string>
+  <string name="app_name">Рекордер</string>
   <!-- Fragment titles -->
   <!-- Sound recorder fragment title -->
   <string name="fragment_sounds">Звук</string>
