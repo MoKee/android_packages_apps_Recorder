@@ -45,21 +45,26 @@
   <!-- Sound recorder status card title ready -->
   <string name="sound_recording_title_ready">녹음 준비 완료</string>
   <!-- Sound recorder status card title recording -->
+  <string name="sound_recording_title_working">녹음 중</string>
   <!-- Sound recorder status card title busy -->
   <!-- Sound recorder last item title -->
   <!-- Sound recorder last item message -->
   <!-- Screen recorder -->
   <!-- Screen recorder audio card title -->
+  <string name="screen_audio_title">마이크</string>
   <!-- Screen recorder enabled audio card message -->
   <!-- Screen recorder disabled audio card message -->
   <!-- Screen recorder audio permission request card message -->
   <!-- Screen recorder audio permission request card button -->
   <!-- Screen recorder notification storage error title -->
+  <string name="screen_insufficient_storage">저장소 부족</string>
   <!-- Screen recorder notification storage error message -->
+  <string name="screen_not_enough_storage">저장소가 충분하지 않습니다</string>
   <!-- Screen recorder notification title -->
   <!-- Screen recorder notification message -->
   <!-- Screen recorder notification share title -->
   <!-- Screen recorder status card title -->
+  <string name="screen_recording_title">녹음 중</string>
   <!-- Screen recorder status message -->
   <!-- Screen recorder last item title -->
   <!-- Screen recorder last item message -->
@@ -77,6 +82,7 @@
   <!-- Message: storage and phone status access denied -->
   <!-- Message: microphone, storage and phone status access denied -->
   <!-- Permissions dialog action: ask permissions access again -->
+  <string name="dialog_permissions_ask">다시 묻기</string>
   <!-- Permissions dialog action: dismiss dialog -->
   <string name="dialog_permissions_dismiss">다시 묻지 않기</string>
   <!-- Message: overlay permission denied. Make sure "Draw over other apps" matches settings strings -->

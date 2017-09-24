@@ -64,6 +64,7 @@
   <string name="screen_audio_warning_button_ask">Pytaj</string>
   <!-- Screen recorder notification storage error title -->
   <!-- Screen recorder notification storage error message -->
+  <string name="screen_not_enough_storage">Za mało dostępnego miejsca</string>
   <!-- Screen recorder notification title -->
   <string name="screen_notification_title">Rejestrator Ekranu</string>
   <!-- Screen recorder notification message -->
