@@ -49,6 +49,7 @@
   <!-- Sound recorder status card title busy -->
   <!-- Sound recorder last item title -->
   <!-- Sound recorder last item message -->
+  <string name="sound_last_message">날짜: %1$s\n길이: %2$d초</string>
   <!-- Screen recorder -->
   <!-- Screen recorder audio card title -->
   <string name="screen_audio_title">마이크</string>
@@ -68,6 +69,7 @@
   <!-- Screen recorder status message -->
   <!-- Screen recorder last item title -->
   <!-- Screen recorder last item message -->
+  <string name="screen_last_message">날짜: %1$s\n길이: %2$d초</string>
   <!-- Screen recorder notification overlay title -->
   <string name="screen_overlay_notif_title">녹음 준비 완료</string>
   <!-- Screen recorder notification overlay message -->
