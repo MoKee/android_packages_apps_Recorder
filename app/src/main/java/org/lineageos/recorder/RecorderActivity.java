@@ -68,8 +68,8 @@ public class RecorderActivity extends AppCompatActivity implements
             0,
             R.string.dialog_permissions_mic,
             R.string.dialog_permissions_storage,
-            R.string.dialog_permissions_phone,
             R.string.dialog_permissions_mic_storage,
+            R.string.dialog_permissions_phone,
             R.string.dialog_permissions_mic_phone,
             R.string.dialog_permissions_storage_phone,
             R.string.dialog_permissions_mic_storage_phone
@@ -170,7 +170,8 @@ public class RecorderActivity extends AppCompatActivity implements
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions,
                                            @NonNull int[] results) {
-        if (hasAllPermissions()) {
+        if (requestCode == REQUEST_SCREEN_REC_PERMS && hasAllScreenRecorderPermissions() ||
+                requestCode == REQUEST_SOUND_REC_PERMS && hasAllAudioRecorderPermissions()) {
             toggleAfterPermissionRequest(requestCode);
             return;
         }
@@ -224,8 +225,8 @@ public class RecorderActivity extends AppCompatActivity implements
     private void toggleAfterPermissionRequest(int requestCode) {
         switch (requestCode) {
             case REQUEST_SOUND_REC_PERMS:
-                setupConnection();
-                toggleSoundRecorder();
+                bindSoundRecService();
+                new Handler().postDelayed(this::toggleSoundRecorder, 500);
                 break;
             case REQUEST_SCREEN_REC_PERMS:
                 toggleScreenRecorder();
@@ -349,8 +350,12 @@ public class RecorderActivity extends AppCompatActivity implements
         return Settings.canDrawOverlays(this);
     }
 
-    private boolean hasAllPermissions() {
+    private boolean hasAllAudioRecorderPermissions() {
         return hasStoragePermission() && hasAudioPermission() && hasPhoneReaderPermission();
+    }
+
+    private boolean hasAllScreenRecorderPermissions() {
+        return hasStoragePermission();
     }
 
     private boolean checkSoundRecPermissions() {
@@ -420,7 +425,7 @@ public class RecorderActivity extends AppCompatActivity implements
     }
 
     private void bindSoundRecService() {
-        if (mSoundService == null && hasAllPermissions()) {
+        if (mSoundService == null && hasAllAudioRecorderPermissions()) {
             setupConnection();
             bindService(new Intent(this, SoundRecorderService.class),
                     mConnection, BIND_AUTO_CREATE);
