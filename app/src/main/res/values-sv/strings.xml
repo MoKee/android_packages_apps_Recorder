@@ -16,11 +16,6 @@
 -->
 <resources>
   <string name="app_name">Inspelare</string>
-  <!-- Fragment titles -->
-  <!-- Sound recorder fragment title -->
-  <string name="fragment_sounds">Ljud</string>
-  <!-- Screen recorder fragment title -->
-  <string name="fragment_screen">Skärm</string>
   <!-- Common actions -->
   <!-- Share action for notification -->
   <string name="share">Dela</string>
@@ -30,6 +25,8 @@
   <string name="play">Spela</string>
   <!-- Delete action -->
   <string name="delete">Ta bort</string>
+  <!-- Cancel action -->
+  <string name="cancel">Avbryt</string>
   <!-- Delete confirm title -->
   <!-- Delete confirm message -->
   <!-- Date for last item %1 is year, %2 month, %3 day, %4 hour, %5 min -->
@@ -40,21 +37,14 @@
   <string name="sound_notification_title">Ljudinspelare</string>
   <!-- Sound recorder notification message -->
   <string name="sound_notification_message">Ljudlängd: %1$s</string>
-  <!-- Sound recorder status card title ready -->
-  <string name="sound_recording_title_ready">Redo att spela in</string>
   <!-- Sound recorder status card title recording -->
   <string name="sound_recording_title_working">Spelar in</string>
-  <!-- Sound recorder status card title busy -->
-  <string name="sound_recording_title_busy">Inaktiverat under skärminspelning</string>
   <!-- Sound recorder last item title -->
-  <!-- Sound recorder last item message -->
   <!-- Screen recorder -->
-  <!-- Screen recorder audio card title -->
-  <string name="screen_audio_title">Mikrofon</string>
-  <!-- Screen recorder enabled audio card message -->
+  <!-- Screen recorder enabled audio message -->
   <string name="screen_audio_message_on">Ljud från mikrofonen kommer inkluderas i videon</string>
-  <!-- Screen recorder disabled audio card message -->
-  <!-- Screen recorder audio permission request card message -->
+  <!-- Screen recorder disabled audio message -->
+  <!-- Screen recorder disabled audio toggle message -->
   <!-- Screen recorder audio permission request card button -->
   <string name="screen_audio_warning_button_ask">Fråga</string>
   <!-- Screen recorder notification storage error title -->
@@ -67,8 +57,6 @@
   <string name="screen_notification_message">Videolängd: %s</string>
   <!-- Screen recorder notification share title -->
   <string name="screen_notification_message_done">Redo att dela</string>
-  <!-- Screen recorder status card title -->
-  <string name="screen_recording_title">Spelar in</string>
   <!-- Screen recorder status message -->
   <string name="screen_recording_message">Skärmen spelas in\u2026</string>
   <!-- Screen recorder last item title -->
@@ -76,6 +64,7 @@
   <!-- Screen recorder notification overlay title -->
   <string name="screen_overlay_notif_title">Redo att spela in</string>
   <!-- Screen recorder notification overlay message -->
+  <!-- Screen settings dialog title -->
   <!-- Permissions -->
   <!-- Permissions dialog title -->
   <string name="dialog_permissions_title">Behörigheter</string>
@@ -93,4 +82,8 @@
   <string name="dialog_permissions_dismiss">Avvisa</string>
   <!-- Message: overlay permission denied. Make sure "Draw over other apps" matches settings strings -->
   <!-- No permissions granted error -->
+  <!-- Main activity -->
+  <!-- Screen record title -->
+  <!-- Sound record title -->
+  <!-- Transition name for dialogActivity -->
 </resources>

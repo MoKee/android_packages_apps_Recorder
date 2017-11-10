@@ -16,11 +16,6 @@
 -->
 <resources>
   <string name="app_name">المسجِّل</string>
-  <!-- Fragment titles -->
-  <!-- Sound recorder fragment title -->
-  <string name="fragment_sounds">الصوت</string>
-  <!-- Screen recorder fragment title -->
-  <string name="fragment_screen">الشاشة</string>
   <!-- Common actions -->
   <!-- Share action for notification -->
   <string name="share">مشاركة</string>
@@ -30,6 +25,8 @@
   <string name="play">تشغيل</string>
   <!-- Delete action -->
   <string name="delete">حذف</string>
+  <!-- Cancel action -->
+  <string name="cancel">إلغاء</string>
   <!-- Delete confirm title -->
   <string name="delete_title">حذف التسجيل</string>
   <!-- Delete confirm message -->
@@ -42,25 +39,16 @@
   <string name="sound_notification_title">مُسجل الصوت</string>
   <!-- Sound recorder notification message -->
   <string name="sound_notification_message">طول الصوت: %1$s</string>
-  <!-- Sound recorder status card title ready -->
-  <string name="sound_recording_title_ready">مستعد للتسجيل</string>
   <!-- Sound recorder status card title recording -->
   <string name="sound_recording_title_working">جارٍ التسجيل</string>
-  <!-- Sound recorder status card title busy -->
-  <string name="sound_recording_title_busy">الغاء التفعيل أثناء تسجيل الشاشة</string>
   <!-- Sound recorder last item title -->
   <string name="sound_last_title">التسجيل الأخير</string>
-  <!-- Sound recorder last item message -->
-  <string name="sound_last_message">التاريخ: %1$s\nالمدة: %2$d ثانية</string>
   <!-- Screen recorder -->
-  <!-- Screen recorder audio card title -->
-  <string name="screen_audio_title">الميكروفون</string>
-  <!-- Screen recorder enabled audio card message -->
+  <!-- Screen recorder enabled audio message -->
   <string name="screen_audio_message_on">سيتم تضمين الصوت من الميكروفون في الفيديو</string>
-  <!-- Screen recorder disabled audio card message -->
+  <!-- Screen recorder disabled audio message -->
   <string name="screen_audio_message_off">لن يتم تضمين الصوت من الميكروفون في الفيديو</string>
-  <!-- Screen recorder audio permission request card message -->
-  <string name="screen_audio_warning_message">أنت بحاجة إلى منح الوصول إلى الميكروفون لإضافة الصوت إلى التسجيل. اضغط أدناه للسماح بالوصول لهذا التطبيق</string>
+  <!-- Screen recorder disabled audio toggle message -->
   <!-- Screen recorder audio permission request card button -->
   <string name="screen_audio_warning_button_ask">اسأل</string>
   <!-- Screen recorder notification storage error title -->
@@ -73,8 +61,6 @@
   <string name="screen_notification_message">طول الفيديو: %s</string>
   <!-- Screen recorder notification share title -->
   <string name="screen_notification_message_done">جاهز للمشاركة</string>
-  <!-- Screen recorder status card title -->
-  <string name="screen_recording_title">جارٍ التسجيل</string>
   <!-- Screen recorder status message -->
   <string name="screen_recording_message">يتم تسجيل الشاشة recorded\u2026</string>
   <!-- Screen recorder last item title -->
@@ -84,6 +70,7 @@
   <!-- Screen recorder notification overlay title -->
   <string name="screen_overlay_notif_title">مستعد للتسجيل</string>
   <!-- Screen recorder notification overlay message -->
+  <!-- Screen settings dialog title -->
   <!-- Permissions -->
   <!-- Permissions dialog title -->
   <string name="dialog_permissions_title">الأذونات</string>
@@ -104,4 +91,8 @@
   <!-- Permissions dialog action: dismiss dialog -->
   <!-- Message: overlay permission denied. Make sure "Draw over other apps" matches settings strings -->
   <!-- No permissions granted error -->
+  <!-- Main activity -->
+  <!-- Screen record title -->
+  <!-- Sound record title -->
+  <!-- Transition name for dialogActivity -->
 </resources>

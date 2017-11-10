@@ -16,11 +16,6 @@
 -->
 <resources>
   <string name="app_name">Дыктафон</string>
-  <!-- Fragment titles -->
-  <!-- Sound recorder fragment title -->
-  <string name="fragment_sounds">Гук</string>
-  <!-- Screen recorder fragment title -->
-  <string name="fragment_screen">Экран</string>
   <!-- Common actions -->
   <!-- Share action for notification -->
   <string name="share">Падзяліцца</string>
@@ -30,6 +25,8 @@
   <string name="play">Прайграць</string>
   <!-- Delete action -->
   <string name="delete">Выдаліць</string>
+  <!-- Cancel action -->
+  <string name="cancel">Скасаваць</string>
   <!-- Delete confirm title -->
   <string name="delete_title">Выдаліць запіс</string>
   <!-- Delete confirm message -->
@@ -42,25 +39,16 @@
   <string name="sound_notification_title">Дыктафон</string>
   <!-- Sound recorder notification message -->
   <string name="sound_notification_message">Працягласць: %1$s</string>
-  <!-- Sound recorder status card title ready -->
-  <string name="sound_recording_title_ready">Гатовы да запісу</string>
   <!-- Sound recorder status card title recording -->
   <string name="sound_recording_title_working">Запіс</string>
-  <!-- Sound recorder status card title busy -->
-  <string name="sound_recording_title_busy">Адключана пры запісе экрана</string>
   <!-- Sound recorder last item title -->
   <string name="sound_last_title">Апошні запіс</string>
-  <!-- Sound recorder last item message -->
-  <string name="sound_last_message">Дата: %1$s\nПрацягласць: %2$d сек.</string>
   <!-- Screen recorder -->
-  <!-- Screen recorder audio card title -->
-  <string name="screen_audio_title">Мікрафон</string>
-  <!-- Screen recorder enabled audio card message -->
+  <!-- Screen recorder enabled audio message -->
   <string name="screen_audio_message_on">Гук мікрафона будзе ўключаны ў відэа</string>
-  <!-- Screen recorder disabled audio card message -->
+  <!-- Screen recorder disabled audio message -->
   <string name="screen_audio_message_off">Гук мікрафона будзе выключаны ў відэа</string>
-  <!-- Screen recorder audio permission request card message -->
-  <string name="screen_audio_warning_message">Неабходна дазволіць доступ да мікрафону для запісу гуку. Націсніце ніжэй, каб даць доступ праграме да мікрафону</string>
+  <!-- Screen recorder disabled audio toggle message -->
   <!-- Screen recorder audio permission request card button -->
   <string name="screen_audio_warning_button_ask">Запыт</string>
   <!-- Screen recorder notification storage error title -->
@@ -73,8 +61,6 @@
   <string name="screen_notification_message">Працягласць відэа: %s</string>
   <!-- Screen recorder notification share title -->
   <string name="screen_notification_message_done">Падрыхтавана да адпраўкі</string>
-  <!-- Screen recorder status card title -->
-  <string name="screen_recording_title">Запіс</string>
   <!-- Screen recorder status message -->
   <string name="screen_recording_message">Ідзе запіс экрана\u2026</string>
   <!-- Screen recorder last item title -->
@@ -85,6 +71,7 @@
   <string name="screen_overlay_notif_title">Гатовы да запісу</string>
   <!-- Screen recorder notification overlay message -->
   <string name="screen_overlay_notif_message">Націсніце на кнопку Запіс, калі вы будзеце гатовыя</string>
+  <!-- Screen settings dialog title -->
   <!-- Permissions -->
   <!-- Permissions dialog title -->
   <string name="dialog_permissions_title">Правы</string>
@@ -110,4 +97,8 @@
   <string name="dialog_permissions_overlay">Запіс экрана мае патрэбу ў дазволе \"Накладанне-над іншых вокнаў». Націсніце \"Дазволіць\" у наладах і вярніцеся да Запісу экрана</string>
   <!-- No permissions granted error -->
   <string name="snack_permissions_no_permission">Адмоўлена ў неабходных дазволах. Змяніце дазвол ў наладах для магчымасці запісу</string>
+  <!-- Main activity -->
+  <!-- Screen record title -->
+  <!-- Sound record title -->
+  <!-- Transition name for dialogActivity -->
 </resources>

@@ -16,11 +16,6 @@
 -->
 <resources>
   <string name="app_name">Registratore</string>
-  <!-- Fragment titles -->
-  <!-- Sound recorder fragment title -->
-  <string name="fragment_sounds">Audio</string>
-  <!-- Screen recorder fragment title -->
-  <string name="fragment_screen">Display</string>
   <!-- Common actions -->
   <!-- Share action for notification -->
   <string name="share">Condividi</string>
@@ -30,6 +25,8 @@
   <string name="play">Riproduci</string>
   <!-- Delete action -->
   <string name="delete">Elimina</string>
+  <!-- Cancel action -->
+  <string name="cancel">Annulla</string>
   <!-- Delete confirm title -->
   <string name="delete_title">Eliminando registrazione</string>
   <!-- Delete confirm message -->
@@ -42,25 +39,16 @@
   <string name="sound_notification_title">Registratore di suoni</string>
   <!-- Sound recorder notification message -->
   <string name="sound_notification_message">Durata audio: %1$s</string>
-  <!-- Sound recorder status card title ready -->
-  <string name="sound_recording_title_ready">Pronto per registrare</string>
   <!-- Sound recorder status card title recording -->
   <string name="sound_recording_title_working">Registrazione in corso</string>
-  <!-- Sound recorder status card title busy -->
-  <string name="sound_recording_title_busy">Disattivato durante la registrazione dello schermo</string>
   <!-- Sound recorder last item title -->
   <string name="sound_last_title">Ultima registrazione</string>
-  <!-- Sound recorder last item message -->
-  <string name="sound_last_message">Data: %1$s\nDurata: %2$d secondi</string>
   <!-- Screen recorder -->
-  <!-- Screen recorder audio card title -->
-  <string name="screen_audio_title">Microfono</string>
-  <!-- Screen recorder enabled audio card message -->
+  <!-- Screen recorder enabled audio message -->
   <string name="screen_audio_message_on">L\'audio del microfono sarà incluso nel video</string>
-  <!-- Screen recorder disabled audio card message -->
+  <!-- Screen recorder disabled audio message -->
   <string name="screen_audio_message_off">L\'audio del microfono non sarà incluso nel video</string>
-  <!-- Screen recorder audio permission request card message -->
-  <string name="screen_audio_warning_message">Devi consentire l\'accesso al microfono per aggiungere l\'audio al video. Tocca sotto per permetterne l\'utilizzo all\'app</string>
+  <!-- Screen recorder disabled audio toggle message -->
   <!-- Screen recorder audio permission request card button -->
   <string name="screen_audio_warning_button_ask">Chiedi</string>
   <!-- Screen recorder notification storage error title -->
@@ -73,8 +61,6 @@
   <string name="screen_notification_message">Durata del video: %s</string>
   <!-- Screen recorder notification share title -->
   <string name="screen_notification_message_done">Pronto a condividere</string>
-  <!-- Screen recorder status card title -->
-  <string name="screen_recording_title">Registrazione in corso</string>
   <!-- Screen recorder status message -->
   <string name="screen_recording_message">Lo schermo sta venendo registrato\u2026</string>
   <!-- Screen recorder last item title -->
@@ -85,6 +71,7 @@
   <string name="screen_overlay_notif_title">Pronto per registrare</string>
   <!-- Screen recorder notification overlay message -->
   <string name="screen_overlay_notif_message">Premere il pulsante di registrazione quando si è pronti per iniziare</string>
+  <!-- Screen settings dialog title -->
   <!-- Permissions -->
   <!-- Permissions dialog title -->
   <string name="dialog_permissions_title">Permessi</string>
@@ -110,4 +97,8 @@
   <string name="dialog_permissions_overlay">Il registratore richiede l\'autorizzazione \"Disegnare sopra altre applicazioni\" per registrare il vostro schermo. Premi acconsenti, attiva l\'autorizzazione nelle impostazioni di sviluppo e torna al registratore</string>
   <!-- No permissions granted error -->
   <string name="snack_permissions_no_permission">I permessi richiesti sono stati negati, abilitali dall\'app Impostazioni per iniziare a registrare</string>
+  <!-- Main activity -->
+  <!-- Screen record title -->
+  <!-- Sound record title -->
+  <!-- Transition name for dialogActivity -->
 </resources>
