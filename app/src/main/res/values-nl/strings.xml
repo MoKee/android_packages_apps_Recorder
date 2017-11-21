@@ -49,6 +49,7 @@
   <!-- Screen recorder disabled audio message -->
   <string name="screen_audio_message_off">Geluid van de microfoon wordt niet toegevoegd aan de video</string>
   <!-- Screen recorder disabled audio toggle message -->
+  <string name="screen_audio_message_disabled">Het is niet mogelijk deze instelling tijdens het opnemen van het scherm wijzigen</string>
   <!-- Screen recorder audio permission request card button -->
   <string name="screen_audio_warning_button_ask">Vragen</string>
   <!-- Screen recorder notification storage error title -->
@@ -72,6 +73,7 @@
   <!-- Screen recorder notification overlay message -->
   <string name="screen_overlay_notif_message">Tik op de opnameknop wanneer u wilt beginnen</string>
   <!-- Screen settings dialog title -->
+  <string name="screen_settings_title">Scherm recorder instellingen aanpassen</string>
   <!-- Permissions -->
   <!-- Permissions dialog title -->
   <string name="dialog_permissions_title">Machtigingen</string>
@@ -99,6 +101,8 @@
   <string name="snack_permissions_no_permission">Vereiste machtigingen werden geweigerd, schakel ze in bij Instellingen om opname te starten</string>
   <!-- Main activity -->
   <!-- Screen record title -->
+  <string name="main_screen_action">Scherm opnemen</string>
   <!-- Sound record title -->
+  <string name="main_sound_action">Geluid opnemen</string>
   <!-- Transition name for dialogActivity -->
 </resources>
