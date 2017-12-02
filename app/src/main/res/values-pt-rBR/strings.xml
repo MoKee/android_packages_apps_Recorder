@@ -22,7 +22,7 @@
   <!-- Stop action for notification -->
   <string name="stop">Parar</string>
   <!-- Play action -->
-  <string name="play">Escutar</string>
+  <string name="play">Reproduzir</string>
   <!-- Delete action -->
   <string name="delete">Excluir</string>
   <!-- Cancel action -->
@@ -38,11 +38,11 @@
   <!-- Sound recorder notification title -->
   <string name="sound_notification_title">Gravador de som</string>
   <!-- Sound recorder notification message -->
-  <string name="sound_notification_message">Duração: %1$s</string>
+  <string name="sound_notification_message">Duração do áudio: %1$s</string>
   <!-- Sound recorder status card title recording -->
   <string name="sound_recording_title_working">Gravando</string>
   <!-- Sound recorder last item title -->
-  <string name="sound_last_title">Último registro</string>
+  <string name="sound_last_title">Última gravação</string>
   <!-- Screen recorder -->
   <!-- Screen recorder enabled audio message -->
   <string name="screen_audio_message_on">Áudio do microfone será incluído no vídeo</string>
@@ -59,13 +59,13 @@
   <!-- Screen recorder notification title -->
   <string name="screen_notification_title">Gravação da tela</string>
   <!-- Screen recorder notification message -->
-  <string name="screen_notification_message">Duração: %s</string>
+  <string name="screen_notification_message">Tamanho do vídeo: %s</string>
   <!-- Screen recorder notification share title -->
   <string name="screen_notification_message_done">Pronto para compartilhar</string>
   <!-- Screen recorder status message -->
   <string name="screen_recording_message">Tela está sendo gravada\u2026</string>
   <!-- Screen recorder last item title -->
-  <string name="screen_last_title">Último registro</string>
+  <string name="screen_last_title">Última gravação</string>
   <!-- Screen recorder last item message -->
   <string name="screen_last_message">Data: %1$s\nDuração: %2$d segundos</string>
   <!-- Screen recorder notification overlay title -->
@@ -96,9 +96,9 @@
   <!-- Permissions dialog action: dismiss dialog -->
   <string name="dialog_permissions_dismiss">Dispensar</string>
   <!-- Message: overlay permission denied. Make sure "Draw over other apps" matches settings strings -->
-  <string name="dialog_permissions_overlay">O gravador requer a permissão de \"sobrepor a outros apps\" para gravar a tela. Pressione permitir, ative a permissão nas configurações e volte ao aplicativo</string>
+  <string name="dialog_permissions_overlay">O gravador requer a permissão de \"sobrepor a outros aplicativos\" para gravar a tela. Pressione permitir, ative a permissão nas configurações e volte ao Gravador</string>
   <!-- No permissions granted error -->
-  <string name="snack_permissions_no_permission">As permissões necessárias foram negadas, ative-as nas Configurações do aprarelho para iniciar a gravação</string>
+  <string name="snack_permissions_no_permission">As permissões necessárias foram negadas, ative-as nas Configurações do aparelho para iniciar a gravação</string>
   <!-- Main activity -->
   <!-- Screen record title -->
   <string name="main_screen_action">Gravar a tela</string>

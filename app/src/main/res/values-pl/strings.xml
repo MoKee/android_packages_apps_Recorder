@@ -49,9 +49,11 @@
   <!-- Screen recorder disabled audio message -->
   <string name="screen_audio_message_off">Dźwięk z mikrofonu nie zostanie dołączony do filmu</string>
   <!-- Screen recorder disabled audio toggle message -->
+  <string name="screen_audio_message_disabled">Nie można zmienić tego ustawienia podczas nagrywania ekranu</string>
   <!-- Screen recorder audio permission request card button -->
   <string name="screen_audio_warning_button_ask">Pytaj</string>
   <!-- Screen recorder notification storage error title -->
+  <string name="screen_insufficient_storage">Za mało pamięci</string>
   <!-- Screen recorder notification storage error message -->
   <string name="screen_not_enough_storage">Za mało dostępnego miejsca</string>
   <!-- Screen recorder notification title -->
@@ -65,11 +67,13 @@
   <!-- Screen recorder last item title -->
   <string name="screen_last_title">Ostatnie nagranie</string>
   <!-- Screen recorder last item message -->
+  <string name="screen_last_message">Data: %1$s\nDuration: %2$d sekund</string>
   <!-- Screen recorder notification overlay title -->
   <string name="screen_overlay_notif_title">Gotowy do nagrywania</string>
   <!-- Screen recorder notification overlay message -->
   <string name="screen_overlay_notif_message">Naciśnij przycisk nagrywania, gdy jesteś gotowy rozpocząć</string>
   <!-- Screen settings dialog title -->
+  <string name="screen_settings_title">Ustawienia nagrywania ekranu</string>
   <!-- Permissions -->
   <!-- Permissions dialog title -->
   <string name="dialog_permissions_title">Uprawnienia</string>
@@ -97,6 +101,8 @@
   <string name="snack_permissions_no_permission">Brak wymaganych uprawnień. Włącz je w Ustawieniach, aby rozpocząć nagrywanie</string>
   <!-- Main activity -->
   <!-- Screen record title -->
+  <string name="main_screen_action">Nagrywaj ekran</string>
   <!-- Sound record title -->
+  <string name="main_sound_action">Nagraj dźwięk</string>
   <!-- Transition name for dialogActivity -->
 </resources>
