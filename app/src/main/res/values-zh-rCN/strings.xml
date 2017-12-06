@@ -73,7 +73,7 @@
   <!-- Screen recorder notification overlay message -->
   <string name="screen_overlay_notif_message">当您准备好开始时请点击录制按钮</string>
   <!-- Screen settings dialog title -->
-  <string name="screen_settings_title">屏幕录像设置</string>
+  <string name="screen_settings_title">屏幕录制设置</string>
   <!-- Permissions -->
   <!-- Permissions dialog title -->
   <string name="dialog_permissions_title">权限</string>
