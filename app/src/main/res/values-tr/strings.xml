@@ -49,6 +49,7 @@
   <!-- Screen recorder disabled audio message -->
   <string name="screen_audio_message_off">Mikrofondan gelen ses videoya dahil edilmeyecek</string>
   <!-- Screen recorder disabled audio toggle message -->
+  <string name="screen_audio_message_disabled">Ekranı kaydederken bu ayarı değiştirmek mümkün değildir</string>
   <!-- Screen recorder audio permission request card button -->
   <string name="screen_audio_warning_button_ask">Her seferinde sor</string>
   <!-- Screen recorder notification storage error title -->
@@ -74,6 +75,7 @@
  
 Bağlam | Bağlam İste</string>
   <!-- Screen settings dialog title -->
+  <string name="screen_settings_title">Ekran kaydedici ayarları</string>
   <!-- Permissions -->
   <!-- Permissions dialog title -->
   <string name="dialog_permissions_title">İzinler</string>
@@ -101,6 +103,8 @@ Bağlam | Bağlam İste</string>
   <string name="snack_permissions_no_permission">Gerekli izinler reddedildi, kayda başlamak için bunları Ayarlar uygulamasından etkinleştirin</string>
   <!-- Main activity -->
   <!-- Screen record title -->
+  <string name="main_screen_action">Kayıt ekranı</string>
   <!-- Sound record title -->
+  <string name="main_sound_action">Ses kaydet</string>
   <!-- Transition name for dialogActivity -->
 </resources>

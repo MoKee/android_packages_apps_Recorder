@@ -45,7 +45,7 @@
   <string name="sound_last_title">Последняя запись</string>
   <!-- Screen recorder -->
   <!-- Screen recorder enabled audio message -->
-  <string name="screen_audio_message_on">Звуки с микрофона  записываются</string>
+  <string name="screen_audio_message_on">Звуки с микрофона будут записаны в видео</string>
   <!-- Screen recorder disabled audio message -->
   <string name="screen_audio_message_off">Звуки с микрофона не записываются</string>
   <!-- Screen recorder disabled audio toggle message -->
