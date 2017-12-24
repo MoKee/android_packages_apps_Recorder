@@ -76,7 +76,7 @@
   <string name="screen_settings_title">Настройки записи экрана</string>
   <!-- Permissions -->
   <!-- Permissions dialog title -->
-  <string name="dialog_permissions_title">Права</string>
+  <string name="dialog_permissions_title">Разрешения</string>
   <!-- Message: microphone access denied -->
   <string name="dialog_permissions_mic">Приложению требуется доступ к микрофону для записи звука</string>
   <!-- Message: storage access denied -->
