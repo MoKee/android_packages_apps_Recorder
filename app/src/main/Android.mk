@@ -29,7 +29,8 @@ LOCAL_AAPT_FLAGS := \
     --extra-packages android.support.constraint \
     --extra-packages android.support.design \
     --extra-packages android.support.v7.appcompat \
-    --extra-packages android.support.v7.cardview
+    --extra-packages android.support.v7.cardview \
+    --rename-manifest-package org.mokee.recorder
 
 LOCAL_STATIC_JAVA_LIBRARIES += \
     android-support-annotations \
