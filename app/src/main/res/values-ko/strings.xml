@@ -43,6 +43,8 @@
   <string name="sound_recording_title_working">녹음 중</string>
   <!-- Sound recorder last item title -->
   <string name="sound_last_title">마지막 녹음</string>
+  <!-- Sound recorder notification channel title -->
+  <!-- Sound recorder notification channel description-->
   <!-- Screen recorder -->
   <!-- Screen recorder enabled audio message -->
   <string name="screen_audio_message_on">마이크로 녹음된 오디오가 영상에 포함됩니다.</string>
@@ -74,6 +76,10 @@
   <string name="screen_overlay_notif_message">녹화할 준비가 되면 녹화 버튼을 누르세요.</string>
   <!-- Screen settings dialog title -->
   <string name="screen_settings_title">화면 녹화 설정</string>
+  <!-- Screen recorder notification overlay channel title -->
+  <!-- Screen recorder notification overlay channel description-->
+  <!-- Screen recorder persistent notification channel title -->
+  <!-- Screen recorder persistent notification channel description-->
   <!-- Permissions -->
   <!-- Permissions dialog title -->
   <string name="dialog_permissions_title">권한</string>

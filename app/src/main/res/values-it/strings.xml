@@ -20,9 +20,9 @@
   <!-- Share action for notification -->
   <string name="share">Condividi</string>
   <!-- Stop action for notification -->
-  <string name="stop">Stop</string>
+  <string name="stop">Ferma</string>
   <!-- Play action -->
-  <string name="play">Play</string>
+  <string name="play">Riproduci</string>
   <!-- Delete action -->
   <string name="delete">Elimina</string>
   <!-- Cancel action -->
@@ -32,7 +32,7 @@
   <!-- Delete confirm message -->
   <string name="delete_message">Sei sicuro di voler eliminare %1$s? Quest\'azione non può essere annullata</string>
   <!-- Date for last item %1 is year, %2 month, %3 day, %4 hour, %5 min -->
-  <string name="date_format">%1$s-%2$s-%3$s %4$s:%5$s</string>
+  <string name="date_format">%4$s:%5$s %3$s-%2$s-%1$s</string>
   <!-- Permissions -->
   <!-- Sound recorder -->
   <!-- Sound recorder notification title -->
@@ -43,6 +43,10 @@
   <string name="sound_recording_title_working">Registrazione in corso</string>
   <!-- Sound recorder last item title -->
   <string name="sound_last_title">Ultima registrazione</string>
+  <!-- Sound recorder notification channel title -->
+  <string name="sound_channel_title">Registrazione dei suoni</string>
+  <!-- Sound recorder notification channel description-->
+  <string name="sound_channel_desc">Notifica persistente durante la registrazione audio e notifica dopo averlo completato</string>
   <!-- Screen recorder -->
   <!-- Screen recorder enabled audio message -->
   <string name="screen_audio_message_on">L\'audio del microfono sarà incluso nel video</string>
@@ -74,6 +78,13 @@
   <string name="screen_overlay_notif_message">Premi il pulsante registra per iniziare la registrazione</string>
   <!-- Screen settings dialog title -->
   <string name="screen_settings_title">Impostazioni registratore schermo</string>
+  <!-- Screen recorder notification overlay channel title -->
+  <!-- Screen recorder notification overlay channel description-->
+  <string name="screen_overlay_channel_desc">Notifica quando i risultati della registrazione dello schermo sono pronto per iniziare</string>
+  <!-- Screen recorder persistent notification channel title -->
+  <string name="screen_channel_title">Registrazione schermo</string>
+  <!-- Screen recorder persistent notification channel description-->
+  <string name="screen_channel_desc">Notifica persistente durante la registrazione audio e notifica dopo averlo completato</string>
   <!-- Permissions -->
   <!-- Permissions dialog title -->
   <string name="dialog_permissions_title">Permessi</string>

@@ -43,6 +43,8 @@
   <string name="sound_recording_title_working">Grabando</string>
   <!-- Sound recorder last item title -->
   <string name="sound_last_title">Última grabación</string>
+  <!-- Sound recorder notification channel title -->
+  <!-- Sound recorder notification channel description-->
   <!-- Screen recorder -->
   <!-- Screen recorder enabled audio message -->
   <string name="screen_audio_message_on">El audio grabado por el micrófono se incluirá en el vídeo</string>
@@ -74,6 +76,10 @@
   <string name="screen_overlay_notif_message">Presione el botón de grabación cuando esté listo para comenzar</string>
   <!-- Screen settings dialog title -->
   <string name="screen_settings_title">Ajustes de grabación de pantalla</string>
+  <!-- Screen recorder notification overlay channel title -->
+  <!-- Screen recorder notification overlay channel description-->
+  <!-- Screen recorder persistent notification channel title -->
+  <!-- Screen recorder persistent notification channel description-->
   <!-- Permissions -->
   <!-- Permissions dialog title -->
   <string name="dialog_permissions_title">Permisos</string>

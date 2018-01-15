@@ -31,7 +31,6 @@
   <!-- Delete confirm message -->
   <string name="delete_message">Jeni të sigurt që doni të fshini %1$s? Ky veprim nuk mund të zhbëhet</string>
   <!-- Date for last item %1 is year, %2 month, %3 day, %4 hour, %5 min -->
-  <string name="date_format">%1$s-%2$s-%3$s %4$s:%5$s</string>
   <!-- Permissions -->
   <!-- Sound recorder -->
   <!-- Sound recorder notification title -->
@@ -42,6 +41,8 @@
   <string name="sound_recording_title_working">Duke regjistruar</string>
   <!-- Sound recorder last item title -->
   <string name="sound_last_title">Regjistrimi i fundit</string>
+  <!-- Sound recorder notification channel title -->
+  <!-- Sound recorder notification channel description-->
   <!-- Screen recorder -->
   <!-- Screen recorder enabled audio message -->
   <string name="screen_audio_message_on">Audioja nga mikrofoni do të përfshihet në video</string>
@@ -71,6 +72,10 @@
   <!-- Screen recorder notification overlay message -->
   <string name="screen_overlay_notif_message">Shtyp butonin e regjistrimit kur të jesh gati për të filluar</string>
   <!-- Screen settings dialog title -->
+  <!-- Screen recorder notification overlay channel title -->
+  <!-- Screen recorder notification overlay channel description-->
+  <!-- Screen recorder persistent notification channel title -->
+  <!-- Screen recorder persistent notification channel description-->
   <!-- Permissions -->
   <!-- Permissions dialog title -->
   <string name="dialog_permissions_title">Lejet</string>

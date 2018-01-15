@@ -43,6 +43,10 @@
   <string name="sound_recording_title_working">Gravando</string>
   <!-- Sound recorder last item title -->
   <string name="sound_last_title">Última gravação</string>
+  <!-- Sound recorder notification channel title -->
+  <string name="sound_channel_title">Gravação de som</string>
+  <!-- Sound recorder notification channel description-->
+  <string name="sound_channel_desc">Notificação persistente ao gravar som e notificação após a conclusão</string>
   <!-- Screen recorder -->
   <!-- Screen recorder enabled audio message -->
   <string name="screen_audio_message_on">Áudio do microfone será incluído no vídeo</string>
@@ -51,7 +55,7 @@
   <!-- Screen recorder disabled audio toggle message -->
   <string name="screen_audio_message_disabled">Não é possível alterar esta configuração durante uma gravação da tela</string>
   <!-- Screen recorder audio permission request card button -->
-  <string name="screen_audio_warning_button_ask">Permitir</string>
+  <string name="screen_audio_warning_button_ask">Perguntar</string>
   <!-- Screen recorder notification storage error title -->
   <string name="screen_insufficient_storage">Armazenamento insuficiente</string>
   <!-- Screen recorder notification storage error message -->
@@ -63,9 +67,9 @@
   <!-- Screen recorder notification share title -->
   <string name="screen_notification_message_done">Pronto para compartilhar</string>
   <!-- Screen recorder status message -->
-  <string name="screen_recording_message">A tela está sendo gravada</string>
+  <string name="screen_recording_message">A tela está sendo gravada\u2026</string>
   <!-- Screen recorder last item title -->
-  <string name="screen_last_title">Última gravação de tela</string>
+  <string name="screen_last_title">Última gravação</string>
   <!-- Screen recorder last item message -->
   <string name="screen_last_message">Data: %1$s\nDuração: %2$d segundos</string>
   <!-- Screen recorder notification overlay title -->
@@ -74,6 +78,14 @@
   <string name="screen_overlay_notif_message">Pressione o botão de gravar quando estiver pronto para iniciar</string>
   <!-- Screen settings dialog title -->
   <string name="screen_settings_title">Configurações do gravador de tela</string>
+  <!-- Screen recorder notification overlay channel title -->
+  <string name="screen_overlay_channel_title">Pronto para gravar a tela</string>
+  <!-- Screen recorder notification overlay channel description-->
+  <string name="screen_overlay_channel_desc">Notificação, mostrando que a gravação de tela está pronta para começar</string>
+  <!-- Screen recorder persistent notification channel title -->
+  <string name="screen_channel_title">Gravação de tela</string>
+  <!-- Screen recorder persistent notification channel description-->
+  <string name="screen_channel_desc">Notificação persistente ao gravar tele e notificação após a conclusão</string>
   <!-- Permissions -->
   <!-- Permissions dialog title -->
   <string name="dialog_permissions_title">Permissões</string>
@@ -92,13 +104,13 @@
   <!-- Message: microphone, storage and phone status access denied -->
   <string name="dialog_permissions_mic_storage_phone">O gravador requer acesso ao microfone para gravar áudio, acesso ao armazenamento para salvar as gravações e acesso ao estado do telefone para impedir este aplicativo de gravar enquanto você estiver em uma ligação</string>
   <!-- Permissions dialog action: ask permissions access again -->
-  <string name="dialog_permissions_ask">Permitir novamente</string>
+  <string name="dialog_permissions_ask">Perguntar novamente</string>
   <!-- Permissions dialog action: dismiss dialog -->
   <string name="dialog_permissions_dismiss">Dispensar</string>
   <!-- Message: overlay permission denied. Make sure "Draw over other apps" matches settings strings -->
-  <string name="dialog_permissions_overlay">O gravador requer a permissão de \"sobrepor a outros apps\" para gravar a tela. Pressione permitir, ative a permissão nas configurações e volte ao aplicativo</string>
+  <string name="dialog_permissions_overlay">O gravador requer a permissão de \"sobrepor a outros aplicativos\" para gravar a tela. Pressione permitir, ative a permissão nas configurações e volte ao Gravador</string>
   <!-- No permissions granted error -->
-  <string name="snack_permissions_no_permission">As permissões necessárias foram negadas, ative-as no aplicativo Configurações para iniciar a gravação</string>
+  <string name="snack_permissions_no_permission">As permissões necessárias foram negadas, ative-as nas Configurações do aparelho para iniciar a gravação</string>
   <!-- Main activity -->
   <!-- Screen record title -->
   <string name="main_screen_action">Gravar a tela</string>

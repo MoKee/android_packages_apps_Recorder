@@ -17,12 +17,13 @@
 <resources>
   <!-- Common actions -->
   <!-- Share action for notification -->
-  <string name="share">Dalies</string>
+  <string name="share">Ibahagi</string>
   <!-- Stop action for notification -->
   <!-- Play action -->
   <!-- Delete action -->
-  <string name="delete">Dzēst</string>
+  <string name="delete">Tanggalin</string>
   <!-- Cancel action -->
+  <string name="cancel">Kanselahin</string>
   <!-- Delete confirm title -->
   <!-- Delete confirm message -->
   <!-- Date for last item %1 is year, %2 month, %3 day, %4 hour, %5 min -->
