@@ -47,6 +47,7 @@
   <!-- Sound recorder notification channel title -->
   <string name="sound_channel_title">录音</string>
   <!-- Sound recorder notification channel description-->
+  <string name="sound_channel_desc">记录声音和通知完成后的通知</string>
   <!-- Screen recorder -->
   <!-- Screen recorder enabled audio message -->
   <string name="screen_audio_message_on">将麦克风的声音纳入视频</string>
@@ -61,7 +62,7 @@
   <!-- Screen recorder notification storage error message -->
   <string name="screen_not_enough_storage">可用存储空间不足</string>
   <!-- Screen recorder notification title -->
-  <string name="screen_notification_title">屏幕录制器</string>
+  <string name="screen_notification_title">屏幕录制</string>
   <!-- Screen recorder notification message -->
   <string name="screen_notification_message">视频长度：%s</string>
   <!-- Screen recorder notification share title -->
@@ -85,6 +86,7 @@
   <!-- Screen recorder persistent notification channel title -->
   <string name="screen_channel_title">屏幕录制</string>
   <!-- Screen recorder persistent notification channel description-->
+  <string name="screen_channel_desc">记录屏幕和通知完成后的通知</string>
   <!-- Permissions -->
   <!-- Permissions dialog title -->
   <string name="dialog_permissions_title">权限</string>
