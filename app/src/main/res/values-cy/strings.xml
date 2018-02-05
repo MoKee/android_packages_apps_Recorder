@@ -28,6 +28,7 @@
   <!-- Permissions -->
   <!-- Sound recorder -->
   <!-- Sound recorder notification title -->
+  <string name="sound_notification_title">Recordydd Sain</string>
   <!-- Sound recorder notification message -->
   <!-- Sound recorder status card title recording -->
   <!-- Sound recorder last item title -->
