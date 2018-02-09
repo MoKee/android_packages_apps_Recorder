@@ -38,18 +38,18 @@
   <!-- Sound recorder notification title -->
   <string name="sound_notification_title">Ghi âm</string>
   <!-- Sound recorder notification message -->
-  <string name="sound_notification_message">Thời lượng âm thanh: %1$s</string>
+  <string name="sound_notification_message">Độ dài âm thanh: %1$s</string>
   <!-- Sound recorder status card title recording -->
   <string name="sound_recording_title_working">Đang ghi âm</string>
   <!-- Sound recorder last item title -->
   <string name="sound_last_title">Lần ghi cuối</string>
   <!-- Screen recorder -->
   <!-- Screen recorder enabled audio message -->
-  <string name="screen_audio_message_on">Âm thanh từ micro sẽ được chứa trong video</string>
+  <string name="screen_audio_message_on">Âm thanh từ micro sẽ được lưu trong video</string>
   <!-- Screen recorder disabled audio message -->
-  <string name="screen_audio_message_off">Âm thanh từ micro sẽ không được chứa trong video</string>
+  <string name="screen_audio_message_off">Âm thanh từ micro sẽ không được lưu trong video</string>
   <!-- Screen recorder disabled audio toggle message -->
-  <string name="screen_audio_message_disabled">Nó không thể thay đổi cài đặt này trong khi ghi lại màn hình</string>
+  <string name="screen_audio_message_disabled">Không thể thay đổi cài đặt này trong khi ghi lại màn hình</string>
   <!-- Screen recorder audio permission request card button -->
   <string name="screen_audio_warning_button_ask">Yêu cầu</string>
   <!-- Screen recorder notification storage error title -->
@@ -78,15 +78,15 @@
   <!-- Permissions dialog title -->
   <string name="dialog_permissions_title">Cấp phép</string>
   <!-- Message: microphone access denied -->
-  <string name="dialog_permissions_mic">Trình ghi lại cần quyền micro để ghi lại âm thanh</string>
+  <string name="dialog_permissions_mic">Trình ghi âm cần quyền micro để ghi lại âm thanh</string>
   <!-- Message: storage access denied -->
   <string name="dialog_permissions_storage">Trình ghi lại cần truy cập bộ nhớ để lưu các tập tin đã ghi</string>
   <!-- Message: phone status denied -->
   <string name="dialog_permissions_phone">Trình ghi lại cần truy cập trạng thái điện thoại để ngăn ứng dụng này ghi âm khi bạn đang gọi</string>
   <!-- Message: microphone and storage access denied -->
-  <string name="dialog_permissions_mic_storage">Trình ghi lại cần quyền micro để ghi lại âm thanh và truy cập bộ nhớ để lưu các tập tin đã ghi</string>
+  <string name="dialog_permissions_mic_storage">Trình ghi âm cần quyền micro để ghi lại âm thanh và truy cập bộ nhớ để lưu các tập tin đã ghi</string>
   <!-- Message: microphone and phone status access denied -->
-  <string name="dialog_permissions_mic_phone">Trình ghi lại cần quyền micro để ghi lại âm thanh và truy cập trạng thái điện thoại để ngăn chặn ứng dụng này ghi âm trong khi bạn đang gọi</string>
+  <string name="dialog_permissions_mic_phone">Trình ghi âm cần quyền micro để ghi lại âm thanh và truy cập trạng thái điện thoại để ngăn chặn ứng dụng này ghi âm trong khi bạn đang gọi</string>
   <!-- Message: storage and phone status access denied -->
   <string name="dialog_permissions_storage_phone">Trình ghi lại cần truy cập bộ nhớ để lưu tập tin đã ghi âm và truy cập trạng thái điện thoại để ngăn ứng dụng này ghi âm khi bạn đang gọi</string>
   <!-- Message: microphone, storage and phone status access denied -->
