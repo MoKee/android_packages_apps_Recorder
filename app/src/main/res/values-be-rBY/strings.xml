@@ -45,7 +45,9 @@
   <!-- Sound recorder last item title -->
   <string name="sound_last_title">Апошні запіс</string>
   <!-- Sound recorder notification channel title -->
+  <string name="sound_channel_title">Запіс гуку</string>
   <!-- Sound recorder notification channel description-->
+  <string name="sound_channel_desc">Пастаяннае апавяшчэнне пры запісе гуку і апавяшчэнне пасля яго завяршэння</string>
   <!-- Screen recorder -->
   <!-- Screen recorder enabled audio message -->
   <string name="screen_audio_message_on">Гук мікрафона будзе ўключаны ў відэа</string>
@@ -78,9 +80,13 @@
   <!-- Screen settings dialog title -->
   <string name="screen_settings_title">Налады запісу экрана</string>
   <!-- Screen recorder notification overlay channel title -->
+  <string name="screen_overlay_channel_title">Гатовы да запісу экрана</string>
   <!-- Screen recorder notification overlay channel description-->
+  <string name="screen_overlay_channel_desc">Апавяшчэнне, якое паказвае гатоўнасць запісу экрана</string>
   <!-- Screen recorder persistent notification channel title -->
+  <string name="screen_channel_title">Запіс экрана</string>
   <!-- Screen recorder persistent notification channel description-->
+  <string name="screen_channel_desc">Пастаяннае апавяшчэнне пры запісе экрана і апавяшчэнне пасля яго завяршэння</string>
   <!-- Permissions -->
   <!-- Permissions dialog title -->
   <string name="dialog_permissions_title">Правы</string>
