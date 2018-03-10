@@ -45,7 +45,9 @@
   <!-- Sound recorder last item title -->
   <string name="sound_last_title">Rekaman terakhir</string>
   <!-- Sound recorder notification channel title -->
+  <string name="sound_channel_title">Rekaman suara</string>
   <!-- Sound recorder notification channel description-->
+  <string name="sound_channel_desc">Pemberitahuan terus-menerus saat merekam suara dan notifikasi setelah selesai</string>
   <!-- Screen recorder -->
   <!-- Screen recorder enabled audio message -->
   <string name="screen_audio_message_on">Audio dari mikrofon akan disertakan dalam video</string>
@@ -78,9 +80,13 @@
   <!-- Screen settings dialog title -->
   <string name="screen_settings_title">Pengaturan perekam layar</string>
   <!-- Screen recorder notification overlay channel title -->
+  <string name="screen_overlay_channel_title">Siap merekam layar</string>
   <!-- Screen recorder notification overlay channel description-->
+  <string name="screen_overlay_channel_desc">Pemberitahuan yang menunjukkan screen recording sudah siap untuk memulai</string>
   <!-- Screen recorder persistent notification channel title -->
+  <string name="screen_channel_title">Rekaman layar</string>
   <!-- Screen recorder persistent notification channel description-->
+  <string name="screen_channel_desc">Pemberitahuan terus menerus saat merekam layar dan notifikasi setelah selesai</string>
   <!-- Permissions -->
   <!-- Permissions dialog title -->
   <string name="dialog_permissions_title">Izin</string>

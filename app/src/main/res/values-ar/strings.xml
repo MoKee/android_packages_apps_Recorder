@@ -45,13 +45,16 @@
   <!-- Sound recorder last item title -->
   <string name="sound_last_title">التسجيل الأخير</string>
   <!-- Sound recorder notification channel title -->
+  <string name="sound_channel_title">تسجيل الصوت</string>
   <!-- Sound recorder notification channel description-->
+  <string name="sound_channel_desc">إشعار دائم عند تسجيل الصوت والإشعار بعد اكتماله</string>
   <!-- Screen recorder -->
   <!-- Screen recorder enabled audio message -->
   <string name="screen_audio_message_on">سيتم تضمين الصوت من الميكروفون في الفيديو</string>
   <!-- Screen recorder disabled audio message -->
   <string name="screen_audio_message_off">لن يتم تضمين الصوت من الميكروفون في الفيديو</string>
   <!-- Screen recorder disabled audio toggle message -->
+  <string name="screen_audio_message_disabled">لا يمكن تغيير هذا الإعداد أثناء تسجيل الشاشة</string>
   <!-- Screen recorder audio permission request card button -->
   <string name="screen_audio_warning_button_ask">اسأل</string>
   <!-- Screen recorder notification storage error title -->
@@ -73,15 +76,22 @@
   <!-- Screen recorder notification overlay title -->
   <string name="screen_overlay_notif_title">مستعد للتسجيل</string>
   <!-- Screen recorder notification overlay message -->
+  <string name="screen_overlay_notif_message">اضغط على زر التسجيل عندما تكون على استعداد للبدء</string>
   <!-- Screen settings dialog title -->
+  <string name="screen_settings_title">إعدادات مسجل الشاشة</string>
   <!-- Screen recorder notification overlay channel title -->
+  <string name="screen_overlay_channel_title">جاهز لتسجيل الشاشة</string>
   <!-- Screen recorder notification overlay channel description-->
+  <string name="screen_overlay_channel_desc">الاشعار يظهر بأن مسجل الشاشة مستعد للبدء</string>
   <!-- Screen recorder persistent notification channel title -->
+  <string name="screen_channel_title">تسجيل الشاشة</string>
   <!-- Screen recorder persistent notification channel description-->
+  <string name="screen_channel_desc">إشعار دائم عند تسجيل الشاشة والإشعار بعد اكتماله</string>
   <!-- Permissions -->
   <!-- Permissions dialog title -->
   <string name="dialog_permissions_title">الأذونات</string>
   <!-- Message: microphone access denied -->
+  <string name="dialog_permissions_mic">المُسجل يحتاج إلى إذن وصول للميكروفون لتسجيل الصوت</string>
   <!-- Message: storage access denied -->
   <string name="dialog_permissions_storage">المُسجل يحتاج إلى الوصول إلى ذاكرة التخزين لحفظ الملفات المسجلة</string>
   <!-- Message: phone status denied -->
@@ -95,11 +105,17 @@
   <!-- Message: microphone, storage and phone status access denied -->
   <string name="dialog_permissions_mic_storage_phone">المُسجل يحتاج إلى إذن وصول للميكروفون لتسجيل الصوت والوصول إلى ذاكرة التخزين لحفظ الملفات المسجلة والوصول إلى حالة الهاتف لمنع هذا التطبيق من التسجيل أثناء قيامك بالاتصال</string>
   <!-- Permissions dialog action: ask permissions access again -->
+  <string name="dialog_permissions_ask">السؤال مرة أخرى</string>
   <!-- Permissions dialog action: dismiss dialog -->
+  <string name="dialog_permissions_dismiss">تجاهل</string>
   <!-- Message: overlay permission denied. Make sure "Draw over other apps" matches settings strings -->
+  <string name="dialog_permissions_overlay">المُسجل يحتاج إلى إذن \"; الرسم فوق التطبيقات الأخرى\"; لتسجيل شاشتك. برجاء السماح، وتفعيل الإذن في الإعدادات ثم عُد إلى المُسجل</string>
   <!-- No permissions granted error -->
+  <string name="snack_permissions_no_permission">تم رفض الأذونات المطلوبة، قم بتفعيلها من تطبيق الإعدادات لبدء التسجيل</string>
   <!-- Main activity -->
   <!-- Screen record title -->
+  <string name="main_screen_action">تسجيل الشاشة</string>
   <!-- Sound record title -->
+  <string name="main_sound_action">تسجيل الصوت</string>
   <!-- Transition name for dialogActivity -->
 </resources>
