@@ -49,7 +49,9 @@
   <!-- Screen recorder disabled audio message -->
   <string name="screen_audio_message_off">A mikrofonon keresztüli hang nem lesz a videó része</string>
   <!-- Screen recorder disabled audio toggle message -->
+  <string name="screen_audio_message_disabled">Nem lehet megváltoztatni ezt a beállítást, miközben képernyőrögzítés van folyamatban</string>
   <!-- Screen recorder audio permission request card button -->
+  <string name="screen_audio_warning_button_ask">Rákérdez</string>
   <!-- Screen recorder notification storage error title -->
   <string name="screen_insufficient_storage">Nincs elég tárhely</string>
   <!-- Screen recorder notification storage error message -->
@@ -71,6 +73,7 @@
   <!-- Screen recorder notification overlay message -->
   <string name="screen_overlay_notif_message">Nyomja meg a felvétel gombot az indításhoz</string>
   <!-- Screen settings dialog title -->
+  <string name="screen_settings_title">Képernyőfelvevő beállításai</string>
   <!-- Permissions -->
   <!-- Permissions dialog title -->
   <string name="dialog_permissions_title">Engedélyek</string>
@@ -83,15 +86,23 @@
   <!-- Message: microphone and storage access denied -->
   <string name="dialog_permissions_mic_storage">Felvevőnek a mikrofonhoz való hozzáférés kell a hang rögzítéséhez és a tárhelyhez való hozzáférés kell a rögzített fájlok mentéséhez</string>
   <!-- Message: microphone and phone status access denied -->
+  <string name="dialog_permissions_mic_phone">Felvevőnek a hangok rögzítéséhez és a helyes működéshez szüksége van a mikrofonhoz és a telefon állapotához való hozzáférésre</string>
   <!-- Message: storage and phone status access denied -->
+  <string name="dialog_permissions_storage_phone">Felvevőnek a hangok rögzítéséhez és a helyes működéshez szüksége van a készülék tárhelyéhez és a telefon állapotához való hozzáférésre</string>
   <!-- Message: microphone, storage and phone status access denied -->
+  <string name="dialog_permissions_mic_storage_phone">Felvevőnek a hangok rögzítéséhez és a helyes működéshez szüksége van a mikrofonhoz, a készülék tárhelyéhez és a telefon állapotához való hozzáférésre</string>
   <!-- Permissions dialog action: ask permissions access again -->
+  <string name="dialog_permissions_ask">Kérdezze meg újra</string>
   <!-- Permissions dialog action: dismiss dialog -->
   <string name="dialog_permissions_dismiss">Elvetés</string>
   <!-- Message: overlay permission denied. Make sure "Draw over other apps" matches settings strings -->
+  <string name="dialog_permissions_overlay">A Felvevőnek szüksége van az \"Többi alkalmazás felett futtatás\" engedélyre a képernyőfelvétel készítéséhez. Nyomja meg az engedélyez gombot, a beállításokban engedélyezze azt, és térjen vissza a Felvevőhöz</string>
   <!-- No permissions granted error -->
+  <string name="snack_permissions_no_permission">A szükséges engedélyek jelenleg tiltva vannak, engedélyezze őket a Beállításokban a felvétel megkezdéséhez</string>
   <!-- Main activity -->
   <!-- Screen record title -->
+  <string name="main_screen_action">Képernyőfelvétel</string>
   <!-- Sound record title -->
+  <string name="main_sound_action">Hangrögzítés</string>
   <!-- Transition name for dialogActivity -->
 </resources>
