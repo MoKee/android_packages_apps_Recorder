@@ -50,9 +50,9 @@
   <string name="sound_channel_desc">记录声音和通知完成后的通知</string>
   <!-- Screen recorder -->
   <!-- Screen recorder enabled audio message -->
-  <string name="screen_audio_message_on">将麦克风的声音纳入视频</string>
+  <string name="screen_audio_message_on">将麦克风的声音录入视频</string>
   <!-- Screen recorder disabled audio message -->
-  <string name="screen_audio_message_off">麦克风的音频将不会纳入视频</string>
+  <string name="screen_audio_message_off">不将麦克风的声音录入视频</string>
   <!-- Screen recorder disabled audio toggle message -->
   <string name="screen_audio_message_disabled">在录屏时无法修改此设置</string>
   <!-- Screen recorder audio permission request card button -->
@@ -82,7 +82,7 @@
   <!-- Screen recorder notification overlay channel title -->
   <string name="screen_overlay_channel_title">准备录制屏幕</string>
   <!-- Screen recorder notification overlay channel description-->
-  <string name="screen_overlay_channel_desc">显示屏幕录制的通知已就绪, 可以开始</string>
+  <string name="screen_overlay_channel_desc">通知显示屏幕录制准备已就绪</string>
   <!-- Screen recorder persistent notification channel title -->
   <string name="screen_channel_title">屏幕录制</string>
   <!-- Screen recorder persistent notification channel description-->
@@ -91,17 +91,17 @@
   <!-- Permissions dialog title -->
   <string name="dialog_permissions_title">权限</string>
   <!-- Message: microphone access denied -->
-  <string name="dialog_permissions_mic">录制器需要麦克风访问权限以便录制音频</string>
+  <string name="dialog_permissions_mic">录制器需要录音权限以便录制音频</string>
   <!-- Message: storage access denied -->
-  <string name="dialog_permissions_storage">录制器需要存储空间访问权限以便保存录音文件</string>
+  <string name="dialog_permissions_storage">录制器需要存储权限以便保存录制文件</string>
   <!-- Message: phone status denied -->
   <string name="dialog_permissions_phone">录制器需要访问手机状态权限以便在您通话时停止录音</string>
   <!-- Message: microphone and storage access denied -->
   <string name="dialog_permissions_mic_storage">录制器需要麦克风和存储权限以便录制声音和保存录音文件。</string>
   <!-- Message: microphone and phone status access denied -->
-  <string name="dialog_permissions_mic_phone">录制器需要麦克风访问权限以录制语音，手机状态访问权限以避免在您通话时录制</string>
+  <string name="dialog_permissions_mic_phone">录制器需要麦克风访问权限以录制声音，需要手机状态访问权限以避免在您通话时录制</string>
   <!-- Message: storage and phone status access denied -->
-  <string name="dialog_permissions_storage_phone">录制器需要存储访问权限以保存录音文件，电话状态访问权限以避免在您通话时录音</string>
+  <string name="dialog_permissions_storage_phone">录制器需要存储权限以保存录音文件，需要电话状态访问权限以避免在您通话时录音</string>
   <!-- Message: microphone, storage and phone status access denied -->
   <string name="dialog_permissions_mic_storage_phone">录制器需要麦克风权限以录制音频，存储访问权限以保存录音文件，电话状态访问权限以避免在您通话时录音</string>
   <!-- Permissions dialog action: ask permissions access again -->
