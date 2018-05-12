@@ -26,7 +26,7 @@
   <!-- Delete action -->
   <string name="delete">Sil</string>
   <!-- Cancel action -->
-  <string name="cancel">iptal</string>
+  <string name="cancel">İptal</string>
   <!-- Delete confirm title -->
   <string name="delete_title">Kayıt siliniyor</string>
   <!-- Delete confirm message -->
@@ -51,7 +51,7 @@
   <!-- Screen recorder disabled audio toggle message -->
   <string name="screen_audio_message_disabled">Ekranı kaydederken bu ayarı değiştirmek mümkün değildir</string>
   <!-- Screen recorder audio permission request card button -->
-  <string name="screen_audio_warning_button_ask">Her seferinde sor</string>
+  <string name="screen_audio_warning_button_ask">Sor</string>
   <!-- Screen recorder notification storage error title -->
   <string name="screen_insufficient_storage">Yetersiz depolama alanı</string>
   <!-- Screen recorder notification storage error message -->
@@ -71,9 +71,7 @@
   <!-- Screen recorder notification overlay title -->
   <string name="screen_overlay_notif_title">Kayıt yapmaya hazır</string>
   <!-- Screen recorder notification overlay message -->
-  <string name="screen_overlay_notif_message">Başlamaya hazır olduğunuzda kayıt düğmesine basın
- 
-Bağlam | Bağlam İste</string>
+  <string name="screen_overlay_notif_message">Başlamaya hazır olduğunuzda kayıt tuşuna basın</string>
   <!-- Screen settings dialog title -->
   <string name="screen_settings_title">Ekran kaydedici ayarları</string>
   <!-- Permissions -->
@@ -96,7 +94,7 @@ Bağlam | Bağlam İste</string>
   <!-- Permissions dialog action: ask permissions access again -->
   <string name="dialog_permissions_ask">Tekrar sor</string>
   <!-- Permissions dialog action: dismiss dialog -->
-  <string name="dialog_permissions_dismiss">Yoksay</string>
+  <string name="dialog_permissions_dismiss">Reddet</string>
   <!-- Message: overlay permission denied. Make sure "Draw over other apps" matches settings strings -->
   <string name="dialog_permissions_overlay">Kaydedici, ekranınızı kaydetmek için \"Diğer uygulamalar üzerinde çiz\" iznine ihtiyaç duyar. İzin ver tuşuna basın, ayarların izinlerini etkinleştirin ve Kaydediciye geri dönün</string>
   <!-- No permissions granted error -->
