@@ -45,7 +45,7 @@
   <!-- Sound recorder last item title -->
   <string name="sound_last_title">Son kayıt</string>
   <!-- Sound recorder notification channel title -->
-  <string name="sound_channel_title">Ses Kaydedici</string>
+  <string name="sound_channel_title">Ses kaydı</string>
   <!-- Sound recorder notification channel description-->
   <string name="sound_channel_desc">Ses kaydedilirken kalıcı bildirim göster, ses kaydetme tamamlandıktan sonra bildirim göster</string>
   <!-- Screen recorder -->
@@ -76,7 +76,7 @@
   <!-- Screen recorder notification overlay title -->
   <string name="screen_overlay_notif_title">Kayıt yapmaya hazır</string>
   <!-- Screen recorder notification overlay message -->
-  <string name="screen_overlay_notif_message">Başlamaya hazır olduğunuzda kayıt düğmesine basın</string>
+  <string name="screen_overlay_notif_message">Başlamaya hazır olduğunuzda kayıt tuşuna basın</string>
   <!-- Screen settings dialog title -->
   <string name="screen_settings_title">Ekran kaydedici ayarları</string>
   <!-- Screen recorder notification overlay channel title -->
@@ -84,7 +84,7 @@
   <!-- Screen recorder notification overlay channel description-->
   <string name="screen_overlay_channel_desc">Ekran kaydını gösteren bildirim başlamaya hazır</string>
   <!-- Screen recorder persistent notification channel title -->
-  <string name="screen_channel_title">Ekran Kaydı</string>
+  <string name="screen_channel_title">Ekran kaydı</string>
   <!-- Screen recorder persistent notification channel description-->
   <string name="screen_channel_desc">Ekran kaydedilirken kalıcı bildirim göster, ekran kaydetme tamamlandıktan sonra bildirim göster</string>
   <!-- Permissions -->
@@ -116,6 +116,6 @@
   <!-- Screen record title -->
   <string name="main_screen_action">Ekranı kaydet</string>
   <!-- Sound record title -->
-  <string name="main_sound_action">Ses kaydet</string>
+  <string name="main_sound_action">Sesi kaydet</string>
   <!-- Transition name for dialogActivity -->
 </resources>
