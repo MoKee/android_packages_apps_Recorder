@@ -45,6 +45,7 @@
   <!-- Sound recorder last item title -->
   <string name="sound_last_title">Senaste inspelning</string>
   <!-- Sound recorder notification channel title -->
+  <string name="sound_channel_title">Ljudinspelning</string>
   <!-- Sound recorder notification channel description-->
   <!-- Screen recorder -->
   <!-- Screen recorder enabled audio message -->
@@ -106,5 +107,6 @@
   <!-- Main activity -->
   <!-- Screen record title -->
   <!-- Sound record title -->
+  <string name="main_sound_action">Spela in ljud</string>
   <!-- Transition name for dialogActivity -->
 </resources>
