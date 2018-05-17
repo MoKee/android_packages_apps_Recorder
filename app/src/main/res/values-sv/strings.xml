@@ -85,5 +85,6 @@
   <!-- Main activity -->
   <!-- Screen record title -->
   <!-- Sound record title -->
+  <string name="main_sound_action">Spela in ljud</string>
   <!-- Transition name for dialogActivity -->
 </resources>
