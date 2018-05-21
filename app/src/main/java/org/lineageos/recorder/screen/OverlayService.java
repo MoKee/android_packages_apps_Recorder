@@ -21,6 +21,7 @@ import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.app.Service;
 import android.content.Intent;
+import android.os.Build;
 import android.os.IBinder;
 import android.support.v4.app.NotificationCompat;
 
@@ -36,6 +37,12 @@ public class OverlayService extends Service {
 
     public static final String EXTRA_HAS_AUDIO = "extra_audio";
     private final static int FG_ID = 123;
+
+    /* Horrible hack to determine whether the service is running:
+     * the ActivityManager.getRunningServices() method has been nuked on api 26+
+     * so we're unable to properly determine if this service is currently running
+     */
+    public static boolean isRunning = false;
 
     private OverlayLayer mLayer;
 
@@ -62,6 +69,7 @@ public class OverlayService extends Service {
                 .build();
 
         startForeground(FG_ID, notification);
+        isRunning = true;
         return START_NOT_STICKY;
     }
 
@@ -75,6 +83,13 @@ public class OverlayService extends Service {
         super.onCreate();
 
         NotificationManager notificationManager = getSystemService(NotificationManager.class);
+
+        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.O ||
+                notificationManager == null || notificationManager
+                .getNotificationChannel(SCREENCAST_OVERLAY_NOTIFICATION_CHANNEL) != null) {
+            return;
+        }
+
         CharSequence name = getString(R.string.screen_overlay_channel_title);
         String description = getString(R.string.screen_overlay_channel_desc);
         NotificationChannel notificationChannel =
@@ -92,6 +107,7 @@ public class OverlayService extends Service {
         }
 
         stopForeground(true);
+        isRunning = false;
         super.onDestroy();
     }
 }

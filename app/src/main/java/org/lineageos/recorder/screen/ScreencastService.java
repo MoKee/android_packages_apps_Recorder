@@ -27,6 +27,7 @@ import android.content.IntentFilter;
 import android.graphics.Point;
 import android.hardware.display.DisplayManager;
 import android.hardware.display.VirtualDisplay;
+import android.os.Build;
 import android.os.Environment;
 import android.os.IBinder;
 import android.os.StatFs;
@@ -113,7 +114,19 @@ public class ScreencastService extends Service {
     public void onCreate() {
         super.onCreate();
 
+        IntentFilter filter = new IntentFilter();
+        filter.addAction(Intent.ACTION_USER_BACKGROUND);
+        filter.addAction(Intent.ACTION_SHUTDOWN);
+        registerReceiver(mBroadcastReceiver, filter);
+
         mNotificationManager = getSystemService(NotificationManager.class);
+
+        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.O ||
+                mNotificationManager == null || mNotificationManager.getNotificationChannel(
+                        SCREENCAST_NOTIFICATION_CHANNEL) != null) {
+            return;
+        }
+
         CharSequence name = getString(R.string.screen_channel_title);
         String description = getString(R.string.screen_channel_desc);
         NotificationChannel notificationChannel =
@@ -121,11 +134,6 @@ public class ScreencastService extends Service {
                         name, NotificationManager.IMPORTANCE_LOW);
         notificationChannel.setDescription(description);
         mNotificationManager.createNotificationChannel(notificationChannel);
-
-        IntentFilter filter = new IntentFilter();
-        filter.addAction(Intent.ACTION_USER_BACKGROUND);
-        filter.addAction(Intent.ACTION_SHUTDOWN);
-        registerReceiver(mBroadcastReceiver, filter);
     }
 
     @Override
@@ -180,14 +188,20 @@ public class ScreencastService extends Service {
     }
 
     private Point getNativeResolution() {
-        DisplayManager dm = (DisplayManager) getSystemService(DISPLAY_SERVICE);
+        DisplayManager dm = getSystemService(DisplayManager.class);
+        if (dm == null) {
+            return null;
+        }
+
         Display display = dm.getDisplay(Display.DEFAULT_DISPLAY);
         Point ret = new Point();
         try {
             display.getRealSize(ret);
         } catch (Exception e) {
             try {
+                //noinspection JavaReflectionMemberAccess
                 Method mGetRawH = Display.class.getMethod("getRawHeight");
+                //noinspection JavaReflectionMemberAccess
                 Method mGetRawW = Display.class.getMethod("getRawWidth");
                 ret.x = (Integer) mGetRawW.invoke(display);
                 ret.y = (Integer) mGetRawH.invoke(display);
@@ -219,6 +233,10 @@ public class ScreencastService extends Service {
     private void registerScreencaster(boolean withAudio) {
         assert mRecorder == null;
         Point size = getNativeResolution();
+        if (size == null) {
+            return;
+        }
+
         mRecorder = new RecordingDevice(this, size.x, size.y, withAudio);
         VirtualDisplay vd = mRecorder.registerVirtualDisplay(this);
         if (vd == null) {
