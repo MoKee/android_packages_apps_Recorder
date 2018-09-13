@@ -85,11 +85,11 @@
   <!-- Permissions dialog title -->
   <string name="dialog_permissions_title">権限</string>
   <!-- Message: microphone access denied -->
-  <string name="dialog_permissions_mic">レコーダーは音声を録音するためにマイクの権限を必要とします。</string>
+  <string name="dialog_permissions_mic">レコーダーは音声を録音するためにマイクの権限を必要とします</string>
   <!-- Message: storage access denied -->
-  <string name="dialog_permissions_storage">レコーダーは録音したファイルを保存するためにストレージの権限を必要とします。</string>
+  <string name="dialog_permissions_storage">レコーダーは録音したファイルを保存するためにストレージの権限を必要とします</string>
   <!-- Message: phone status denied -->
-  <string name="dialog_permissions_phone">レコーダーは通話中に録音を停止するために端末の状態の権限が必要とします。</string>
+  <string name="dialog_permissions_phone">レコーダーは通話中に録音を停止するために端末の状態の権限が必要とします</string>
   <!-- Message: microphone and storage access denied -->
   <string name="dialog_permissions_mic_storage">レコーダーは音声を録音するためにマイクの権限と、録音したファイルを保存するためにストレージの権限を必要とします。</string>
   <!-- Message: microphone and phone status access denied -->
