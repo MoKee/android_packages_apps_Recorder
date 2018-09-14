@@ -30,7 +30,7 @@
   <!-- Delete confirm title -->
   <string name="delete_title">レコードの削除</string>
   <!-- Delete confirm message -->
-  <string name="delete_message">%1$s を削除してよろしいですか。その後は元に戻すことはできません。</string>
+  <string name="delete_message">%1$s を削除してよろしいですか？その後は元に戻すことはできません。</string>
   <!-- Date for last item %1 is year, %2 month, %3 day, %4 hour, %5 min -->
   <string name="date_format">%1$s-%2$s-%3$s %4$s:%5$s</string>
   <!-- Permissions -->
@@ -49,6 +49,7 @@
   <!-- Screen recorder disabled audio message -->
   <string name="screen_audio_message_off">マイクの音声は動画に含まれません</string>
   <!-- Screen recorder disabled audio toggle message -->
+  <string name="screen_audio_message_disabled">画面の録画中はこの設定を変更できません</string>
   <!-- Screen recorder audio permission request card button -->
   <string name="screen_audio_warning_button_ask">要求する</string>
   <!-- Screen recorder notification storage error title -->
@@ -70,8 +71,9 @@
   <!-- Screen recorder notification overlay title -->
   <string name="screen_overlay_notif_title">画面の録画の準備が出来ました</string>
   <!-- Screen recorder notification overlay message -->
-  <string name="screen_overlay_notif_message">準備ができたら録画ボタンを押してください</string>
+  <string name="screen_overlay_notif_message">準備ができたら録画ボタンを押して下さい</string>
   <!-- Screen settings dialog title -->
+  <string name="screen_settings_title">スクリーンレコード設定</string>
   <!-- Permissions -->
   <!-- Permissions dialog title -->
   <string name="dialog_permissions_title">アクセス許可</string>
@@ -80,7 +82,7 @@
   <!-- Message: storage access denied -->
   <string name="dialog_permissions_storage">レコーダーは録音したファイルを保存するためにストレージの権限を必要とします</string>
   <!-- Message: phone status denied -->
-  <string name="dialog_permissions_phone">レコーダーは通話中に録音を停止するために端末の状態の権限を必要とします。</string>
+  <string name="dialog_permissions_phone">レコーダーは通話中に録音を停止するために端末の状態の権限を必要とします</string>
   <!-- Message: microphone and storage access denied -->
   <string name="dialog_permissions_mic_storage">レコーダーは音声を録音するためにマイクの権限と、録音したファイルを保存するためにストレージの権限を必要とします</string>
   <!-- Message: microphone and phone status access denied -->
@@ -94,11 +96,13 @@
   <!-- Permissions dialog action: dismiss dialog -->
   <string name="dialog_permissions_dismiss">閉じる</string>
   <!-- Message: overlay permission denied. Make sure "Draw over other apps" matches settings strings -->
-  <string name="dialog_permissions_overlay">レコーダーには画面を録画するために「他のアプリの上に重ねて表示」権限が必要です。権限を許可してからレコーダーに戻ってください</string>
+  <string name="dialog_permissions_overlay">レコーダーには画面を録画するために「他のアプリの上に重ねて表示」権限が必要です。権限を許可してからレコーダーに戻って下さい</string>
   <!-- No permissions granted error -->
-  <string name="snack_permissions_no_permission">必要なアクセス許可が拒否された、録画を開始するためにアクセス許可を有効にしてください</string>
+  <string name="snack_permissions_no_permission">必要なアクセス許可が拒否されました。録画を開始するためにアクセス許可を有効にして下さい</string>
   <!-- Main activity -->
   <!-- Screen record title -->
+  <string name="main_screen_action">画面の録画</string>
   <!-- Sound record title -->
+  <string name="main_sound_action">サウンドの録音</string>
   <!-- Transition name for dialogActivity -->
 </resources>
