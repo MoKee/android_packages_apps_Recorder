@@ -18,9 +18,11 @@
 <resources>
   <!-- Common actions -->
   <!-- Share action for notification -->
+  <string name="share">ಹಂಚಿಕೊಳ್ಳಿ</string>
   <!-- Stop action for notification -->
   <!-- Play action -->
   <!-- Delete action -->
+  <string name="delete">ಅಳಿಸು</string>
   <!-- Cancel action -->
   <string name="cancel">ರದ್ದು</string>
   <!-- Delete confirm title -->
@@ -65,6 +67,7 @@
   <!-- Message: microphone, storage and phone status access denied -->
   <!-- Permissions dialog action: ask permissions access again -->
   <!-- Permissions dialog action: dismiss dialog -->
+  <string name="dialog_permissions_dismiss">ವಜಾ ಮಾಡು</string>
   <!-- Message: overlay permission denied. Make sure "Draw over other apps" matches settings strings -->
   <!-- No permissions granted error -->
   <!-- Main activity -->
