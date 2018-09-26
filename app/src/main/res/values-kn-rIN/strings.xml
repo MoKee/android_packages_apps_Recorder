@@ -60,6 +60,7 @@
   <!-- Message: microphone, storage and phone status access denied -->
   <!-- Permissions dialog action: ask permissions access again -->
   <!-- Permissions dialog action: dismiss dialog -->
+  <string name="dialog_permissions_dismiss">ವಜಾ ಮಾಡು</string>
   <!-- Message: overlay permission denied. Make sure "Draw over other apps" matches settings strings -->
   <!-- No permissions granted error -->
   <!-- Main activity -->
