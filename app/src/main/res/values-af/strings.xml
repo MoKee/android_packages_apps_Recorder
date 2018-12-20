@@ -26,6 +26,7 @@
     <!-- Delete action -->
     <string name="delete">Verwyder</string>
     <!-- Cancel action -->
+    <string name="cancel">Kanselleer</string>
     <!-- Delete confirm title -->
     <string name="delete_title">Verwyde opname</string>
     <!-- Delete confirm message -->

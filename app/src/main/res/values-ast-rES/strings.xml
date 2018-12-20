@@ -27,6 +27,7 @@
     <!-- Delete action -->
     <string name="delete">Desaniciar</string>
     <!-- Cancel action -->
+    <string name="cancel">Encaboxar</string>
     <!-- Delete confirm title -->
     <string name="delete_title">Desaniciando grabación</string>
     <!-- Delete confirm message -->

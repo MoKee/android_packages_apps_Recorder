@@ -27,6 +27,7 @@
     <!-- Delete action -->
     <string name="delete">Fshi</string>
     <!-- Cancel action -->
+    <string name="cancel">Anullo</string>
     <!-- Delete confirm title -->
     <string name="delete_title">Duke fshirë regjistrimin</string>
     <!-- Delete confirm message -->
