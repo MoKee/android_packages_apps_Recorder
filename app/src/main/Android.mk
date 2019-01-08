@@ -29,14 +29,13 @@ LOCAL_AAPT_FLAGS := \
     --rename-manifest-package org.mokee.recorder
 
 LOCAL_STATIC_ANDROID_LIBRARIES += \
-    android-support-annotations \
-    android-support-constraint-layout \
-    android-support-constraint-layout-solver \
-    android-support-design \
-    android-support-v4 \
-    android-support-v7-appcompat \
-    android-support-v7-cardview \
-    android-support-v7-recyclerview
+    androidx.annotation_annotation \
+    androidx-constraintlayout_constraintlayout \
+    androidx-constraintlayout_constraintlayout-solver \
+    androidx.appcompat_appcompat \
+    androidx.cardview_cardview \
+    androidx.recyclerview_recyclerview \
+    com.google.android.material_material \
 
 LOCAL_PACKAGE_NAME := Recorder
 LOCAL_CERTIFICATE := platform
