@@ -17,9 +17,11 @@
 <resources>
     <!-- Common actions -->
     <!-- Share action for notification -->
+    <string name="share">ແບ່ງປັນ</string>
     <!-- Stop action for notification -->
     <!-- Play action -->
     <!-- Delete action -->
+    <string name="delete">ລຶບ</string>
     <!-- Cancel action -->
     <!-- Delete confirm title -->
     <!-- Delete confirm message -->

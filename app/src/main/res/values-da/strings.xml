@@ -26,6 +26,7 @@
     <!-- Delete action -->
     <string name="delete">Slet</string>
     <!-- Cancel action -->
+    <string name="cancel">Annuller</string>
     <!-- Delete confirm title -->
     <string name="delete_title">Sletter optagelse</string>
     <!-- Delete confirm message -->

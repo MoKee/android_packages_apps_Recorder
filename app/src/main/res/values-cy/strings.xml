@@ -21,6 +21,7 @@
     <string name="stop">Stopio</string>
     <!-- Play action -->
     <!-- Delete action -->
+    <string name="delete">Dileu</string>
     <!-- Cancel action -->
     <string name="cancel">Diddymu</string>
     <!-- Delete confirm title -->

@@ -44,6 +44,7 @@
     <!-- Sound recorder last item title -->
     <string name="sound_last_title">Laatste opname</string>
     <!-- Sound recorder notification channel title -->
+    <string name="sound_channel_title">Geluid opnemen</string>
     <!-- Sound recorder notification channel description-->
     <!-- Screen recorder -->
     <!-- Screen recorder enabled audio message -->
@@ -77,7 +78,9 @@
     <!-- Screen settings dialog title -->
     <string name="screen_settings_title">Instellingen Schermrecorder</string>
     <!-- Screen recorder notification overlay channel title -->
+    <string name="screen_overlay_channel_title">Klaar om het scherm op te nemen</string>
     <!-- Screen recorder notification overlay channel description-->
+    <string name="screen_overlay_channel_desc">Notificatie die aangeeft wanneer schermopname klaar is om te beginnen</string>
     <!-- Screen recorder persistent notification channel title -->
     <string name="screen_channel_title">Scherm opnemen</string>
     <!-- Screen recorder persistent notification channel description-->

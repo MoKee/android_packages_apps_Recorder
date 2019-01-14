@@ -17,10 +17,13 @@
 <resources>
     <!-- Common actions -->
     <!-- Share action for notification -->
+    <string name="share">แบ่งปัน</string>
     <!-- Stop action for notification -->
     <!-- Play action -->
     <!-- Delete action -->
+    <string name="delete">ลบ</string>
     <!-- Cancel action -->
+    <string name="cancel">ยกเลิก</string>
     <!-- Delete confirm title -->
     <!-- Delete confirm message -->
     <!-- Date for last item %1 is year, %2 month, %3 day, %4 hour, %5 min -->
