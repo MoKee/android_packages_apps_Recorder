@@ -15,7 +15,7 @@
      limitations under the License.
 -->
 <resources>
-    <string name="app_name">Felvevő</string>
+    <string name="app_name">Hangrögzítő</string>
     <string name="share">Megosztás</string>
     <string name="stop">Leállítás</string>
     <string name="play">Lejátszás</string>
