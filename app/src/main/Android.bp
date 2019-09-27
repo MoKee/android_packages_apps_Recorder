@@ -33,6 +33,10 @@ android_app {
         "com.google.android.material_material",
     ],
 
+    aaptflags: [
+            "--rename-manifest-package org.mokee.recorder",
+        ],
+
     sdk_version: "current",
 
 }
