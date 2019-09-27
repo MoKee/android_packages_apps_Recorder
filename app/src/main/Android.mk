@@ -25,6 +25,9 @@ LOCAL_SRC_FILES := \
 
 LOCAL_USE_AAPT2 := true
 
+LOCAL_AAPT_FLAGS := \
+    --rename-manifest-package org.mokee.recorder
+
 LOCAL_STATIC_ANDROID_LIBRARIES += \
     androidx.annotation_annotation \
     androidx-constraintlayout_constraintlayout \
