@@ -32,7 +32,6 @@
     <!-- Delete confirm message -->
     <string name="delete_message">Are you sure you want to delete %1$s? This cannot be undone</string>
     <!-- Date for last item %1 is year, %2 month, %3 day, %4 hour, %5 min -->
-    <string name="date_format">%1$s-%2$s-%3$s %4$s:%5$s</string>
 
     <!-- Permissions -->
 
@@ -74,7 +73,7 @@
     <!-- Screen recorder last item title -->
     <string name="screen_last_title">Last record</string>
     <!-- Screen recorder last item message -->
-    <string name="screen_last_message">Date: %1$s\nDuration: %2$d seconds</string>
+    <string name="screen_last_message">Duration: %1$d seconds</string>
     <!-- Screen recorder notification overlay title -->
     <string name="screen_overlay_notif_title">Ready to record</string>
     <!-- Screen recorder notification overlay message -->

@@ -16,6 +16,7 @@
 package org.lineageos.recorder;
 
 import android.Manifest;
+import android.app.Activity;
 import android.content.BroadcastReceiver;
 import android.content.ComponentName;
 import android.content.Context;
@@ -24,26 +25,29 @@ import android.content.IntentFilter;
 import android.content.ServiceConnection;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
+import android.media.projection.MediaProjectionManager;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.IBinder;
 import android.provider.Settings;
-import androidx.annotation.NonNull;
-import androidx.constraintlayout.widget.ConstraintLayout;
-import androidx.constraintlayout.widget.ConstraintSet;
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import androidx.transition.TransitionManager;
-import androidx.core.app.ActivityCompat;
-import androidx.core.app.ActivityOptionsCompat;
-import androidx.core.content.ContextCompat;
-import androidx.appcompat.app.AlertDialog;
-import androidx.appcompat.app.AppCompatActivity;
 import android.telephony.TelephonyManager;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.constraintlayout.widget.ConstraintSet;
+import androidx.core.app.ActivityCompat;
+import androidx.core.app.ActivityOptionsCompat;
+import androidx.core.content.ContextCompat;
+import androidx.transition.TransitionManager;
+
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import org.lineageos.recorder.screen.OverlayService;
 import org.lineageos.recorder.screen.ScreencastService;
@@ -61,6 +65,7 @@ public class RecorderActivity extends AppCompatActivity implements
     private static final int REQUEST_SCREEN_REC_PERMS = 439;
     private static final int REQUEST_SOUND_REC_PERMS = 440;
     private static final int REQUEST_DIALOG_ACTIVITY = 441;
+    private static final int REQUEST_AUDIO_VIDEO = 442;
 
     private static final int[] PERMISSION_ERROR_MESSAGE_RES_IDS = {
             0,
@@ -248,7 +253,6 @@ public class RecorderActivity extends AppCompatActivity implements
         if (mSoundService.isRecording()) {
             // Stop
             mSoundService.stopRecording();
-            mSoundService.createShareNotification();
             stopService(new Intent(this, SoundRecorderService.class));
             Utils.setStatus(this, Utils.UiStatus.NOTHING);
         } else {
@@ -272,12 +276,27 @@ public class RecorderActivity extends AppCompatActivity implements
                     .setClass(this, ScreencastService.class));
         } else {
             // Start
-            new Handler().postDelayed(() -> {
-                Intent intent = new Intent(this, OverlayService.class);
-                intent.putExtra(OverlayService.EXTRA_HAS_AUDIO, isAudioAllowedWithScreen());
-                startService(intent);
-                onBackPressed();
-            }, 500);
+            MediaProjectionManager mediaProjectionManager = getSystemService(
+                    MediaProjectionManager.class);
+            if (mediaProjectionManager == null) {
+                return;
+            }
+
+            Intent permissionIntent = mediaProjectionManager.createScreenCaptureIntent();
+            startActivityForResult(permissionIntent, REQUEST_AUDIO_VIDEO);
+        }
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if (requestCode == REQUEST_AUDIO_VIDEO && resultCode == Activity.RESULT_OK) {
+            Intent intent = new Intent(this, OverlayService.class);
+            intent.putExtra(OverlayService.EXTRA_HAS_AUDIO, isAudioAllowedWithScreen());
+            intent.putExtra(OverlayService.EXTRA_RESULT_CODE, resultCode);
+            intent.putExtra(OverlayService.EXTRA_RESULT_DATA, data);
+            startService(intent);
+            finish();
         }
     }
 
@@ -339,6 +358,7 @@ public class RecorderActivity extends AppCompatActivity implements
         return hasAudioPermission() && hasPhoneReaderPermission();
     }
 
+    @SuppressWarnings("SameReturnValue")
     private boolean hasAllScreenRecorderPermissions() {
         // None for now
         return true;
@@ -359,7 +379,7 @@ public class RecorderActivity extends AppCompatActivity implements
             return false;
         }
 
-        String[] permissionArray = permissions.toArray(new String[permissions.size()]);
+        String[] permissionArray = permissions.toArray(new String[0]);
         requestPermissions(permissionArray, REQUEST_SOUND_REC_PERMS);
         return true;
     }
@@ -377,7 +397,7 @@ public class RecorderActivity extends AppCompatActivity implements
             return true;
         }
 
-        return true;
+        return false;
     }
 
     private boolean isAudioAllowedWithScreen() {
@@ -416,8 +436,8 @@ public class RecorderActivity extends AppCompatActivity implements
     }
 
     private void updateLastItemStatus() {
-        String lastScreen = LastRecordHelper.getLastItemPath(this, false);
-        String lastSound = LastRecordHelper.getLastItemPath(this, true);
+        Uri lastScreen = LastRecordHelper.getLastItemUri(this, false);
+        Uri lastSound = LastRecordHelper.getLastItemUri(this, true);
 
         if (lastScreen == null) {
             mScreenLast.setVisibility(View.GONE);

@@ -27,17 +27,20 @@ import android.content.IntentFilter;
 import android.media.AudioFormat;
 import android.media.AudioRecord;
 import android.media.MediaRecorder;
-import android.os.Build;
+import android.net.Uri;
 import android.os.Environment;
 import android.os.IBinder;
-import androidx.core.app.NotificationCompat;
-import androidx.core.content.ContextCompat;
 import android.text.format.DateUtils;
 import android.util.Log;
+
+import androidx.annotation.Nullable;
+import androidx.core.app.NotificationCompat;
+import androidx.core.content.ContextCompat;
 
 import org.lineageos.recorder.R;
 import org.lineageos.recorder.RecorderActivity;
 import org.lineageos.recorder.utils.LastRecordHelper;
+import org.lineageos.recorder.utils.MediaProviderHelper;
 import org.lineageos.recorder.utils.Utils;
 
 import java.io.BufferedOutputStream;
@@ -50,7 +53,7 @@ import java.util.Locale;
 import java.util.Timer;
 import java.util.TimerTask;
 
-public class SoundRecorderService extends Service {
+public class SoundRecorderService extends Service implements MediaProviderHelper.OnContentWritten {
 
     static final String EXTENSION = ".pcm";
     private static final String ACTION_STARTED = "org.lineageos.recorder.sounds.STARTED_SOUND";
@@ -113,9 +116,8 @@ public class SoundRecorderService extends Service {
 
         mNotificationManager = getSystemService(NotificationManager.class);
 
-        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.O ||
-                mNotificationManager == null || mNotificationManager.getNotificationChannel(
-                        SOUNDRECORDER_NOTIFICATION_CHANNEL) != null) {
+        if (mNotificationManager == null || mNotificationManager.getNotificationChannel(
+                SOUNDRECORDER_NOTIFICATION_CHANNEL) != null) {
             return;
         }
 
@@ -132,6 +134,17 @@ public class SoundRecorderService extends Service {
     public void onDestroy() {
         unregisterReceiver(mShutdownReceiver);
         super.onDestroy();
+    }
+
+    @Override
+    public void onContentWritten(@Nullable String uri) {
+        mStatus = RecorderStatus.STOPPED;
+        mOutFilePath = uri;
+        Intent intent = new Intent(ACTION_STOPPED);
+        intent.putExtra(EXTRA_FILE, mOutFilePath);
+        sendBroadcast(intent);
+        createShareNotification();
+        stopForeground(true);
     }
 
     public boolean isRecording() {
@@ -201,11 +214,8 @@ public class SoundRecorderService extends Service {
             oldFile.delete();
         }
 
-        mStatus = RecorderStatus.STOPPED;
-        Intent intent = new Intent(ACTION_STOPPED);
-        intent.putExtra(EXTRA_FILE, mOutFilePath);
-        sendBroadcast(intent);
-        stopForeground(true);
+        MediaProviderHelper.addSoundToContentProvider(
+                getContentResolver(), new File(mOutFilePath), this);
     }
 
     private File createNewAudioFile() {
@@ -214,7 +224,7 @@ public class SoundRecorderService extends Service {
         File file = new File(getExternalFilesDir(Environment.DIRECTORY_MUSIC),
                 "SoundRecords/SoundRecord-" + dateFormat.format(new Date()) + EXTENSION);
         File recordingDir = file.getParentFile();
-        if (!recordingDir.exists()) {
+        if (recordingDir != null && !recordingDir.exists()) {
             //noinspection ResultOfMethodCallIgnored
             recordingDir.mkdirs();
         }
@@ -238,7 +248,7 @@ public class SoundRecorderService extends Service {
 
                 }
             } catch (IOException e) {
-                Log.e(TAG, e.getMessage());
+                Log.e(TAG, "Failed to write audio stream", e);
             } finally {
                 Utils.closeQuietly(out);
             }
@@ -251,8 +261,8 @@ public class SoundRecorderService extends Service {
             while (isRecording()) {
                 try {
                     Thread.sleep(150L);
-                } catch (InterruptedException e) {
-                    Log.e(TAG, e.getMessage());
+                } catch (InterruptedException ignored) {
+                    // Ignore
                 }
 
                 double val = 0d;
@@ -306,15 +316,16 @@ public class SoundRecorderService extends Service {
         return builder.build();
     }
 
-    public void createShareNotification() {
+    private void createShareNotification() {
+        Uri outFileUri = Uri.parse(mOutFilePath);
         Intent intent = new Intent(this, RecorderActivity.class);
         PendingIntent pi = PendingIntent.getActivity(this, 0, intent, 0);
 
         PendingIntent playPIntent = PendingIntent.getActivity(this, 0,
-                LastRecordHelper.getOpenIntent(this, mOutFilePath, "audio/wav"),
+                LastRecordHelper.getOpenIntent(outFileUri, "audio/wav"),
                 PendingIntent.FLAG_CANCEL_CURRENT);
         PendingIntent sharePIntent = PendingIntent.getActivity(this, 0,
-                LastRecordHelper.getShareIntent(this, mOutFilePath, "audio/wav"),
+                LastRecordHelper.getShareIntent(outFileUri, "audio/wav"),
                 PendingIntent.FLAG_CANCEL_CURRENT);
         PendingIntent deletePIntent = PendingIntent.getActivity(this, 0,
                 LastRecordHelper.getDeleteIntent(this, true),
