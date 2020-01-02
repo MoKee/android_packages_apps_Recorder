@@ -27,6 +27,8 @@
     <string name="sound_notification_message">Тривалість аудіо запису: %1$s</string>
     <string name="sound_recording_title_working">Запис</string>
     <string name="sound_last_title">Останній запис</string>
+    <string name="sound_channel_title">Записати звук</string>
+    <string name="sound_channel_desc">Постійне повідомлення при запису звуку та повідомлення після його завершення</string>
     <string name="screen_audio_message_on">Звук з мікрофону буде додано у відео</string>
     <string name="screen_audio_message_off">Звук з мікрофону не буде додано у відео</string>
     <string name="screen_audio_message_disabled">Під час запису екрану змінити ці налаштування неможливо</string>
@@ -40,6 +42,10 @@
     <string name="screen_last_title">Останній запис</string>
     <string name="screen_overlay_notif_title">Готово для запису</string>
     <string name="screen_overlay_notif_message">Натисніть кнопку запису, щоб почати</string>
+    <string name="screen_settings_title">Налаштування запису з екрану</string>
+    <string name="screen_overlay_channel_title">Готово до запису з екрану</string>
+    <string name="screen_overlay_channel_desc">Повідомлення, що показує готовність запису з екрану</string>
+    <string name="screen_channel_title">Запис з екрану</string>
     <string name="dialog_permissions_title">Дозволи</string>
     <string name="dialog_permissions_mic">Додаток «Звукозаписувач» потребує доступ до мікрофону для здійснення звукозапису</string>
     <string name="dialog_permissions_phone">Додатку «Recorder» потрібен доступ до стану телефону, щоб припиняти аудіозапис під час дзвінка</string>

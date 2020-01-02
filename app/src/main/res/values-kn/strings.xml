@@ -15,6 +15,9 @@
      limitations under the License.
 -->
 <resources>
+    <string name="share">ಹಂಚಿಕೊಳ್ಳಿ</string>
+    <string name="delete">ಅಳಿಸು</string>
+    <string name="cancel">ರದ್ದು</string>
     <string name="sound_channel_title">ಧ್ವನಿಮುದ್ರಣ</string>
     <string name="sound_channel_desc">ಧ್ವನಿಮುದ್ರಿಸುವಾಗ ನಿರಂತರ ಸೂಚನೆ ಮತ್ತು ಅಂತ್ಯವಾದಾಗ ಸೂಚನೆ</string>
     <string name="screen_notification_message">ದೃಶ್ಯಾವಧಿ: %s</string>
@@ -22,4 +25,5 @@
     <string name="screen_overlay_channel_desc">ಪರದೆ ಮುದ್ರಣ ಸಿದ್ಧವೆಂದು ತೋರಿಸುವ ಸೂಚನೆ</string>
     <string name="screen_channel_title">ಪರದೆ ದಾಖಲತ್ತು</string>
     <string name="screen_channel_desc">ಪರದೆಯನ್ನು ದಾಖಲಿಸುವಾಗ ನಿರಂತರ ಸೂಚನೆ ಮತ್ತು ಅಂತ್ಯವಾದಾಗ ಸೂಚನೆ</string>
+    <string name="dialog_permissions_dismiss">ವಜಾ ಮಾಡು</string>
 </resources>
