@@ -19,7 +19,7 @@
     <string name="share">Compartir</string>
     <string name="stop">Parar</string>
     <string name="play">Reproducir</string>
-    <string name="delete">Borrar</string>
+    <string name="delete">Eliminar</string>
     <string name="cancel">Cancelar</string>
     <string name="delete_title">Borrando grabación</string>
     <string name="delete_message">¿Quieres borrar %1$s? Esto no puede deshacerse</string>
@@ -28,7 +28,7 @@
     <string name="sound_recording_title_working">Grabando</string>
     <string name="sound_last_title">Última grabación</string>
     <string name="sound_channel_title">Grabación de sonido</string>
-    <string name="sound_channel_desc">Notificación persistente al grabar sonido y notificación al completar</string>
+    <string name="sound_channel_desc">Notificación persistente cuando se graba sonido y notificación después de completar</string>
     <string name="screen_audio_message_on">El audio grabado por el micrófono se incluirá en el video</string>
     <string name="screen_audio_message_off">El audio grabado por el micrófono no se incluirá en el video</string>
     <string name="screen_audio_message_disabled">Es imposible cambiar esta configuración mientras se graba la pantalla</string>
@@ -44,9 +44,9 @@
     <string name="screen_overlay_notif_message">Pulsa el botón de grabación cuando estés listo para grabar</string>
     <string name="screen_settings_title">Ajustes de grabación de pantalla</string>
     <string name="screen_overlay_channel_title">Listo para grabar la pantalla</string>
-    <string name="screen_overlay_channel_desc">Notificación mostrando que la grabación de la pantalla está lista para iniciar</string>
+    <string name="screen_overlay_channel_desc">Notificación que muestra que la grabación de la pantalla está lista para iniciar</string>
     <string name="screen_channel_title">Grabación de pantalla</string>
-    <string name="screen_channel_desc">Notificación persistente al grabar la pantalla y notificación al completar</string>
+    <string name="screen_channel_desc">Notificación persistente cuando se graba la pantalla y notificación después de completar</string>
     <string name="dialog_permissions_title">Permisos</string>
     <string name="dialog_permissions_mic">La grabadora necesita acceder al micrófono para grabar el audio</string>
     <string name="dialog_permissions_phone">La grabadora de sonidos necesita acceder al estado del teléfono para evitar grabar durante una llamada</string>

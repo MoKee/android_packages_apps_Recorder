@@ -19,8 +19,8 @@
     <string name="share">Дели</string>
     <string name="stop">Заустави</string>
     <string name="play">Пусти</string>
-    <string name="delete">Избриши</string>
-    <string name="cancel">Прекини</string>
+    <string name="delete">Брисање</string>
+    <string name="cancel">Откажи</string>
     <string name="delete_title">Брисање снимка</string>
     <string name="delete_message">Заиста желите да избришете „%1$s“? Ова радња је неповратна.</string>
     <string name="sound_notification_title">Снимање звука</string>

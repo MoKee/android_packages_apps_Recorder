@@ -28,7 +28,7 @@
     <string name="sound_recording_title_working">Nagrywanie</string>
     <string name="sound_last_title">Ostatnie nagranie</string>
     <string name="sound_channel_title">Nagrywanie dźwięku</string>
-    <string name="sound_channel_desc">Stałe powiadomienie podczas nagrywania dźwięku i powiadomienie po jego ukończeniu</string>
+    <string name="sound_channel_desc">Powiadomienie podczas nagrywania dźwięku i powiadomienie po jego ukończeniu</string>
     <string name="screen_audio_message_on">Dźwięk z mikrofonu zostanie umieszczony w filmie</string>
     <string name="screen_audio_message_off">Dźwięk z mikrofonu nie będzie zawarty w filmie</string>
     <string name="screen_audio_message_disabled">Nie można zmienić tego ustawienia podczas nagrywania ekranu</string>
@@ -44,9 +44,9 @@
     <string name="screen_overlay_notif_message">Naciśnij przycisk nagrywania, gdy jesteś gotowy rozpocząć</string>
     <string name="screen_settings_title">Ustawienia nagrywania ekranu</string>
     <string name="screen_overlay_channel_title">Gotowy do nagrywania ekranu</string>
-    <string name="screen_overlay_channel_desc">Powiadomienie pokazujące gotowość do uruchomienia nagrywania ekranu</string>
+    <string name="screen_overlay_channel_desc">Powiadomienie pokazujące,że nagrywanie ekranu jest gotowe do uruchomienia</string>
     <string name="screen_channel_title">Nagrywanie ekranu</string>
-    <string name="screen_channel_desc">Stałe powiadomienie podczas nagrywania ekranu i powiadomienie po jego ukończeniu</string>
+    <string name="screen_channel_desc">Powiadomienie podczas nagrywania ekranu i powiadomienie po jego ukończeniu</string>
     <string name="dialog_permissions_title">Uprawnienia</string>
     <string name="dialog_permissions_mic">Rejestrator musi mieć uprawnienia do mikrofonu w celu nagrywania dźwięku </string>
     <string name="dialog_permissions_phone">Rejestrator potrzebuje dostępu do stanu telefonu, aby zapobiec nagrywaniu w trakcie wykonywania połączenia</string>

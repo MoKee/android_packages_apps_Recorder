@@ -19,7 +19,7 @@
     <string name="share">Dela</string>
     <string name="stop">Avbryt</string>
     <string name="play">Spela upp</string>
-    <string name="delete">Radera</string>
+    <string name="delete">Ta bort</string>
     <string name="cancel">Avbryt</string>
     <string name="delete_title">Ta bort inspelning</string>
     <string name="delete_message">Är du säker på att du vill ta bort %1$s? Denna åtgärd kan inte ångras</string>

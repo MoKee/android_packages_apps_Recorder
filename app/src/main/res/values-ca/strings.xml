@@ -19,7 +19,7 @@
     <string name="share">Comparteix</string>
     <string name="stop">Para</string>
     <string name="play">Reprodueix</string>
-    <string name="delete">Elimina</string>
+    <string name="delete">Esborra</string>
     <string name="cancel">Cancel·la</string>
     <string name="delete_title">S\'està eliminant el registre</string>
     <string name="delete_message">Estàs segur que vols eliminar %1$s? Aquesta acció no podrà desfer-se</string>

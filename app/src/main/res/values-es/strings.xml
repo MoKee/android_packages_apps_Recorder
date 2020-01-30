@@ -19,7 +19,7 @@
     <string name="share">Compartir</string>
     <string name="stop">Detener</string>
     <string name="play">Reproducir</string>
-    <string name="delete">Borrar</string>
+    <string name="delete">Eliminar</string>
     <string name="cancel">Cancelar</string>
     <string name="delete_title">Borrando grabación</string>
     <string name="delete_message">¿Está seguro que quiere borrar %1$s? Esto no puede deshacerse</string>

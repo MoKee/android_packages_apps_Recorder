@@ -15,12 +15,12 @@
      limitations under the License.
 -->
 <resources>
-    <string name="app_name">Recorder</string>
+    <string name="app_name">Înregistrare</string>
     <string name="share">Distribuiți</string>
-    <string name="stop">Stop</string>
+    <string name="stop">Oprește</string>
     <string name="play">Redați</string>
     <string name="delete">Ștergeți</string>
-    <string name="cancel">Anulare</string>
+    <string name="cancel">Revocați</string>
     <string name="delete_title">Ștergere înregistrare</string>
     <string name="delete_message">Sunteţi sigur(ă) că doriţi să ştergeţi %1$s? Această acţiune nu poate fi modificată ulterior</string>
     <string name="sound_notification_title">Înregistrare Sunet</string>

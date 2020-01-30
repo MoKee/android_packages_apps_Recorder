@@ -20,7 +20,7 @@
     <string name="stop">Стоп</string>
     <string name="play">Възпроизвеждане</string>
     <string name="delete">Изтриване</string>
-    <string name="cancel">Отказ</string>
+    <string name="cancel">Отмени</string>
     <string name="delete_title">Изтриване на записа</string>
     <string name="delete_message">Наистина ли искате да изтриете %1$s? Това действе не може да бъде отменено</string>
     <string name="sound_notification_title">Записване на звук</string>

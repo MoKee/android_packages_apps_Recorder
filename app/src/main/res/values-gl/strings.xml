@@ -19,7 +19,7 @@
     <string name="share">Compartir</string>
     <string name="stop">Deter</string>
     <string name="play">Reproducir</string>
-    <string name="delete">Borrar</string>
+    <string name="delete">Eliminar</string>
     <string name="cancel">Cancelar</string>
     <string name="delete_title">Eliminando rexistro</string>
     <string name="delete_message">Tes a certeza de querer eliminar %1$s? Isto non poderá desfacerse</string>

@@ -17,9 +17,9 @@
 <resources>
     <string name="app_name">Opnemer</string>
     <string name="share">Deel</string>
-    <string name="stop">Stop</string>
     <string name="play">Speel</string>
     <string name="delete">Verwyder</string>
+    <string name="cancel">Kanselleer</string>
     <string name="delete_title">Verwyde opname</string>
     <string name="delete_message">Is jy seker jy wil %1$s verwyder? Dit kan nie ongedaan gemaak word nie</string>
     <string name="sound_notification_title">Klankopnemer</string>

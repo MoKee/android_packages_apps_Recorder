@@ -19,7 +19,7 @@
     <string name="share">Partilhar</string>
     <string name="stop">Parar</string>
     <string name="play">Reproduzir</string>
-    <string name="delete">Apagar</string>
+    <string name="delete">Eliminar</string>
     <string name="cancel">Cancelar</string>
     <string name="delete_title">A apagar a gravação</string>
     <string name="delete_message">Tem a certeza que quer apagar %1$s? Esta ação não pode ser revertida</string>

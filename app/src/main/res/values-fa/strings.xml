@@ -15,7 +15,8 @@
      limitations under the License.
 -->
 <resources>
-    <string name="sound_channel_title">Snimanje zvuka</string>
-    <string name="screen_overlay_channel_title">Spremno za snimanje ekrana</string>
-    <string name="screen_channel_title">Snimanje ekrana</string>
+    <string name="share">اشتراک‌گذاری</string>
+    <string name="stop">توقف</string>
+    <string name="delete">حذف</string>
+    <string name="dialog_permissions_title">مجوز ها</string>
 </resources>
