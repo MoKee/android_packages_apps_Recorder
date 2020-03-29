@@ -14,8 +14,50 @@
      limitations under the License.
 -->
 <resources>
+    <string name="app_name">ರೆಕಾರ್ಡರ್</string>
     <string name="share">ಹಂಚಿಕೊಳ್ಳಿ</string>
+    <string name="stop">ನಿಲ್ಲಿಸು</string>
+    <string name="play">ಚಲಾಯಿಸು</string>
     <string name="delete">ಅಳಿಸು</string>
     <string name="cancel">ರದ್ದು</string>
+    <string name="delete_title">ರೆಕಾರ್ಡ್‌ ಅಳಿಸಲಾಗುತ್ತಿದೆ</string>
+    <string name="delete_message">ನೀವು %1$s ಅನ್ನು ಅಳಿಸಲು ಬಯಸುತ್ತೀರಾ? ಇದನ್ನು ಹಿಂಪಡೆಯಲು ಸಾಧ್ಯವಿಲ್ಲ</string>
+    <string name="date_format">%1$s-%2$s-%3$s %4$s:%5$s</string>
+    <string name="sound_notification_title">ಧ್ವನಿ ರೆಕಾರ್ಡರ್</string>
+    <string name="sound_notification_message">ಧ್ವನಿ ಅಳತೆ: %1$s</string>
+    <string name="sound_recording_title_working">ರೆಕಾರ್ಡ್‌ ಆಗುತ್ತಿದೆ</string>
+    <string name="sound_last_title">ಕೊನೆಯ ಧ್ವನಿಮುದ್ರಣ</string>
+    <string name="sound_channel_title">ಧ್ವನಿ ಮುದ್ರಣಗೊಳ್ಳುತ್ತಿದೆ</string>
+    <string name="sound_channel_desc">ಧ್ವನಿಮುದ್ರಿಸುವಾಗ ನಿರಂತರ ಸೂಚನೆ ಮತ್ತು ಅಂತ್ಯವಾದಾಗ ಸೂಚನೆ</string>
+    <string name="screen_audio_message_on">ದೃಶ್ಯಗಳಲ್ಲಿ ಧ್ವನಿವರ್ಧಕಗಳಿಂದ ಧ್ವನಿಯನ್ನು ಸೇರಿಸಲಾಗುವುದು</string>
+    <string name="screen_audio_message_off">ದೃಶ್ಯಗಳಲ್ಲಿ ಧ್ವನಿವರ್ಧಕಗಳಿಂದ ಧ್ವನಿಯನ್ನು ಸೇರಿಸುವುದಿಲ್ಲ</string>
+    <string name="screen_audio_message_disabled">ಪರದೆಯನ್ನು ರೆಕಾರ್ಡ್‌ ಮಾಡುವಾಗ ಈ ಸಂಯೋಜನೆಯನ್ನು ಬದಲಾಯಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ</string>
+    <string name="screen_audio_warning_button_ask">ಕೇಳಿ</string>
+    <string name="screen_insufficient_storage">ಸಂಗ್ರಹಣೆ ಸಾಕಷ್ಟಿಲ್ಲ</string>
+    <string name="screen_not_enough_storage">ಸಾಕಷ್ಟು ಸಂಗ್ರಹಣೆ ಸ್ಥಳವಿಲ್ಲ</string>
+    <string name="screen_notification_title">ಸ್ಕ್ರೀನ್‌ ರೆಕಾರ್ಡರ್‌</string>
+    <string name="screen_notification_message">ದೃಶ್ಯಾವಧಿ: %s</string>
+    <string name="screen_notification_message_done">ಹಂಚಿಕೊಳ್ಳಲು ತಯಾರಿದೆ</string>
+    <string name="screen_recording_message">ಸ್ಕ್ರೀನ್ ರೆಕಾರ್ಡ್ ಆಗುತ್ತಿದೆ\u2026</string>
+    <string name="screen_last_title">ಕೊನೆಯ ಧ್ವನಿಮುದ್ರಣ</string>
+    <string name="screen_last_message">ದಿನಾಂಕ: %1$s\nಅವಧಿ: %2$d ಸೆಕೆಂಡುಗಳು</string>
+    <string name="screen_overlay_notif_title">ಮುದ್ರಿಸಲು ಸಿದ್ಧ</string>
+    <string name="screen_overlay_notif_message">ನೀವು ಆರಂಭಿಸಲು ಸಿದ್ಧಗೊಂಡ ನಂತರ ರೆಕಾರ್ಡ್‌ ಗುಂಡಿ ಒತ್ತಿ</string>
+    <string name="screen_settings_title">ಸ್ಕ್ರೀನ್‌ ರೆಕಾರ್ಡರ್‌ ಸಂಯೋಜನೆಗಳು</string>
+    <string name="screen_overlay_channel_title">ಪರದೆಯನ್ನು ರೆಕಾರ್ಡ್‌ ಮಾಡಲು ಸಿದ್ಧ</string>
+    <string name="screen_overlay_channel_desc">ಪರದೆ ಮುದ್ರಣ ಆರಂಭಗೊಳ್ಳಲು ಸಿದ್ಧವೆಂದು ತೋರಿಸುವ ಅಧಿಸೂಚನೆ</string>
+    <string name="screen_channel_title">ಪರದೆ ಮುದ್ರಣ</string>
+    <string name="screen_channel_desc">ಪರದೆಯನ್ನು ರೆಕಾರ್ಡ್‌ ಮಾಡುವಾಗ ನಿರಂತರ ಸೂಚನೆ ಮತ್ತು ಪೂರ್ಣಗೊಂಡಾಗ ಸೂಚನೆ</string>
+    <string name="dialog_permissions_title">ಪರವಾನಗಿಗಳು</string>
+    <string name="dialog_permissions_mic">ಧ್ವನಿಯನ್ನು ದಾಖಲಿಸಲು ರೆಕಾರ್ಡರ್‌ಗೆ ಧ್ವನಿವರ್ಧಕಗಳ ಅನುಮತಿಯ ಅಗತ್ಯವಿದೆ</string>
+    <string name="dialog_permissions_storage">ದಾಖಲಿಸಿದ ಕಡತಗಳನ್ನು ಉಳಿಸಲು ರೆಕಾರ್ಡ್‌ರ್ ಗೆ ಸಂಗ್ರಹಣಾ ಅನುಮತಿಯ ಅಗತ್ಯವಿದೆ</string>
+    <string name="dialog_permissions_phone">ಈ ಕಿರುತಂತ್ರಾಂಶಕ್ಕೆ ಕರೆ ಚಾಲ್ತಿಯಲ್ಲಿರುವಾಗ ರೆಕಾರ್ಡ್‌ರ್‌ ಅನ್ನು ತಡೆಹಿಡಿಯಲು ರೆಕಾರ್ಡ್‌ರ್‌ಗೆ ಫೋನಿನ ಸ್ಥಿತಿ ಅನುಮತಿಯ ಅಗತ್ಯವಿದೆ</string>
+    <string name="dialog_permissions_mic_storage">ಮುದ್ರಿಸಿದ ದಾಖಲೆಗಳನ್ನು ಉಳಿಸಲು ಧ್ವನಿ ಮುದ್ರಣಕ್ಕೆ ಮತ್ತು ಸಂಗ್ರಹಣೆಯ ಪ್ರವೇಶಕ್ಕೆ ರೆಕಾರ್ಡ್‌ರ್‌ಗೆ ಧ್ವನಿವರ್ಧಕಗಳ ಅನುಮತಿಯ ಅಗತ್ಯವಿದೆ </string>
+    <string name="dialog_permissions_mic_phone">ಕರೆ ಚಾಲತಿಯಲ್ಲಿರುವಾಗ ಧ್ವನಿ ಮತ್ತು ಫೋನಿನ ಸ್ಥಿತಿ ಅನುಮತಿಗಳನ್ನು ಮುದ್ರಿಸಲು ಈ ಕಿರುತಂತ್ರಾಂಶದಿಂದ ತಡೆಯಲು ರೆಕಾರ್ಡರ್‌ಗೆ ಧ್ವನಿವರ್ಧಕಗಳ ಅನುಮತಿಯ ಅಗತ್ಯವಿದೆ</string>
+    <string name="dialog_permissions_storage_phone">ಕರೆ ಚಾಲತಿಯಲ್ಲಿರುವಾಗ ಧ್ವನಿ ಮತ್ತು ಫೋನಿನ ಸ್ಥಿತಿ ಅನುಮತಿಗಳನ್ನು ಮುದ್ರಿಸಲು ಈ ಕಿರುತಂತ್ರಾಂಶದಿಂದ ತಡೆಯಲು ರೆಕಾರ್ಡರ್‌ಗೆ ಸಂಗ್ರಹಣೆಯ ಅನುಮತಿಯ ಅಗತ್ಯವಿದೆ</string>
+    <string name="dialog_permissions_mic_storage_phone">ಕರೆ ಚಾಲತಿಯಲ್ಲಿರುವಾಗ ಧ್ವನಿ ಮತ್ತು ಫೋನಿನ ಸ್ಥಿತಿ ಅನುಮತಿಗಳನ್ನು ಮುದ್ರಿಸಲು ಈ ಕಿರುತಂತ್ರಾಂಶದಿಂದ ತಡೆಯಲು ರೆಕಾರ್ಡರ್‌ಗೆ ಧ್ವನಿವರ್ಧಕಗಳ ಅನುಮತಿಯ ಅಗತ್ಯವಿದೆ</string>
+    <string name="dialog_permissions_ask">ಪುನಃ ಕೇಳಿ</string>
     <string name="dialog_permissions_dismiss">ವಜಾ ಮಾಡು</string>
+    <string name="main_screen_action">ಪರದೆ ರೆಕಾರ್ಡ್‌ ಮಾಡಿ</string>
+    <string name="main_sound_action">ಧ್ವನಿ ಮುದ್ರಿಸಿ</string>
 </resources>
