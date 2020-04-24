@@ -14,5 +14,15 @@
      limitations under the License.
 -->
 <resources>
+    <string name="share">பகிர்</string>
+    <string name="stop">நிறுத்து</string>
+    <string name="play">இயக்கு</string>
+    <string name="delete">நீக்கு</string>
     <string name="cancel">ரத்துசெய்</string>
+    <string name="delete_title">பதிவை நீக்குதல்</string>
+    <string name="sound_notification_message">ஒலி நீளம்: %1$s</string>
+    <string name="screen_notification_message_done">பகிர்ந்து கொள்ள தயார்</string>
+    <string name="dialog_permissions_title">அனுமதிகள்</string>
+    <string name="dialog_permissions_ask">மீண்டும் கேள்</string>
+    <string name="dialog_permissions_dismiss">நிராகரி</string>
 </resources>
