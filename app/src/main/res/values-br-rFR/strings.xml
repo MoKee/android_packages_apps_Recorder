@@ -17,7 +17,9 @@
     <string name="share">Rannañ</string>
     <string name="delete">Dilemel</string>
     <string name="cancel">Nullañ</string>
+    <string name="delete_message">Sur oc\'h e fell deoc\'h dilemel %1$s? N\'haller ket en dizober.</string>
     <string name="date_format">%3$s-%2$s-%1$s %4$s:%5$s</string>
+    <string name="sound_recording_title_working">Enrollañ</string>
     <string name="screen_audio_warning_button_ask">Goulenn</string>
     <string name="dialog_permissions_dismiss">Argas</string>
 </resources>
