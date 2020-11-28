@@ -38,6 +38,7 @@
     <string name="screen_last_title">Regjistrimi i fundit</string>
     <string name="screen_overlay_notif_title">Gati për të regjistruar</string>
     <string name="screen_overlay_notif_message">Shtyp butonin e regjistrimit kur të jesh gati për të filluar</string>
+    <string name="screen_overlay_channel_desc">Njoftimi për të treguar regjistrimin e ekranit është gati për të filluar</string>
     <string name="dialog_permissions_title">Lejet</string>
     <string name="dialog_permissions_mic">Regjistruesi kërkon leje aksesi tek mikrofoni për të regjistruar audio</string>
     <string name="dialog_permissions_phone">Regjistruesi kërkon akses te statusi i telefonit për të parandaluar aplikacionin që të regjistrojë gjatë një telefonate</string>
