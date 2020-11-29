@@ -40,6 +40,7 @@
     <string name="screen_last_message">Data: %1$s\nKohëzgjatja: %2$d sekonda</string>
     <string name="screen_overlay_notif_title">Gati për të regjistruar</string>
     <string name="screen_overlay_notif_message">Shtyp butonin e regjistrimit kur të jesh gati për të filluar</string>
+    <string name="screen_overlay_channel_desc">Njoftimi për të treguar regjistrimin e ekranit është gati për të filluar</string>
     <string name="dialog_permissions_title">Lejet</string>
     <string name="dialog_permissions_mic">Regjistruesi kërkon leje aksesi tek mikrofoni për të regjistruar audio</string>
     <string name="dialog_permissions_storage">Regjistruesi kërkon akses te memoria për të ruajtur skedarët e regjistruar</string>
