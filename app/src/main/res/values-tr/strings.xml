@@ -22,7 +22,7 @@
     <string name="cancel">İptal</string>
     <string name="delete_title">Kayıt siliniyor</string>
     <string name="delete_message">%1$s silmek istediğinizden emin misiniz? Bu geri alınamaz</string>
-    <string name="sound_notification_title">Ses Kaydedici</string>
+    <string name="sound_notification_title">Ses kaydedici</string>
     <string name="sound_notification_message">Ses uzunluğu: %1$s</string>
     <string name="sound_recording_title_working">Kaydediliyor</string>
     <string name="sound_last_title">Son kayıt</string>
@@ -34,7 +34,7 @@
     <string name="screen_audio_warning_button_ask">Sor</string>
     <string name="screen_insufficient_storage">Yetersiz depolama</string>
     <string name="screen_not_enough_storage">Yeterli kullanılabilir depolama alanı yok</string>
-    <string name="screen_notification_title">Ekran Kaydedici</string>
+    <string name="screen_notification_title">Ekran kaydedici</string>
     <string name="screen_notification_message">Video uzunluğu: %s</string>
     <string name="screen_notification_message_done">Paylaşmak için hazır</string>
     <string name="screen_recording_message">Ekran kaydediliyor\u2026</string>
