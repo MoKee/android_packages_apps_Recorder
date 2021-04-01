@@ -25,6 +25,7 @@
     <string name="screen_overlay_channel_desc">Hysbysiad yn dangos pan mae recordio\'r sgrin yn barod i ddechrau</string>
     <string name="screen_channel_title">Recordio\'r sgrin</string>
     <string name="screen_channel_desc">Hysbysiad cyson wrth recordio\'r sgrin a hysbysiad ar ôl gorffen recordio</string>
+    <string name="dialog_permissions_dismiss">Wfftio</string>
     <string name="main_screen_action">Recordio\'r sgrin</string>
     <string name="main_sound_action">Recordio sain</string>
 </resources>

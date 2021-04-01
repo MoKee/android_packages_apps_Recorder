@@ -16,4 +16,5 @@
 <resources>
     <string name="share">አጋራ</string>
     <string name="delete">ሰርዝ</string>
+    <string name="dialog_permissions_dismiss">Dismiss</string>
 </resources>

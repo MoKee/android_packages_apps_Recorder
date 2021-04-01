@@ -14,10 +14,13 @@
      limitations under the License.
 -->
 <resources>
+    <string name="stop">Cuir stad air</string>
+    <string name="sound_recording_title_working">’Ga chlàradh</string>
     <string name="sound_channel_title">Clàradh fuaime</string>
     <string name="sound_channel_desc">Brath maireannach nuair a thèid fuaim a chlàradh agus brath eile nuair a bhios e deiseil</string>
     <string name="screen_overlay_channel_title">Deiseil gus an sgrìn a clàradh</string>
     <string name="screen_overlay_channel_desc">Brath a sheallas nuair a bhios clàradh sgrìn deiseil airson tòiseachadh</string>
     <string name="screen_channel_title">Clàradh na sgrìn</string>
     <string name="screen_channel_desc">Brath maireannach nuair a thèid an sgrìn a chlàradh agus brath eile nuair a bhios e deiseil</string>
+    <string name="dialog_permissions_dismiss">Leig seachad</string>
 </resources>

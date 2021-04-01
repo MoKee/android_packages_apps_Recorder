@@ -21,6 +21,7 @@
     <string name="cancel">ரத்துசெய்</string>
     <string name="delete_title">பதிவை நீக்குதல்</string>
     <string name="sound_notification_message">ஒலி நீளம்: %1$s</string>
+    <string name="sound_recording_title_working">பதிவு</string>
     <string name="sound_channel_title">ஒலி பதிவு</string>
     <string name="screen_audio_warning_button_ask">கேள்</string>
     <string name="screen_not_enough_storage">போதுமான சேமிப்பிடம் இல்லை.</string>
