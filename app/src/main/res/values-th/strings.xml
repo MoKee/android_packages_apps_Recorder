@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (c) 2017 The LineageOS Project
+<!-- Copyright (c) 2017-2021 The LineageOS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -14,7 +14,22 @@
      limitations under the License.
 -->
 <resources>
-    <string name="share">แบ่งปัน</string>
+    <string name="app_name">บันทึกเสียง</string>
+    <string name="share">แชร์</string>
+    <string name="stop">หยุด</string>
+    <string name="play">เล่น</string>
     <string name="delete">ลบ</string>
     <string name="cancel">ยกเลิก</string>
+    <string name="delete_title">การลบบันทึก</string>
+    <string name="sound_notification_title">บันทึกเสียง</string>
+    <string name="sound_notification_message">ความยาวเสียง: %1$s</string>
+    <string name="sound_recording_title_working">การบันทึก</string>
+    <string name="sound_last_title">บันทึกล่าสุด</string>
+    <string name="sound_channel_title">บันทึกเสียง</string>
+    <string name="sound_channel_desc">การแจ้งเตือนถาวรเมื่อบันทึกเสียงและการแจ้งเตือนหลังจากเสร็จสิ้น</string>
+    <string name="screen_last_message">ช่วงเวลา: %1$d วินาที</string>
+    <string name="dialog_permissions_title">การอนุญาต</string>
+    <string name="dialog_permissions_ask">ถามอีกครั้ง</string>
+    <string name="dialog_permissions_dismiss">ยกเลิก</string>
+    <string name="main_sound_action">บันทึกเสียง</string>
 </resources>

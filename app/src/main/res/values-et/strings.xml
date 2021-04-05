@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (c) 2017 The LineageOS Project
+<!-- Copyright (c) 2017-2021 The LineageOS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -14,47 +14,7 @@
      limitations under the License.
 -->
 <resources>
-    <string name="app_name">Salvestaja</string>
-    <string name="share">Jaga</string>
-    <string name="stop">Peata</string>
-    <string name="play">Mängi</string>
-    <string name="delete">Kustuta</string>
-    <string name="cancel">Tühista</string>
-    <string name="delete_title">Kirjete kustutamine</string>
-    <string name="delete_message">Kas soovite kindlasti %1$s kustutada? Seda ei saa olematuks teha</string>
-    <string name="sound_notification_title">Helisalvesti</string>
-    <string name="sound_notification_message">Audio pikkus: %1$s</string>
-    <string name="sound_recording_title_working">Salvestamine</string>
-    <string name="sound_last_title">Viimane kirje</string>
     <string name="sound_channel_title">Heli salvestamine</string>
     <string name="sound_channel_desc">Püsiv teade heli salvestamisel ja teade kui salvestamine on lõppenud</string>
-    <string name="screen_audio_message_on">Videol on mikrofonist saadud heli</string>
-    <string name="screen_audio_message_off">Video heli ei sisalda mikrofonist saadud heli</string>
-    <string name="screen_audio_message_disabled">Seda seadet ei saa ekraani salvestamise ajal muuta</string>
-    <string name="screen_audio_warning_button_ask">Küsi</string>
-    <string name="screen_insufficient_storage">Pole piisavalt mälu</string>
-    <string name="screen_not_enough_storage">Pole piisavalt ruumi</string>
-    <string name="screen_notification_title">Ekraanisalvesti</string>
-    <string name="screen_notification_message">Video pikkus: %s</string>
-    <string name="screen_notification_message_done">Osalemiseks valmis</string>
-    <string name="screen_recording_message">Ekraan on salvestatud\u2026</string>
-    <string name="screen_last_title">Viimane kirje</string>
     <string name="screen_last_message">Kestus: %1$d sekundit</string>
-    <string name="screen_overlay_notif_title">Valmis salvestamiseks</string>
-    <string name="screen_overlay_notif_message">Kui olete valmis alustama, vajutage salvestamise nuppu</string>
-    <string name="screen_settings_title">Ekraani salvesti seaded</string>
-    <string name="screen_overlay_channel_title">Valmis ekraanikuva salvestama</string>
-    <string name="screen_overlay_channel_desc">Teade, mis näitab, et ekraanikuva salvestamine on valmis alustama</string>
-    <string name="screen_channel_title">Ekraanikuva salvestamine</string>
-    <string name="screen_channel_desc">Püsiv teade ekraanikuva salvestamisel ja teade kui salvestamine on lõppenud</string>
-    <string name="dialog_permissions_title">Õigused</string>
-    <string name="dialog_permissions_mic">Salvesti vajab juurdepääse mikrofonile, et salvestada heli</string>
-    <string name="dialog_permissions_phone">Helisalvesti vajab juurdepääsu telefoni olekule, et takistada sellel rakendusel salvestada heli kõne ajal</string>
-    <string name="dialog_permissions_mic_phone">Salvesti vajab juurdepääsru mikrofonile ja telefoni olekule, et takistada sellel rakendusel salvestada heli kõne ajal</string>
-    <string name="dialog_permissions_ask">Küsi uuesti</string>
-    <string name="dialog_permissions_dismiss">Loobu</string>
-    <string name="dialog_permissions_overlay">Salvesti vajab ekraani salvestamiseks luba salvestada teiste rakenduste abil. Vajutage lubada, võimaldage loal seadete ja tagasi tulla Salvestisse</string>
-    <string name="snack_permissions_no_permission">Vajalikud õigused keelati, salvestamiseks lubage need Rakenduste alt</string>
-    <string name="main_screen_action">Salvesta ekraanil toimuvat</string>
-    <string name="main_sound_action">Salvestage heli</string>
 </resources>

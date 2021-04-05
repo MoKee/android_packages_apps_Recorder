@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (c) 2017 The LineageOS Project
+<!-- Copyright (c) 2017-2021 The LineageOS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -14,7 +14,26 @@
      limitations under the License.
 -->
 <resources>
+    <string name="app_name">Recordydd</string>
+    <string name="share">Rhannu</string>
+    <string name="stop">Stopio</string>
+    <string name="play">Chwarae</string>
     <string name="delete">Dileu</string>
-    <string name="cancel">Canslo</string>
+    <string name="cancel">Diddymu</string>
+    <string name="delete_title">Yn dileu\'r recordiad</string>
     <string name="sound_notification_title">Recordydd Sain</string>
+    <string name="sound_notification_message">Hyd sain: %1$s</string>
+    <string name="sound_recording_title_working">Yn recordio</string>
+    <string name="sound_last_title">Recordiad diwethaf</string>
+    <string name="sound_channel_title">Recordio sain</string>
+    <string name="sound_channel_desc">Hysbysiad cyson wrth recordio\'r sain a hysbysiad ar ôl gorffen recordio</string>
+    <string name="screen_last_message">Hyd: %1$d eiliad</string>
+    <string name="dialog_permissions_title">Caniatâd</string>
+    <string name="dialog_permissions_mic">Mae ar Recordydd angen mynediad i\'r meicroffon i recordio sain.</string>
+    <string name="dialog_permissions_phone">Mae ar Rcordydd angen mynediad i statws y ffôn er mwyn sicrhau nad yw\'r ap hwn yn recordio tra dy fod mewn galwad.</string>
+    <string name="dialog_permissions_mic_phone">Mae ar Recordydd angen mynediad i\'r meicroffon i fedru recordio sain, mynediad i statws y ffôn er mwyn sicrhau nad yw\'r ap hwn yn recordio tra dy fod mewn galwad.</string>
+    <string name="dialog_permissions_ask">Gofyn eto</string>
+    <string name="dialog_permissions_dismiss">Diystyru</string>
+    <string name="snack_permissions_no_permission">Gwrthodwyd peth caniatad sydd ei angen. Rho ganiatâd yn Gosodiadau er mwyn dechrau recordio.</string>
+    <string name="main_sound_action">Recordio sain</string>
 </resources>

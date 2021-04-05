@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (c) 2017 The LineageOS Project
+<!-- Copyright (c) 2017-2021 The LineageOS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -14,10 +14,25 @@
      limitations under the License.
 -->
 <resources>
+    <string name="app_name">Clàradair</string>
+    <string name="share">Co-roinn</string>
+    <string name="stop">Cuir stad air</string>
+    <string name="play">Cluich</string>
+    <string name="delete">Sguab às</string>
+    <string name="cancel">Sguir dheth</string>
+    <string name="delete_title">A’ sguabadh às an clàradh</string>
+    <string name="sound_notification_title">Clàradair fuaime</string>
+    <string name="sound_notification_message">Faid na fuaime: %1$s</string>
+    <string name="sound_recording_title_working">’Ga chlàradh</string>
+    <string name="sound_last_title">An clàradh mu dheireadh</string>
     <string name="sound_channel_title">Clàradh fuaime</string>
     <string name="sound_channel_desc">Brath maireannach nuair a thèid fuaim a chlàradh agus brath eile nuair a bhios e deiseil</string>
-    <string name="screen_overlay_channel_title">Deiseil gus an sgrìn a clàradh</string>
-    <string name="screen_overlay_channel_desc">Brath a sheallas nuair a bhios clàradh sgrìn deiseil airson tòiseachadh</string>
-    <string name="screen_channel_title">Clàradh na sgrìn</string>
-    <string name="screen_channel_desc">Brath maireannach nuair a thèid an sgrìn a chlàradh agus brath eile nuair a bhios e deiseil</string>
+    <string name="dialog_permissions_title">Ceadan</string>
+    <string name="dialog_permissions_mic">Feumaidh an clàradair cead dhan mhicreofon airson fuaim a chlàradh</string>
+    <string name="dialog_permissions_phone">Feumaidh an clàradair inntrigeadh do staid an fhòn ach nach dèan an aplacaid seo clàradh nuair a bhios tu ann an gairm</string>
+    <string name="dialog_permissions_mic_phone">Feumaidh an clàradair cead dhan mhicreofon airson fuaim a chlàradh agus inntrigeadh do staid an fhòn ach nach dèan an aplacaid seo clàradh nuair a bhios tu ann an gairm</string>
+    <string name="dialog_permissions_ask">Faighnich dhìom a-rithist</string>
+    <string name="dialog_permissions_dismiss">Leig seachad</string>
+    <string name="snack_permissions_no_permission">Chaidh ceadan riatanach a dhiùltadh, cuir an comas iad ann an aplacaid nan roghainnean mus tòisich thu air a’ chlàradh</string>
+    <string name="main_sound_action">Clàraich an fhuaim</string>
 </resources>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (c) 2017 The LineageOS Project
+<!-- Copyright (c) 2021 The LineageOS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -14,6 +14,12 @@
      limitations under the License.
 -->
 <resources>
-    <string name="delete">Избриши</string>
-    <string name="cancel">Откажи</string>
+
+    <color name="colorPrimary">#121212</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#F2B077</color>
+
+    <color name="wave">#12FFFFFF</color>
+
+    <color name="navigationBarColor">#B3121212</color>
 </resources>

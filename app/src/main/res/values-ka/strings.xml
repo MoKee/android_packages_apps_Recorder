@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (c) 2017 The LineageOS Project
+<!-- Copyright (c) 2017-2021 The LineageOS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -14,6 +14,7 @@
      limitations under the License.
 -->
 <resources>
-    <string name="share">გაზიარება</string>
-    <string name="delete">წაშლა</string>
+    <string name="cancel">გაუქმება</string>
+    <string name="sound_last_title">ბოლო ჩანაწერი</string>
+    <string name="dialog_permissions_title">ნებართვები</string>
 </resources>

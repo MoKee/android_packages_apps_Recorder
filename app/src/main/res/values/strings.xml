@@ -48,6 +48,8 @@
     <string name="sound_notification_message">Audio length: %1$s</string>
     <!-- Sound recorder status card title recording -->
     <string name="sound_recording_title_working">Recording</string>
+    <!-- Sound recorder status card title paused -->
+    <string name="sound_recording_title_paused">Paused</string>
     <!-- Sound recorder last item title -->
     <string name="sound_last_title">Last record</string>
     <!-- Sound recorder notification channel title -->
@@ -100,7 +102,4 @@
     <string name="list_edit_confirm">Change</string>
     <!-- List item menu actions description for a11y -->
     <string name="list_item_menu">More actions</string>
-
-    <!-- Transition name for dialogActivity -->
-    <string name="transition_dialog_name" translatable="false">transition_dialog_activity</string>
 </resources>
