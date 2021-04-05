@@ -14,7 +14,18 @@
      limitations under the License.
 -->
 <resources>
+    <string name="stop">Stopio</string>
     <string name="delete">Dileu</string>
     <string name="cancel">Canslo</string>
     <string name="sound_notification_title">Recordydd Sain</string>
+    <string name="sound_recording_title_working">Recordio</string>
+    <string name="sound_channel_title">Recordio sain</string>
+    <string name="sound_channel_desc">Hysbysiad cyson wrth recordio\'r sain a hysbysiad ar ôl gorffen recordio</string>
+    <string name="screen_overlay_channel_title">Yn barod i recordio\'r sgrin</string>
+    <string name="screen_overlay_channel_desc">Hysbysiad yn dangos pan mae recordio\'r sgrin yn barod i ddechrau</string>
+    <string name="screen_channel_title">Recordio\'r sgrin</string>
+    <string name="screen_channel_desc">Hysbysiad cyson wrth recordio\'r sgrin a hysbysiad ar ôl gorffen recordio</string>
+    <string name="dialog_permissions_dismiss">Wfftio</string>
+    <string name="main_screen_action">Recordio\'r sgrin</string>
+    <string name="main_sound_action">Recordio sain</string>
 </resources>

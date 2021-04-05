@@ -14,6 +14,5 @@
      limitations under the License.
 -->
 <resources>
-    <string name="cancel">မလုပ်တော့</string>
-    <string name="dialog_permissions_dismiss">Dismiss</string>
+    <string name="delete">مٹائیں</string>
 </resources>

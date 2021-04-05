@@ -15,5 +15,8 @@
 -->
 <resources>
     <string name="share">Paylaşın</string>
+    <string name="stop">Dayandır</string>
     <string name="delete">Silin</string>
+    <string name="sound_recording_title_working">Səs yazılır</string>
+    <string name="dialog_permissions_dismiss">Rədd et</string>
 </resources>
