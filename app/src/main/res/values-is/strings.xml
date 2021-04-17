@@ -14,7 +14,11 @@
      limitations under the License.
 -->
 <resources>
+    <string name="pause">Gera hlé</string>
+    <string name="resume">Halda áfram</string>
+    <string name="sound_recording_title_paused">Í bið</string>
     <string name="dialog_permissions_mic">Upptökuforitið þarf heimild fyrir aðgang að hljóðnema til að taka upp hljóð</string>
     <string name="dialog_permissions_phone">Upptökuforitið þarf heimild fyrir aðgang að stöðu símans til að koma í veg fyrir hljóðupptöku á meðan símtölum stendur</string>
     <string name="dialog_permissions_mic_phone">Upptökuforitið þarf heimild fyrir aðgang að hljóðnema til að taka upp hljóð og að stöðu símans til að koma í veg fyrir hljóðupptöku á meðan símtölum stendur</string>
+    <string name="dialog_permissions_dismiss">Dismiss</string>
 </resources>

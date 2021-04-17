@@ -15,4 +15,11 @@
 -->
 <resources>
     <string name="app_name">ضبط کننده</string>
+    <string name="share">اشتراک‌گذاری</string>
+    <string name="stop">توقف</string>
+    <string name="delete">حذف</string>
+    <string name="rename">تغییر نام</string>
+    <string name="settings_title">تنظیمات</string>
+    <string name="dialog_permissions_title">مجوز ها</string>
+    <string name="list_edit_confirm">تغییر دادن</string>
 </resources>

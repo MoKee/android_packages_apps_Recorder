@@ -18,16 +18,21 @@
     <string name="share">Comparteix</string>
     <string name="stop">Para</string>
     <string name="play">Reprodueix</string>
+    <string name="pause">Posa en pausa</string>
+    <string name="resume">Reprèn</string>
     <string name="delete">Elimina</string>
     <string name="cancel">Cancel·la</string>
+    <string name="rename">Reanomena</string>
     <string name="delete_title">S\'està eliminant el registre</string>
     <string name="sound_notification_title">Gravadora de so</string>
     <string name="sound_notification_message">Durada de l\'àudio: %1$s</string>
     <string name="sound_recording_title_working">S\'està gravant</string>
+    <string name="sound_recording_title_paused">Pausat</string>
     <string name="sound_last_title">Darrer enregistrament</string>
     <string name="sound_channel_title">Enregistrament de so</string>
     <string name="sound_channel_desc">Notificació persistent quan s\'està enregistrant so i notificació quan s\'hagi acabat</string>
     <string name="screen_last_message">Durada: %1$d segons</string>
+    <string name="settings_title">Configuració</string>
     <string name="dialog_permissions_title">Permisos</string>
     <string name="dialog_permissions_mic">La gravadora necessita permís d\'accés al micròfon per enregistrar so</string>
     <string name="dialog_permissions_phone">La gravadora necessita accedir a l\'estat del telèfon per evitar que aquesta aplicació enregistri mentre estàs trucant</string>
@@ -36,4 +41,5 @@
     <string name="dialog_permissions_dismiss">Descarta</string>
     <string name="snack_permissions_no_permission">Els permisos necessaris han estat denegats, habilita\'ls des de l\'aplicació Configuració per iniciar l\'enregistrament</string>
     <string name="main_sound_action">Enregistra el so</string>
+    <string name="list_edit_confirm">Canvia</string>
 </resources>

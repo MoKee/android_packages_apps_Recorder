@@ -20,10 +20,12 @@
     <string name="play">Play</string>
     <string name="delete">Delete</string>
     <string name="cancel">Cancel</string>
+    <string name="rename">Rename</string>
     <string name="delete_title">Deleting record</string>
     <string name="sound_notification_title">Sound Recorder</string>
     <string name="sound_notification_message">Audio length: %1$s</string>
     <string name="sound_recording_title_working">Recording</string>
+    <string name="sound_recording_title_paused">Paused</string>
     <string name="sound_last_title">Last record</string>
     <string name="sound_channel_title">Sound recording</string>
     <string name="sound_channel_desc">Persistent notification when recording sound and notification after it is complete</string>

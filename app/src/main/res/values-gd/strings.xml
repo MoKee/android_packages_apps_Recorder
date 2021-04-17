@@ -20,6 +20,7 @@
     <string name="play">Cluich</string>
     <string name="delete">Sguab às</string>
     <string name="cancel">Sguir dheth</string>
+    <string name="rename">Thoir ainm ùr air</string>
     <string name="delete_title">A’ sguabadh às an clàradh</string>
     <string name="sound_notification_title">Clàradair fuaime</string>
     <string name="sound_notification_message">Faid na fuaime: %1$s</string>

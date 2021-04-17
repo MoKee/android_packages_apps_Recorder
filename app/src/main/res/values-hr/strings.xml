@@ -18,15 +18,20 @@
     <string name="share">Podijeli</string>
     <string name="stop">Zaustavi</string>
     <string name="play">Reproduciraj</string>
+    <string name="pause">Pauziraj</string>
+    <string name="resume">Nastavi</string>
     <string name="delete">Izbriši</string>
     <string name="cancel">Odustani</string>
+    <string name="rename">Preimenuj</string>
     <string name="delete_title">Brisanje zapisa</string>
     <string name="sound_notification_title">Snimanje zvuka</string>
     <string name="sound_notification_message">Duljina audiozapisa: %1$s</string>
     <string name="sound_recording_title_working">Snimanje</string>
+    <string name="sound_recording_title_paused">Pauzirano</string>
     <string name="sound_last_title">Posljednji zapis</string>
     <string name="sound_channel_title">Snimanje zvuka</string>
     <string name="sound_channel_desc">Stalna obavijest pri snimanju zvuka i obavijest kad završi</string>
+    <string name="settings_title">Postavke</string>
     <string name="dialog_permissions_title">Dopuštenja</string>
     <string name="dialog_permissions_mic">Snimač treba dopuštenje za mikrofon za snimanje zvuka</string>
     <string name="dialog_permissions_phone">Snimač treba pristup stanju telefona za sprječavanje aplikacije da snima vaše pozive</string>
@@ -35,4 +40,5 @@
     <string name="dialog_permissions_dismiss">Odbaci</string>
     <string name="snack_permissions_no_permission">Potrebna su dopuštenja odbijena. Omogućite ih u postavkama da biste mogli snimati.</string>
     <string name="main_sound_action">Snimanje zvuka</string>
+    <string name="list_edit_confirm">Promijeni</string>
 </resources>

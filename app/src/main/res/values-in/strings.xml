@@ -18,16 +18,21 @@
     <string name="share">Bagikan</string>
     <string name="stop">Hentikan</string>
     <string name="play">Putar</string>
+    <string name="pause">Jeda</string>
+    <string name="resume">Lanjutkan</string>
     <string name="delete">Hapus</string>
     <string name="cancel">Batal</string>
+    <string name="rename">Ubah Nama</string>
     <string name="delete_title">Menghapus rekaman</string>
     <string name="sound_notification_title">Perekam Suara</string>
     <string name="sound_notification_message">Durasi audio: %1$s</string>
     <string name="sound_recording_title_working">Merekam</string>
+    <string name="sound_recording_title_paused">Diberhentikan sementara</string>
     <string name="sound_last_title">Rekaman terakhir</string>
     <string name="sound_channel_title">Rekaman suara</string>
     <string name="sound_channel_desc">Pemberitahuan tetap saat merekam suara dan pemberitahuan setelah selesai</string>
     <string name="screen_last_message">Durasi: %1$d detik</string>
+    <string name="settings_title">Setelan</string>
     <string name="dialog_permissions_title">Izin</string>
     <string name="dialog_permissions_mic">Perekam membutuhkan izin mikrofon untuk merekam audio</string>
     <string name="dialog_permissions_phone">Perekam membutuhkan akses ke status telepon untuk mencegah aplikasi ini merekam saat Anda melakukan panggilan</string>
@@ -36,4 +41,5 @@
     <string name="dialog_permissions_dismiss">Tutup</string>
     <string name="snack_permissions_no_permission">Izin yang diperlukan ditolak, hidupkan dari aplikasi Pengaturan untuk mulai merekam</string>
     <string name="main_sound_action">Rekam suara</string>
+    <string name="list_edit_confirm">Rubah</string>
 </resources>

@@ -28,6 +28,7 @@
     <string name="sound_notification_title">Εγγραφή ήχου</string>
     <string name="sound_notification_message">Μήκος ήχου: %1$s</string>
     <string name="sound_recording_title_working">Γίνεται εγγραφή</string>
+    <string name="sound_recording_title_paused">Σε παύση</string>
     <string name="sound_last_title">Τελευταία εγγραφή</string>
     <string name="sound_channel_title">Εγγραφή ήχου</string>
     <string name="sound_channel_desc">Συνεχής ειδοποίηση κατά την εγγραφή ήχου και ειδοποίηση αφού έχει ολοκληρωθεί</string>

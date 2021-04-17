@@ -18,12 +18,15 @@
     <string name="share">Paylaş</string>
     <string name="stop">Dayandır</string>
     <string name="play">Oynat</string>
+    <string name="pause">Fasilə verin</string>
+    <string name="resume">Davam et</string>
     <string name="delete">Sil</string>
     <string name="cancel">İmtina</string>
     <string name="delete_title">Səsyazma silinir</string>
     <string name="sound_notification_title">Səs Yazma</string>
     <string name="sound_notification_message">Səs uzunluğu: %1$s</string>
     <string name="sound_recording_title_working">Səs yazılır</string>
+    <string name="sound_recording_title_paused">Durduruldu</string>
     <string name="sound_last_title">Son səsyazma</string>
     <string name="sound_channel_title">Səs yazma</string>
     <string name="sound_channel_desc">Səs yazanda davamlı bildiriş göstər və tamamlandıqdan sonra bildiriş göstər</string>

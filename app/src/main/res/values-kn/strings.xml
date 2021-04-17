@@ -14,6 +14,29 @@
      limitations under the License.
 -->
 <resources>
+    <string name="app_name">ರೆಕಾರ್ಡರ್</string>
+    <string name="share">ಹಂಚಿಕೊಳ್ಳಿ</string>
+    <string name="stop">ನಿಲ್ಲಿಸು</string>
+    <string name="play">ಚಲಾಯಿಸು</string>
+    <string name="pause">ವಿರಮಿಸಿ</string>
+    <string name="resume">ಮುಂದುವರಿಸಿ</string>
+    <string name="delete">ಅಳಿಸು</string>
+    <string name="cancel">ರದ್ದು</string>
+    <string name="rename">ಮರುಹೆಸರಿಸಿ</string>
+    <string name="delete_title">ರೆಕಾರ್ಡ್‌ ಅಳಿಸಲಾಗುತ್ತಿದೆ</string>
+    <string name="sound_notification_title">ಧ್ವನಿ ರೆಕಾರ್ಡರ್</string>
+    <string name="sound_notification_message">ಧ್ವನಿ ಅಳತೆ: %1$s</string>
+    <string name="sound_recording_title_working">ರೆಕಾರ್ಡ್‌ ಆಗುತ್ತಿದೆ</string>
+    <string name="sound_recording_title_paused">ವಿರಾಮಿಸಲಾಗಿದೆ</string>
+    <string name="sound_last_title">ಕೊನೆಯ ಧ್ವನಿಮುದ್ರಣ</string>
     <string name="sound_channel_title">ಧ್ವನಿಮುದ್ರಣ</string>
     <string name="sound_channel_desc">ಧ್ವನಿಮುದ್ರಿಸುವಾಗ ನಿರಂತರ ಸೂಚನೆ ಮತ್ತು ಅಂತ್ಯವಾದಾಗ ಸೂಚನೆ</string>
+    <string name="settings_title">ಸಂಯೋಜನೆಗಳು</string>
+    <string name="dialog_permissions_title">ಪರವಾನಗಿಗಳು</string>
+    <string name="dialog_permissions_mic">ಧ್ವನಿಯನ್ನು ದಾಖಲಿಸಲು ರೆಕಾರ್ಡರ್‌ಗೆ ಧ್ವನಿವರ್ಧಕಗಳ ಅನುಮತಿಯ ಅಗತ್ಯವಿದೆ</string>
+    <string name="dialog_permissions_phone">ಈ ಕಿರುತಂತ್ರಾಂಶಕ್ಕೆ ಕರೆ ಚಾಲ್ತಿಯಲ್ಲಿರುವಾಗ ರೆಕಾರ್ಡ್‌ರ್‌ ಅನ್ನು ತಡೆಹಿಡಿಯಲು ರೆಕಾರ್ಡ್‌ರ್‌ಗೆ ಫೋನಿನ ಸ್ಥಿತಿ ಅನುಮತಿಯ ಅಗತ್ಯವಿದೆ</string>
+    <string name="dialog_permissions_mic_phone">ಕರೆ ಚಾಲತಿಯಲ್ಲಿರುವಾಗ ಧ್ವನಿ ಮತ್ತು ಫೋನಿನ ಸ್ಥಿತಿ ಅನುಮತಿಗಳನ್ನು ಮುದ್ರಿಸಲು ಈ ಕಿರುತಂತ್ರಾಂಶದಿಂದ ತಡೆಯಲು ರೆಕಾರ್ಡರ್‌ಗೆ ಧ್ವನಿವರ್ಧಕಗಳ ಅನುಮತಿಯ ಅಗತ್ಯವಿದೆ</string>
+    <string name="dialog_permissions_ask">ಪುನಃ ಕೇಳಿ</string>
+    <string name="dialog_permissions_dismiss">ವಜಾ ಮಾಡು</string>
+    <string name="main_sound_action">ಧ್ವನಿ ಮುದ್ರಿಸಿ</string>
 </resources>

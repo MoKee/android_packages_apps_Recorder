@@ -14,7 +14,41 @@
      limitations under the License.
 -->
 <resources>
+    <string name="app_name">Salvestaja</string>
+    <string name="share">Jaga</string>
+    <string name="stop">Peata</string>
+    <string name="play">Mängi</string>
+    <string name="pause">Peata</string>
+    <string name="resume">Jätka</string>
+    <string name="delete">Kustuta</string>
+    <string name="cancel">Tühista</string>
+    <string name="rename">Nimeta ümber</string>
+    <string name="delete_title">Kirjete kustutamine</string>
+    <string name="delete_recording_message">Kas sa oled kindel, et soovid kustutada selle salvestuse? Seda toimingut ei saa tagasi võtta!</string>
+    <string name="sound_notification_title">Helisalvesti</string>
+    <string name="sound_notification_message">Audio pikkus: %1$s</string>
+    <string name="sound_recording_title_working">Salvestamine</string>
+    <string name="sound_recording_title_paused">Peatatud</string>
+    <string name="sound_last_title">Viimane kirje</string>
     <string name="sound_channel_title">Heli salvestamine</string>
     <string name="sound_channel_desc">Püsiv teade heli salvestamisel ja teade kui salvestamine on lõppenud</string>
     <string name="screen_last_message">Kestus: %1$d sekundit</string>
+    <string name="settings_title">Seaded</string>
+    <string name="settings_location_message">Lisage postitustele asukohasildid</string>
+    <string name="settings_quality_high">Kvaliteetne salvestus</string>
+    <string name="dialog_permissions_title">Õigused</string>
+    <string name="dialog_permissions_mic">Salvesti vajab juurdepääse mikrofonile, et salvestada heli</string>
+    <string name="dialog_permissions_phone">Helisalvesti vajab juurdepääsu telefoni olekule, et takistada sellel rakendusel salvestada heli kõne ajal</string>
+    <string name="dialog_permissions_mic_phone">Salvesti vajab juurdepääsru mikrofonile ja telefoni olekule, et takistada sellel rakendusel salvestada heli kõne ajal</string>
+    <string name="dialog_permissions_location">Salvesti vajab teie korralduste hõlbustamiseks salvestiste automaatseks märgistamiseks asukoha luba </string>
+    <string name="dialog_permissions_ask">Küsi uuesti</string>
+    <string name="dialog_permissions_dismiss">Tühista</string>
+    <string name="snack_permissions_no_permission">Vajalikud õigused keelati, salvestamiseks lubage need Rakenduste alt</string>
+    <string name="snack_permissions_no_permission_location">Asukohaluba keelati. Postituste automaatseks märgistamiseks lülitage see seadetes sisse</string>
+    <string name="main_sound_action">Salvestage heli</string>
+    <string name="list_title">Minu salvestused</string>
+    <string name="list_error_empty">Siin kuvatakse kõik teie salvestused</string>
+    <string name="list_edit_title">Muuda salvestuse nime</string>
+    <string name="list_edit_confirm">Muuda</string>
+    <string name="list_item_menu">Rohkem tegevusi</string>
 </resources>

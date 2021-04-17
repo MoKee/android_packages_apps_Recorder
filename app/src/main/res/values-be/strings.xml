@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2017-2021 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="app_name">Дыктафон</string>
+    <string name="share">Падзяліцца</string>
+    <string name="stop">Спыніць</string>
+    <string name="play">Прайграць</string>
+    <string name="pause">Прыпыніць</string>
+    <string name="resume">Узнавіць</string>
+    <string name="delete">Выдаліць</string>
+    <string name="cancel">Скасаваць</string>
+    <string name="rename">Пераназваць</string>
+    <string name="delete_title">Выдаліць запіс</string>
+    <string name="sound_notification_title">Дыктафон</string>
+    <string name="sound_notification_message">Працягласць: %1$s</string>
+    <string name="sound_recording_title_working">Запіс</string>
+    <string name="sound_recording_title_paused">Прыпынена</string>
+    <string name="sound_last_title">Апошні запіс</string>
+    <string name="sound_channel_title">Запіс гуку</string>
+    <string name="sound_channel_desc">Пастаяннае апавяшчэнне пры запісе гуку і апавяшчэнне пасля яго завяршэння</string>
+    <string name="settings_title">Налады</string>
+    <string name="dialog_permissions_title">Правы</string>
+    <string name="dialog_permissions_mic">Праграме патрабуецца доступ да мікрафону для запісу гуку</string>
+    <string name="dialog_permissions_phone">Праграме патрабуецца доступ да стану тэлефона для прыпынку запісу падчас званка</string>
+    <string name="dialog_permissions_mic_phone">Праграме патрабуецца доступ да мікрафону для запісу гуку і доступ да стану тэлефона для прыпынку запісу падчас званка</string>
+    <string name="dialog_permissions_ask">Спытаць зноў</string>
+    <string name="dialog_permissions_dismiss">Адхіліць</string>
+    <string name="snack_permissions_no_permission">Адмоўлена ў неабходных дазволах. Змяніце дазвол ў наладах для магчымасці запісу</string>
+    <string name="main_sound_action">Запіс гуку</string>
+</resources>

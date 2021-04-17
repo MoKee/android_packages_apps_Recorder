@@ -14,7 +14,13 @@
      limitations under the License.
 -->
 <resources>
+    <string name="share">გაზიარება</string>
+    <string name="pause">პაუზა</string>
+    <string name="resume">გაგრძელება</string>
+    <string name="delete">წაშლა</string>
     <string name="cancel">გაუქმება</string>
+    <string name="sound_recording_title_paused">დაპაუზებულია</string>
     <string name="sound_last_title">ბოლო ჩანაწერი</string>
     <string name="dialog_permissions_title">ნებართვები</string>
+    <string name="dialog_permissions_dismiss">Dismiss</string>
 </resources>
