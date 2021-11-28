@@ -21,9 +21,11 @@
     <string name="pause">Pauziraj</string>
     <string name="resume">Nastavi</string>
     <string name="delete">Izbriši</string>
+    <string name="delete_all">Izbriši sve</string>
     <string name="cancel">Odustani</string>
     <string name="rename">Preimenuj</string>
     <string name="delete_title">Brisanje zapisa</string>
+    <string name="discard">Odbaci</string>
     <string name="sound_notification_title">Snimanje zvuka</string>
     <string name="sound_notification_message">Duljina audiozapisa: %1$s</string>
     <string name="sound_recording_title_working">Snimanje</string>
@@ -41,4 +43,5 @@
     <string name="snack_permissions_no_permission">Potrebna su dopuštenja odbijena. Omogućite ih u postavkama da biste mogli snimati.</string>
     <string name="main_sound_action">Snimanje zvuka</string>
     <string name="list_edit_confirm">Promijeni</string>
+    <string name="delete_all_title">Izbriši sve</string>
 </resources>

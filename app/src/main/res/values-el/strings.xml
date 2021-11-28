@@ -21,10 +21,12 @@
     <string name="pause">Παύση</string>
     <string name="resume">Συνέχιση</string>
     <string name="delete">Διαγραφή</string>
+    <string name="delete_all">Διαγραφή όλων</string>
     <string name="cancel">Ακύρωση</string>
     <string name="rename">Μετονομασία</string>
     <string name="delete_title">Διαγραφή εγγραφής</string>
     <string name="delete_recording_message">Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτή την εγγραφή; Αυτή η ενέργεια δεν μπορεί να αναιρεθεί</string>
+    <string name="discard">Απόρριψη</string>
     <string name="sound_notification_title">Εγγραφή ήχου</string>
     <string name="sound_notification_message">Μήκος ήχου: %1$s</string>
     <string name="sound_recording_title_working">Γίνεται εγγραφή</string>
@@ -32,7 +34,6 @@
     <string name="sound_last_title">Τελευταία εγγραφή</string>
     <string name="sound_channel_title">Εγγραφή ήχου</string>
     <string name="sound_channel_desc">Συνεχής ειδοποίηση κατά την εγγραφή ήχου και ειδοποίηση αφού έχει ολοκληρωθεί</string>
-    <string name="screen_last_message">Διάρκεια: %1$d δευτερόλεπτα</string>
     <string name="settings_title">Ρυθμίσεις</string>
     <string name="settings_location_message">Προσθέστε ετικέτες στις ηχογραφήσεις σας με την τρέχουσα θέση σας</string>
     <string name="settings_quality_high">Εγγραφή σε υψηλή ποιότητα</string>
@@ -49,4 +50,5 @@
     <string name="list_edit_title">Επεξεργασία ονόματος εγγραφής</string>
     <string name="list_edit_confirm">Αλλαγή</string>
     <string name="list_item_menu">Περισσότερες ενέργειες</string>
+    <string name="delete_all_title">Διαγραφή όλων</string>
 </resources>

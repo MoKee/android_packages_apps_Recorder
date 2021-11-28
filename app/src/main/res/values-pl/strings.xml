@@ -21,10 +21,12 @@
     <string name="pause">Pauza</string>
     <string name="resume">Wznów</string>
     <string name="delete">Usuń</string>
+    <string name="delete_all">Usuń wszystkie</string>
     <string name="cancel">Anuluj</string>
     <string name="rename">Zmień nazwę</string>
     <string name="delete_title">Usuwanie nagrania</string>
     <string name="delete_recording_message">Czy na pewno chcesz usunąć to nagranie? Nie można tego cofnąć!</string>
+    <string name="discard">Porzuć</string>
     <string name="sound_notification_title">Rejestrator dźwięku</string>
     <string name="sound_notification_message">Długość dźwięku: %1$s</string>
     <string name="sound_recording_title_working">Nagrywanie</string>
@@ -32,7 +34,6 @@
     <string name="sound_last_title">Ostatnie nagranie</string>
     <string name="sound_channel_title">Nagrywanie dźwięku</string>
     <string name="sound_channel_desc">Stałe powiadomienie podczas nagrywania dźwięku i powiadomienie po jego ukończeniu</string>
-    <string name="screen_last_message">Czas trwania: %1$d sekund</string>
     <string name="settings_title">Ustawienia</string>
     <string name="settings_location_message">Oznacz swoje nagrania z aktualną pozycją</string>
     <string name="settings_quality_high">Nagrywanie w wysokiej jakości</string>
@@ -51,4 +52,5 @@
     <string name="list_edit_title">Edytuj nazwę nagrania</string>
     <string name="list_edit_confirm">Zmień</string>
     <string name="list_item_menu">Więcej akcji</string>
+    <string name="delete_all_title">Usuń wszystkie</string>
 </resources>

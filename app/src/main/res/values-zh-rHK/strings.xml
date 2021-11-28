@@ -21,9 +21,11 @@
     <string name="pause">暫停</string>
     <string name="resume">恢復</string>
     <string name="delete">刪除</string>
+    <string name="delete_all">全部刪除</string>
     <string name="cancel">取消</string>
     <string name="rename">重命名</string>
     <string name="delete_title">刪除記錄</string>
+    <string name="discard">捨棄</string>
     <string name="sound_notification_title">錄音機</string>
     <string name="sound_notification_message">音訊長度︰%1$s</string>
     <string name="sound_recording_title_working">錄製中</string>
@@ -31,7 +33,6 @@
     <string name="sound_last_title">最後一筆紀錄</string>
     <string name="sound_channel_title">錄音</string>
     <string name="sound_channel_desc">在錄音完後保持通知</string>
-    <string name="screen_last_message">持續時間：%1$d 秒</string>
     <string name="settings_title">設定</string>
     <string name="dialog_permissions_title">許可權</string>
     <string name="dialog_permissions_mic">錄製工具需要麥克風錄製音訊的權限</string>
@@ -41,4 +42,5 @@
     <string name="dialog_permissions_dismiss">略過</string>
     <string name="snack_permissions_no_permission">所需權限被拒，請在設定中啟用以開始錄音</string>
     <string name="main_sound_action">錄音</string>
+    <string name="delete_all_title">全部刪除</string>
 </resources>

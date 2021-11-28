@@ -21,10 +21,12 @@
     <string name="pause">暂停</string>
     <string name="resume">继续</string>
     <string name="delete">删除</string>
+    <string name="delete_all">删除所有</string>
     <string name="cancel">取消</string>
     <string name="rename">重命名</string>
     <string name="delete_title">正在删除记录</string>
     <string name="delete_recording_message">你确定要删除此录音吗？ 此操作不可撤销</string>
+    <string name="discard">丢弃</string>
     <string name="sound_notification_title">录音机</string>
     <string name="sound_notification_message">音频长度：%1$s</string>
     <string name="sound_recording_title_working">正在录制</string>
@@ -32,7 +34,6 @@
     <string name="sound_last_title">上次录制</string>
     <string name="sound_channel_title">录音</string>
     <string name="sound_channel_desc">录音至完成期间的持续通知</string>
-    <string name="screen_last_message">持续时间 %1$d 秒</string>
     <string name="settings_title">设置</string>
     <string name="settings_location_message">用你当前的位置给你的录音加标签</string>
     <string name="settings_quality_high">高质量录音</string>
@@ -51,4 +52,5 @@
     <string name="list_edit_title">编辑录音名称</string>
     <string name="list_edit_confirm">更改</string>
     <string name="list_item_menu">更多操作</string>
+    <string name="delete_all_title">删除所有</string>
 </resources>

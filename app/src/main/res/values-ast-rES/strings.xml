@@ -21,9 +21,11 @@
     <string name="pause">Posar</string>
     <string name="resume">Siguir</string>
     <string name="delete">Desaniciar</string>
+    <string name="delete_all">Desaniciar too</string>
     <string name="cancel">Encaboxar</string>
     <string name="rename">Renomar</string>
     <string name="delete_title">Desaniciando grabación</string>
+    <string name="discard">Escartar</string>
     <string name="sound_notification_title">Grabadora de soníu</string>
     <string name="sound_notification_message">Duración d\'audiu: %1$s</string>
     <string name="sound_recording_title_working">Grabando</string>
@@ -40,4 +42,5 @@
     <string name="dialog_permissions_dismiss">Escartar</string>
     <string name="snack_permissions_no_permission">Ñegáronse permisos riquíos, habilítalos dende Axustes pa entamar a grabar</string>
     <string name="main_sound_action">Grabar el soníu</string>
+    <string name="delete_all_title">Desaniciar too</string>
 </resources>

@@ -20,9 +20,11 @@
     <string name="pause">இடைநிறுத்து</string>
     <string name="resume">தொடரவும்</string>
     <string name="delete">நீக்கு</string>
+    <string name="delete_all">அனைத்தையும் நீக்கு</string>
     <string name="cancel">ரத்துசெய்</string>
     <string name="rename">மறுபெயரிடு</string>
     <string name="delete_title">பதிவை நீக்குதல்</string>
+    <string name="discard">நிராகரி</string>
     <string name="sound_notification_message">ஒலி நீளம்: %1$s</string>
     <string name="sound_recording_title_working">பதிவு</string>
     <string name="sound_recording_title_paused">இடைநிறுத்தப்பட்டது</string>
@@ -32,4 +34,5 @@
     <string name="dialog_permissions_ask">மீண்டும் கேள்</string>
     <string name="dialog_permissions_dismiss">நிராகரி</string>
     <string name="main_sound_action">ஒலியைப்  பதிவெடு</string>
+    <string name="delete_all_title">அனைத்தையும் நீக்கு</string>
 </resources>

@@ -16,6 +16,8 @@
 <resources>
     <string name="share">Kongsi</string>
     <string name="delete">Padam</string>
+    <string name="delete_all">Padam Semua</string>
     <string name="cancel">Batal</string>
     <string name="settings_title">Tetapan</string>
+    <string name="delete_all_title">Padam Semua</string>
 </resources>

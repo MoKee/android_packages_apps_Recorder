@@ -14,5 +14,7 @@
      limitations under the License.
 -->
 <resources>
+    <string name="delete_all">అన్నీ తొలగించు</string>
     <string name="sound_recording_title_paused">ఆపివేయబడింది</string>
+    <string name="delete_all_title">అన్నీ తొలగించు</string>
 </resources>

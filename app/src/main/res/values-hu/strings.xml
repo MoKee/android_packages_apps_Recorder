@@ -21,10 +21,12 @@
     <string name="pause">Szünet</string>
     <string name="resume">Folytatás</string>
     <string name="delete">Törlés</string>
+    <string name="delete_all">Összes törlése</string>
     <string name="cancel">Mégse</string>
     <string name="rename">Átnevezés</string>
     <string name="delete_title">Felvétel törlése</string>
     <string name="delete_recording_message">Biztosan törli ezt a felvételt? Ha törölte, már nem szerezheti többé vissza</string>
+    <string name="discard">Elvetés</string>
     <string name="sound_notification_title">Hangrögzítő</string>
     <string name="sound_notification_message">Audio hossza: %1$s</string>
     <string name="sound_recording_title_working">Felvétel</string>
@@ -32,7 +34,6 @@
     <string name="sound_last_title">Utolsó felvétel</string>
     <string name="sound_channel_title">Hangrögzítés</string>
     <string name="sound_channel_desc">Állandó értesítés hangfelvétel közben és értesítés befejezéskor</string>
-    <string name="screen_last_message">%1$d másodperc hosszú</string>
     <string name="settings_title">Beállítások</string>
     <string name="settings_location_message">A felvételeket fűzze hozzá az aktuális tartózkodási helyhez</string>
     <string name="settings_quality_high">Kiváló minőségű felvétel</string>
@@ -51,4 +52,5 @@
     <string name="list_edit_title">Felvételcímek szerkesztése</string>
     <string name="list_edit_confirm">Váltás</string>
     <string name="list_item_menu">További műveletek</string>
+    <string name="delete_all_title">Összes törlése</string>
 </resources>

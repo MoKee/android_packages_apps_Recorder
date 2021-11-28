@@ -19,6 +19,7 @@
     <string name="stop">Cuir stad air</string>
     <string name="play">Cluich</string>
     <string name="delete">Sguab às</string>
+    <string name="delete_all">Sguab às na h-uile</string>
     <string name="cancel">Sguir dheth</string>
     <string name="rename">Thoir ainm ùr air</string>
     <string name="delete_title">A’ sguabadh às an clàradh</string>
@@ -36,4 +37,5 @@
     <string name="dialog_permissions_dismiss">Leig seachad</string>
     <string name="snack_permissions_no_permission">Chaidh ceadan riatanach a dhiùltadh, cuir an comas iad ann an aplacaid nan roghainnean mus tòisich thu air a’ chlàradh</string>
     <string name="main_sound_action">Clàraich an fhuaim</string>
+    <string name="delete_all_title">Sguab às na h-uile</string>
 </resources>

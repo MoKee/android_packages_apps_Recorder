@@ -16,15 +16,23 @@
 <resources>
     <string name="app_name">Rekordér</string>
     <string name="share">Sdílet</string>
+    <string name="share_selected">Sdílet vybrané</string>
     <string name="stop">Stop</string>
     <string name="play">Přehrát</string>
     <string name="pause">Pozastavit</string>
     <string name="resume">Pokračovat</string>
     <string name="delete">Odstranit</string>
+    <string name="delete_all">Odstranit vše</string>
+    <string name="delete_selected">Smazat vybrané</string>
     <string name="cancel">Zrušit</string>
     <string name="rename">Přejmenovat</string>
     <string name="delete_title">Odstraňování záznamu</string>
     <string name="delete_recording_message">Opravdu chcete smazat tento záznam? Tato akce je nevratná</string>
+    <string name="confirm">Potvrdit</string>
+    <string name="discard">Zrušit</string>
+    <string name="record_again">Znovu zaznamenat</string>
+    <string name="confirm_result_title">Použít nahrávku?</string>
+    <string name="confirm_result_message">Chcete použít poslední záznam?</string>
     <string name="sound_notification_title">Záznam zvuku</string>
     <string name="sound_notification_message">Délka zvukového záznamu: %1$s</string>
     <string name="sound_recording_title_working">Nahrávání</string>
@@ -32,7 +40,6 @@
     <string name="sound_last_title">Poslední záznam</string>
     <string name="sound_channel_title">Záznam zvuku</string>
     <string name="sound_channel_desc">Trvalé oznámení při záznamu zvuku a oznámení po dokončení</string>
-    <string name="screen_last_message">Doba trvání: %1$d\u00a0s</string>
     <string name="settings_title">Nastavení</string>
     <string name="settings_location_message">Označte své nahrávky svou aktuální pozicí</string>
     <string name="settings_quality_high">Nahrávání ve vysoké kvalitě</string>
@@ -51,4 +58,8 @@
     <string name="list_edit_title">Upravit název záznamu</string>
     <string name="list_edit_confirm">Změnit</string>
     <string name="list_item_menu">Další akce</string>
+    <string name="delete_all_title">Odstranit vše</string>
+    <string name="delete_all_message">Opravdu chcete smazat všechny záznamy? Tato akce je nevratná</string>
+    <string name="delete_selected_title">Smazat vybrané</string>
+    <string name="delete_selected_message">Opravdu chcete smazat vybrané záznamy? Tato akce je nevratná</string>
 </resources>

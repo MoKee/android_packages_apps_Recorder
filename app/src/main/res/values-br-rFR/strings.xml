@@ -17,9 +17,11 @@
     <string name="share">Rannañ</string>
     <string name="resume">Adenvel</string>
     <string name="delete">Dilemel</string>
+    <string name="delete_all">Dilemel pep tra</string>
     <string name="cancel">Nullañ</string>
     <string name="rename">Adenvel</string>
     <string name="sound_recording_title_working">Enrollañ</string>
     <string name="settings_title">Arventennoù</string>
     <string name="dialog_permissions_dismiss">Argas</string>
+    <string name="delete_all_title">Dilemel pep tra</string>
 </resources>

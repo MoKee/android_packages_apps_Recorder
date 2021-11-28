@@ -21,9 +21,11 @@
     <string name="pause">Ndërprit</string>
     <string name="resume">Rifillo</string>
     <string name="delete">Fshi</string>
+    <string name="delete_all">Fshiji të gjitha</string>
     <string name="cancel">Anullo</string>
     <string name="rename">Riemërto</string>
     <string name="delete_title">Duke fshirë regjistrimin</string>
+    <string name="discard">Injoro</string>
     <string name="sound_notification_title">Regjistruesi i Tingujve</string>
     <string name="sound_notification_message">Gjatësia e audios: %1$s</string>
     <string name="sound_recording_title_working">Duke regjistruar</string>
@@ -31,7 +33,6 @@
     <string name="sound_last_title">Regjistrimi i fundit</string>
     <string name="sound_channel_title">Inçizim zëri</string>
     <string name="sound_channel_desc">Njoftim i vazhdueshëm kur inçizon me zë dhe njofto pasi të përfundojë</string>
-    <string name="screen_last_message">Kohëzgjatja: %1$d sekonda</string>
     <string name="settings_title">Parametrat</string>
     <string name="dialog_permissions_title">Lejet</string>
     <string name="dialog_permissions_mic">Regjistruesi kërkon leje aksesi tek mikrofoni për të regjistruar audio</string>
@@ -41,4 +42,5 @@
     <string name="dialog_permissions_dismiss">Largo</string>
     <string name="snack_permissions_no_permission">Lejet e nevojitura u refuzuan. Aktivizoji ato nga aplikacioni i Parametrave për të nisur regjistrimin</string>
     <string name="main_sound_action">Regjistro zërin</string>
+    <string name="delete_all_title">Fshiji të gjitha</string>
 </resources>

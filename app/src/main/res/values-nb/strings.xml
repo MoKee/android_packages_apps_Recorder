@@ -20,9 +20,11 @@
     <string name="play">Spill av</string>
     <string name="resume">Fortsett</string>
     <string name="delete">Slett</string>
+    <string name="delete_all">Slett alle</string>
     <string name="cancel">Avbryt</string>
     <string name="rename">Gi nytt navn</string>
     <string name="delete_title">Sletter opptaket</string>
+    <string name="discard">Forkast</string>
     <string name="sound_notification_title">Lydopptaker</string>
     <string name="sound_notification_message">Lydlengde: %1$s</string>
     <string name="sound_recording_title_working">Tar opp</string>
@@ -37,4 +39,5 @@
     <string name="dialog_permissions_dismiss">Avvis</string>
     <string name="snack_permissions_no_permission">Nødvendige tillatelser ble nektet, aktiver dem fra telefonens innstillinger for å starte å ta opp lyd</string>
     <string name="main_sound_action">Ta opp lyd</string>
+    <string name="delete_all_title">Slett alle</string>
 </resources>

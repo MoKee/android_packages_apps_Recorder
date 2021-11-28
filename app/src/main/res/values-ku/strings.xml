@@ -16,4 +16,6 @@
 <resources>
     <string name="share">به‌شداری پێکردن</string>
     <string name="delete">سڕینه‌وه‌</string>
+    <string name="delete_all">سڕینەوەی هەموو</string>
+    <string name="delete_all_title">سڕینەوەی هەموو</string>
 </resources>

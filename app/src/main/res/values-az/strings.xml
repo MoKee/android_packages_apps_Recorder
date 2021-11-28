@@ -21,8 +21,10 @@
     <string name="pause">Fasilə verin</string>
     <string name="resume">Davam et</string>
     <string name="delete">Sil</string>
+    <string name="delete_all">Hamısını sil</string>
     <string name="cancel">İmtina</string>
     <string name="delete_title">Səsyazma silinir</string>
+    <string name="discard">Yoxsay</string>
     <string name="sound_notification_title">Səs Yazma</string>
     <string name="sound_notification_message">Səs uzunluğu: %1$s</string>
     <string name="sound_recording_title_working">Səs yazılır</string>
@@ -30,7 +32,6 @@
     <string name="sound_last_title">Son səsyazma</string>
     <string name="sound_channel_title">Səs yazma</string>
     <string name="sound_channel_desc">Səs yazanda davamlı bildiriş göstər və tamamlandıqdan sonra bildiriş göstər</string>
-    <string name="screen_last_message">Müddət: %1$d saniyə</string>
     <string name="dialog_permissions_title">İcazələr</string>
     <string name="dialog_permissions_mic">Səsyazan-ın, səsi yazmaq üçün mikrofon icazəsinə ehtiyacı var</string>
     <string name="dialog_permissions_phone">Zəng əsnasında bu tətbiqin yazmasını əngəlləmək üçün \"Səsyazan\" telefon vəziyyətinə müraciət etməlidir</string>
@@ -39,4 +40,5 @@
     <string name="dialog_permissions_dismiss">Rədd et</string>
     <string name="snack_permissions_no_permission">Tələb edilən icazələr rədd edildi, səsyazmağa başlamaq üçün Tənzimləmələr tətbiqindən icazələri fəallaşdırın</string>
     <string name="main_sound_action">Səs yaz</string>
+    <string name="delete_all_title">Hamısını sil</string>
 </resources>

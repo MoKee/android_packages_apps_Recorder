@@ -20,6 +20,7 @@
     <string name="play">Chwarae</string>
     <string name="pause">Saib</string>
     <string name="delete">Dileu</string>
+    <string name="delete_all">Dileu\'r cwbl</string>
     <string name="cancel">Diddymu</string>
     <string name="rename">Ailenwi</string>
     <string name="delete_title">Yn dileu\'r recordiad</string>
@@ -30,7 +31,6 @@
     <string name="sound_last_title">Recordiad diwethaf</string>
     <string name="sound_channel_title">Recordio sain</string>
     <string name="sound_channel_desc">Hysbysiad cyson wrth recordio\'r sain a hysbysiad ar ôl gorffen recordio</string>
-    <string name="screen_last_message">Hyd: %1$d eiliad</string>
     <string name="settings_title">Gosodiadau</string>
     <string name="dialog_permissions_title">Caniatâd</string>
     <string name="dialog_permissions_mic">Mae ar Recordydd angen mynediad i\'r meicroffon i recordio sain.</string>
@@ -40,4 +40,5 @@
     <string name="dialog_permissions_dismiss">Diystyru</string>
     <string name="snack_permissions_no_permission">Gwrthodwyd peth caniatad sydd ei angen. Rho ganiatâd yn Gosodiadau er mwyn dechrau recordio.</string>
     <string name="main_sound_action">Recordio sain</string>
+    <string name="delete_all_title">Dileu\'r cwbl</string>
 </resources>

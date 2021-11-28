@@ -16,15 +16,23 @@
 <resources>
     <string name="app_name">Salvestaja</string>
     <string name="share">Jaga</string>
+    <string name="share_selected">Jaga valitud</string>
     <string name="stop">Peata</string>
     <string name="play">Mängi</string>
     <string name="pause">Peata</string>
     <string name="resume">Jätka</string>
     <string name="delete">Kustuta</string>
+    <string name="delete_all">Kustuta kõik</string>
+    <string name="delete_selected">Kustuta valitud</string>
     <string name="cancel">Tühista</string>
     <string name="rename">Nimeta ümber</string>
     <string name="delete_title">Kirjete kustutamine</string>
     <string name="delete_recording_message">Kas sa oled kindel, et soovid kustutada selle salvestuse? Seda toimingut ei saa tagasi võtta!</string>
+    <string name="confirm">Kinnita</string>
+    <string name="discard">Loobu</string>
+    <string name="record_again">Salvestage uuesti</string>
+    <string name="confirm_result_title">Kas salvestada?</string>
+    <string name="confirm_result_message">Kas soovite kasutada viimast salvestust?</string>
     <string name="sound_notification_title">Helisalvesti</string>
     <string name="sound_notification_message">Audio pikkus: %1$s</string>
     <string name="sound_recording_title_working">Salvestamine</string>
@@ -32,7 +40,6 @@
     <string name="sound_last_title">Viimane kirje</string>
     <string name="sound_channel_title">Heli salvestamine</string>
     <string name="sound_channel_desc">Püsiv teade heli salvestamisel ja teade kui salvestamine on lõppenud</string>
-    <string name="screen_last_message">Kestus: %1$d sekundit</string>
     <string name="settings_title">Seaded</string>
     <string name="settings_location_message">Lisage postitustele asukohasildid</string>
     <string name="settings_quality_high">Kvaliteetne salvestus</string>
@@ -51,4 +58,8 @@
     <string name="list_edit_title">Muuda salvestuse nime</string>
     <string name="list_edit_confirm">Muuda</string>
     <string name="list_item_menu">Rohkem tegevusi</string>
+    <string name="delete_all_title">Kustuta kõik</string>
+    <string name="delete_all_message">Kas olete kindel, et soovite kõik salvestused kustutada? Seda ei saa tagasi võtta</string>
+    <string name="delete_selected_title">Kustuta valitud</string>
+    <string name="delete_selected_message">Kas olete kindel, et soovite valitud salvestused kustutada? Seda ei saa tagasi võtta</string>
 </resources>

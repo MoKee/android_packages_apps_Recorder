@@ -21,9 +21,11 @@
     <string name="pause">Pauze</string>
     <string name="resume">Hervatten</string>
     <string name="delete">Verwijderen</string>
+    <string name="delete_all">Alles verwijderen</string>
     <string name="cancel">Annuleren</string>
     <string name="rename">Naam wijzigen</string>
     <string name="delete_title">Opname verwijderen</string>
+    <string name="discard">Negeren</string>
     <string name="sound_notification_title">Geluidsrecorder</string>
     <string name="sound_notification_message">Audiolengte: %1$s</string>
     <string name="sound_recording_title_working">Opnemen</string>
@@ -40,4 +42,5 @@
     <string name="snack_permissions_no_permission">Vereiste machtigingen werden geweigerd, schakel ze in bij Instellingen om opname te starten</string>
     <string name="main_sound_action">Geluid opnemen</string>
     <string name="list_edit_confirm">Wijzigen</string>
+    <string name="delete_all_title">Alles verwijderen</string>
 </resources>

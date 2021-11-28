@@ -19,6 +19,7 @@
     <string name="stop">Stop</string>
     <string name="play">Play</string>
     <string name="delete">Delete</string>
+    <string name="delete_all">Delete all</string>
     <string name="cancel">Cancel</string>
     <string name="rename">Rename</string>
     <string name="delete_title">Deleting record</string>
@@ -29,7 +30,6 @@
     <string name="sound_last_title">Last record</string>
     <string name="sound_channel_title">Sound recording</string>
     <string name="sound_channel_desc">Persistent notification when recording sound and notification after it is complete</string>
-    <string name="screen_last_message">Duration: %1$d seconds</string>
     <string name="dialog_permissions_title">Permissions</string>
     <string name="dialog_permissions_mic">Recorder needs microphone permission to record audio</string>
     <string name="dialog_permissions_phone">Recorder needs phone status access to prevent this app from recording while you\'re calling</string>
@@ -38,4 +38,5 @@
     <string name="dialog_permissions_dismiss">Dismiss</string>
     <string name="snack_permissions_no_permission">Required permissions were denied, enable them from Settings app to start recording</string>
     <string name="main_sound_action">Record sound</string>
+    <string name="delete_all_title">Delete all</string>
 </resources>

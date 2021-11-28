@@ -16,4 +16,6 @@
 <resources>
     <string name="share">Deelen</string>
     <string name="delete">Läschen</string>
+    <string name="delete_all">All läschen</string>
+    <string name="delete_all_title">All läschen</string>
 </resources>

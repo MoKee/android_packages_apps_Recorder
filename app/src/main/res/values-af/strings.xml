@@ -21,6 +21,7 @@
     <string name="pause">Laat wag</string>
     <string name="resume">Hervat</string>
     <string name="delete">Verwyder</string>
+    <string name="delete_all">Verwyder alles</string>
     <string name="cancel">Kanselleer</string>
     <string name="rename">Hernoem</string>
     <string name="delete_title">Verwyde opname</string>
@@ -37,4 +38,5 @@
     <string name="dialog_permissions_ask">Vra weer</string>
     <string name="dialog_permissions_dismiss">Maak toe</string>
     <string name="snack_permissions_no_permission">Nodige toestemmings geweier, aktiveer hulle vanaf Instellings toep om die opname te begin</string>
+    <string name="delete_all_title">Verwyder alles</string>
 </resources>

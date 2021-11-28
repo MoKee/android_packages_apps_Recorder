@@ -21,9 +21,11 @@
     <string name="pause">Naka-tigil</string>
     <string name="resume">Ipagpatuloy</string>
     <string name="delete">Burahin</string>
+    <string name="delete_all">Tanggalin lahat</string>
     <string name="cancel">Kanselahin</string>
     <string name="rename">Baguhin ang pangalan</string>
     <string name="delete_title">Nagtanggal ng talaan</string>
+    <string name="discard">Alisin</string>
     <string name="sound_notification_title">Rekorder ng tunog</string>
     <string name="sound_notification_message">Haba ng audio: %1$s</string>
     <string name="sound_recording_title_working">Pagre-record</string>
@@ -38,4 +40,5 @@
     <string name="dialog_permissions_dismiss">I-dismiss</string>
     <string name="snack_permissions_no_permission">Kailangan ng mga pahintulot ay hindi pinayagan, paganahin ang mga ito mula sa Settings app upang magsimula ang pagtala</string>
     <string name="main_sound_action">Talaaan ang tunog</string>
+    <string name="delete_all_title">Tanggalin lahat</string>
 </resources>

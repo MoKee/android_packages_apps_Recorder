@@ -19,6 +19,7 @@
     <string name="stop">නවත්වන්න</string>
     <string name="play">ක්‍රියා කරවන්න</string>
     <string name="delete">මකන්න</string>
+    <string name="delete_all">සියල්ල මකන්න</string>
     <string name="delete_title">වාර්තාව මකා දමමින්</string>
     <string name="sound_notification_title">ශබ්ද රෙකෝඩරය</string>
     <string name="sound_notification_message">ශ්‍රව්‍ය දිග: %1$s</string>
@@ -34,4 +35,5 @@
     <string name="dialog_permissions_dismiss">ඉවත් කරන්න</string>
     <string name="snack_permissions_no_permission">අවශ්‍ය අවසර ප්‍රතික්ෂේප කරන ලදි, ඒවා පටිගත කිරීම ආරම්භ කිරීමට සැකසීම් යෙදුමෙන් සක්‍රීය කරන්න</string>
     <string name="main_sound_action">පටිගත කිරීමේ ශබ්දය</string>
+    <string name="delete_all_title">සියල්ල මකන්න</string>
 </resources>

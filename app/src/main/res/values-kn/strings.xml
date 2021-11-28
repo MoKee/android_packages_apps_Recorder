@@ -21,9 +21,11 @@
     <string name="pause">ವಿರಮಿಸಿ</string>
     <string name="resume">ಮುಂದುವರಿಸಿ</string>
     <string name="delete">ಅಳಿಸು</string>
+    <string name="delete_all">ಎಲ್ಲವನ್ನೂ ಅಳಿಸು</string>
     <string name="cancel">ರದ್ದು</string>
     <string name="rename">ಮರುಹೆಸರಿಸಿ</string>
     <string name="delete_title">ರೆಕಾರ್ಡ್‌ ಅಳಿಸಲಾಗುತ್ತಿದೆ</string>
+    <string name="discard">ತ್ಯಜಿಸಿ</string>
     <string name="sound_notification_title">ಧ್ವನಿ ರೆಕಾರ್ಡರ್</string>
     <string name="sound_notification_message">ಧ್ವನಿ ಅಳತೆ: %1$s</string>
     <string name="sound_recording_title_working">ರೆಕಾರ್ಡ್‌ ಆಗುತ್ತಿದೆ</string>
@@ -39,4 +41,5 @@
     <string name="dialog_permissions_ask">ಪುನಃ ಕೇಳಿ</string>
     <string name="dialog_permissions_dismiss">ವಜಾ ಮಾಡು</string>
     <string name="main_sound_action">ಧ್ವನಿ ಮುದ್ರಿಸಿ</string>
+    <string name="delete_all_title">ಎಲ್ಲವನ್ನೂ ಅಳಿಸು</string>
 </resources>

@@ -14,5 +14,7 @@
      limitations under the License.
 -->
 <resources>
+    <string name="delete_all">ସମସ୍ତ ବିଲୋପ କରନ୍ତୁ</string>
     <string name="sound_recording_title_paused">ବିରତି ହୋଇଛି</string>
+    <string name="delete_all_title">ସମସ୍ତ ବିଲୋପ କରନ୍ତୁ</string>
 </resources>

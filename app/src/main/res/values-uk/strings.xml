@@ -21,9 +21,11 @@
     <string name="pause">Пауза</string>
     <string name="resume">Продовжити</string>
     <string name="delete">Видалити</string>
+    <string name="delete_all">Видалити всі</string>
     <string name="cancel">Скасувати</string>
     <string name="rename">Змінити назву</string>
     <string name="delete_title">Видалення записів</string>
+    <string name="discard">Скасувати</string>
     <string name="sound_notification_title">Запис звуку</string>
     <string name="sound_notification_message">Тривалість аудіо запису: %1$s</string>
     <string name="sound_recording_title_working">Запис</string>
@@ -31,7 +33,6 @@
     <string name="sound_last_title">Останній запис</string>
     <string name="sound_channel_title">Записати звук</string>
     <string name="sound_channel_desc">Постійне повідомлення при запису звуку та повідомлення після його завершення</string>
-    <string name="screen_last_message">Тривалість: %1$d секунд</string>
     <string name="settings_title">Налаштування</string>
     <string name="dialog_permissions_title">Дозволи</string>
     <string name="dialog_permissions_mic">Додаток «Звукозаписувач» потребує доступ до мікрофону для здійснення звукозапису</string>
@@ -42,4 +43,5 @@
     <string name="snack_permissions_no_permission">Відмовлено в необхідних дозволах. Увімкніть їх у налаштуваннях, щоб почати запис</string>
     <string name="main_sound_action">Запис звуку</string>
     <string name="list_edit_confirm">Змінити</string>
+    <string name="delete_all_title">Видалити всі</string>
 </resources>

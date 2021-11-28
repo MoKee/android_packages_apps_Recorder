@@ -14,6 +14,8 @@
      limitations under the License.
 -->
 <resources>
+    <string name="delete_all">എല്ലാം ഇല്ലാതാക്കുക</string>
     <string name="cancel">റദ്ദാക്കുക</string>
     <string name="sound_recording_title_paused">താല്‍ക്കാലികമായി നിറുത്തല്‍</string>
+    <string name="delete_all_title">എല്ലാം ഇല്ലാതാക്കുക</string>
 </resources>

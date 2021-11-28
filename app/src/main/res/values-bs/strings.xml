@@ -16,7 +16,9 @@
 <resources>
     <string name="pause">Pauziraj</string>
     <string name="resume">Nastavi</string>
+    <string name="delete_all">Obriši sve</string>
     <string name="sound_recording_title_paused">Pauzirana</string>
     <string name="sound_channel_title">Snimanje zvuka</string>
     <string name="dialog_permissions_dismiss">Dismiss</string>
+    <string name="delete_all_title">Obriši sve</string>
 </resources>

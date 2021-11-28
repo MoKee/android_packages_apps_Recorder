@@ -18,9 +18,11 @@
     <string name="pause">पॉज़ करें</string>
     <string name="resume">फिर से शुरू करें</string>
     <string name="delete">हटाएं</string>
+    <string name="delete_all">सब हटाएँ</string>
     <string name="cancel">रद्द करें</string>
     <string name="sound_recording_title_paused">रोका गया</string>
     <string name="settings_title">सेटिंग</string>
     <string name="dialog_permissions_dismiss">Dismiss</string>
     <string name="list_edit_confirm">बदलें</string>
+    <string name="delete_all_title">सब हटाएँ</string>
 </resources>

@@ -21,9 +21,11 @@
     <string name="pause">Keskeytä</string>
     <string name="resume">Jatka</string>
     <string name="delete">Poista</string>
+    <string name="delete_all">Poista kaikki</string>
     <string name="cancel">Peruuta</string>
     <string name="rename">Nimeä uudelleen</string>
     <string name="delete_title">Poistetaan nauhoitusta</string>
+    <string name="discard">Hylkää</string>
     <string name="sound_notification_title">Ääninauhuri</string>
     <string name="sound_notification_message">Äänen kesto: %1$s</string>
     <string name="sound_recording_title_working">Nauhoitetaan</string>
@@ -31,7 +33,6 @@
     <string name="sound_last_title">Viimeisin nauhoitus</string>
     <string name="sound_channel_title">Ääninauhuri</string>
     <string name="sound_channel_desc">Jatkuva ilmoitus äänen tallentamisesta ja ilmoitus kun se on valmis</string>
-    <string name="screen_last_message">Kesto: %1$d sekuntia</string>
     <string name="settings_title">Asetukset</string>
     <string name="dialog_permissions_title">Käyttöoikeudet</string>
     <string name="dialog_permissions_mic">Nauhoitus tarvitsee pääsyn mikrofoniin nauhoittaakseen ääntä</string>
@@ -42,4 +43,5 @@
     <string name="snack_permissions_no_permission">Tarvittavat käyttöoikeudet hylättiin, ota ne käyttöön Asetukset-sovelluksesta aloittaaksesi nauhoituksen</string>
     <string name="main_sound_action">Nauhoita ääntä</string>
     <string name="list_edit_confirm">Muuta</string>
+    <string name="delete_all_title">Poista kaikki</string>
 </resources>

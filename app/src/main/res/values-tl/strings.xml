@@ -21,9 +21,11 @@
     <string name="pause">Naka-tigil</string>
     <string name="resume">Ipagpatuloy</string>
     <string name="delete">Tanggalin</string>
+    <string name="delete_all">Tanggalin lahat</string>
     <string name="cancel">Kanselahin</string>
     <string name="rename">Palitan ang pangalan</string>
     <string name="delete_title">Tanggalin ang record</string>
+    <string name="discard">I-discard</string>
     <string name="sound_notification_title">Sound Recorder</string>
     <string name="sound_notification_message">Haba ng audio: %1$s</string>
     <string name="sound_recording_title_working">Nagre-record</string>
@@ -39,4 +41,5 @@
     <string name="dialog_permissions_dismiss">Alisin</string>
     <string name="snack_permissions_no_permission">Mga pahintulot na kinakailangan ay tinanggihan, paganahin ang mga ito mula sa mga Setting ng app para magsimula sa pagrecord</string>
     <string name="main_sound_action">I-record ang tunog</string>
+    <string name="delete_all_title">Tanggalin lahat</string>
 </resources>

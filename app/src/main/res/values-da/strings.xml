@@ -20,9 +20,11 @@
     <string name="play">Afspil</string>
     <string name="resume">Genoptag</string>
     <string name="delete">Slet</string>
+    <string name="delete_all">Slet alt</string>
     <string name="cancel">Afbryd</string>
     <string name="rename">Omdøb</string>
     <string name="delete_title">Sletter optagelse</string>
+    <string name="discard">Kassér</string>
     <string name="sound_notification_title">Lydoptager</string>
     <string name="sound_notification_message">Lydlængde: %1$s</string>
     <string name="sound_recording_title_working">Optager</string>
@@ -38,4 +40,5 @@
     <string name="snack_permissions_no_permission">Påkrævede tilladelser blev afslået, aktivér dem fra Indstillinger-app, for at begynde optagelse</string>
     <string name="main_sound_action">Optag lyd</string>
     <string name="list_edit_confirm">Skift</string>
+    <string name="delete_all_title">Slet alt</string>
 </resources>

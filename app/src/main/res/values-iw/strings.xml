@@ -21,6 +21,7 @@
     <string name="pause">השהה</string>
     <string name="resume">המשך</string>
     <string name="delete">מחק</string>
+    <string name="delete_all">מחק הכול</string>
     <string name="cancel">ביטול</string>
     <string name="rename">שינוי שם</string>
     <string name="delete_title">מחיקת הקלטה</string>
@@ -41,4 +42,5 @@
     <string name="snack_permissions_no_permission">ההרשאות הנדרשות נדחו, הפעל אותם מההגדרות כדי להתחיל בהקלטה</string>
     <string name="main_sound_action">הקלט קול</string>
     <string name="list_edit_confirm">שנה</string>
+    <string name="delete_all_title">מחק הכול</string>
 </resources>

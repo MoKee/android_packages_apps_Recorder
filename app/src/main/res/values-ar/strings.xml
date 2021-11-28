@@ -21,9 +21,11 @@
     <string name="pause">إيقاف مؤقت</string>
     <string name="resume">استئناف</string>
     <string name="delete">حذف</string>
+    <string name="delete_all">حذف الكل</string>
     <string name="cancel">إلغاء</string>
     <string name="rename">إعادة تسمية</string>
     <string name="delete_title">حذف التسجيل</string>
+    <string name="discard">استبعاد</string>
     <string name="sound_notification_title">مُسجل الصوت</string>
     <string name="sound_notification_message">طول الصوت: %1$s</string>
     <string name="sound_recording_title_working">يتم التسجيل</string>
@@ -31,7 +33,6 @@
     <string name="sound_last_title">التسجيل الأخير</string>
     <string name="sound_channel_title">تسجيل الصوت</string>
     <string name="sound_channel_desc">إشعار دائم عند تسجيل الصوت والإشعار بعد اكتماله</string>
-    <string name="screen_last_message">المدة: %1$d ثواني</string>
     <string name="settings_title">الإعدادات</string>
     <string name="dialog_permissions_title">الأذونات</string>
     <string name="dialog_permissions_mic">المُسجل يحتاج إلى إذن وصول للميكروفون لتسجيل الصوت</string>
@@ -42,4 +43,5 @@
     <string name="snack_permissions_no_permission">تم رفض الأذونات المطلوبة، قم بتفعيلها من تطبيق الإعدادات لبدء التسجيل</string>
     <string name="main_sound_action">تسجيل الصوت</string>
     <string name="list_edit_confirm">تغيير</string>
+    <string name="delete_all_title">حذف الكل</string>
 </resources>

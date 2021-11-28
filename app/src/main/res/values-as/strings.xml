@@ -14,5 +14,7 @@
      limitations under the License.
 -->
 <resources>
+    <string name="delete_all">সকলোবোৰ মচি পেলাওঁক</string>
     <string name="sound_recording_title_paused">বিৰাম কৰা হৈছে</string>
+    <string name="delete_all_title">সকলোবোৰ মচি পেলাওঁক</string>
 </resources>

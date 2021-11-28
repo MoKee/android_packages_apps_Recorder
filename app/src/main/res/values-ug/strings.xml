@@ -16,6 +16,8 @@
 <resources>
     <string name="share">ھەمبەھىر</string>
     <string name="delete">ئۆچۈر</string>
+    <string name="delete_all">ھەممىنى ئۆچۈر</string>
     <string name="sound_recording_title_paused">ۋاقىتلىق توختىدى</string>
     <string name="settings_title">تەڭشەش</string>
+    <string name="delete_all_title">ھەممىنى ئۆچۈر</string>
 </resources>

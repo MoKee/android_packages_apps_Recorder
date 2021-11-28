@@ -16,6 +16,8 @@
 <resources>
     <string name="pause">થોભાવો</string>
     <string name="resume">ફરી શરૂ કરો</string>
+    <string name="delete_all">તમામ હટાવો</string>
     <string name="sound_recording_title_paused">અટક્યું</string>
     <string name="dialog_permissions_dismiss">Dismiss</string>
+    <string name="delete_all_title">તમામ હટાવો</string>
 </resources>

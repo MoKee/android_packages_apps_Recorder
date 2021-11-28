@@ -21,6 +21,7 @@
     <string name="pause">Pausatu</string>
     <string name="resume">Berrekin</string>
     <string name="delete">Ezabatu</string>
+    <string name="delete_all">Ezabatu guztiak</string>
     <string name="cancel">Utzi</string>
     <string name="rename">Aldatu izena</string>
     <string name="delete_title">Grabaketa ezabatzen</string>
@@ -40,4 +41,5 @@
     <string name="dialog_permissions_dismiss">Baztertu</string>
     <string name="snack_permissions_no_permission">Beharrezkoak diren baimenak ukatu dira, gaitu itzazu ezarpenen aplikaziotik grabatzen hasteko</string>
     <string name="main_sound_action">Grabatu soinua</string>
+    <string name="delete_all_title">Ezabatu guztiak</string>
 </resources>

@@ -21,9 +21,11 @@
     <string name="pause">Прыпыніць</string>
     <string name="resume">Узнавіць</string>
     <string name="delete">Выдаліць</string>
+    <string name="delete_all">Выдаліць усё</string>
     <string name="cancel">Скасаваць</string>
     <string name="rename">Пераназваць</string>
     <string name="delete_title">Выдаліць запіс</string>
+    <string name="discard">Адхіліць</string>
     <string name="sound_notification_title">Дыктафон</string>
     <string name="sound_notification_message">Працягласць: %1$s</string>
     <string name="sound_recording_title_working">Запіс</string>
@@ -40,4 +42,5 @@
     <string name="dialog_permissions_dismiss">Адхіліць</string>
     <string name="snack_permissions_no_permission">Адмоўлена ў неабходных дазволах. Змяніце дазвол ў наладах для магчымасці запісу</string>
     <string name="main_sound_action">Запіс гуку</string>
+    <string name="delete_all_title">Выдаліць усё</string>
 </resources>

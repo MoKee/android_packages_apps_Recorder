@@ -16,4 +16,6 @@
 <resources>
     <string name="share">Dalies</string>
     <string name="delete">Dzēst</string>
+    <string name="delete_all">Dzēst visu</string>
+    <string name="delete_all_title">Dzēst visu</string>
 </resources>

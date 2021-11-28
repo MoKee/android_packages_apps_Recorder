@@ -16,7 +16,10 @@
 <resources>
     <string name="share">Bendrinti</string>
     <string name="delete">Ištrinti</string>
+    <string name="delete_all">Ištrinti visas</string>
     <string name="cancel">Atšaukti</string>
     <string name="rename">Pervardinti</string>
+    <string name="discard">Atmesti</string>
     <string name="dialog_permissions_title">Leidimai</string>
+    <string name="delete_all_title">Ištrinti visas</string>
 </resources>

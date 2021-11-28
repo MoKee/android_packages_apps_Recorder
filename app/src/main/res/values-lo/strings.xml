@@ -16,4 +16,6 @@
 <resources>
     <string name="share">ແບ່ງປັນ</string>
     <string name="delete">ລຶບ</string>
+    <string name="delete_all">ລຶບທັງໝົດ</string>
+    <string name="delete_all_title">ລຶບທັງໝົດ</string>
 </resources>

@@ -14,5 +14,7 @@
      limitations under the License.
 -->
 <resources>
+    <string name="delete_all">सर्व हटवा</string>
     <string name="sound_recording_title_paused">विराम केले</string>
+    <string name="delete_all_title">सर्व हटवा</string>
 </resources>

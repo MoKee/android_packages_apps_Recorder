@@ -21,10 +21,12 @@
     <string name="pause">Pozastaviť</string>
     <string name="resume">Pokračovať</string>
     <string name="delete">Vymazať</string>
+    <string name="delete_all">Výmazať všetko</string>
     <string name="cancel">Zrušiť</string>
     <string name="rename">Premenovať</string>
     <string name="delete_title">Mazanie záznamu</string>
     <string name="delete_recording_message">Ste si istý, že chcete vymazať tento záznam? Táto akcia sa nedá vrátiť späť.</string>
+    <string name="discard">Zahodiť</string>
     <string name="sound_notification_title">Nahrávanie zvuku</string>
     <string name="sound_notification_message">Dĺžka zvukového záznamu: %1$s</string>
     <string name="sound_recording_title_working">Nahrávanie</string>
@@ -32,7 +34,6 @@
     <string name="sound_last_title">Posledný záznam</string>
     <string name="sound_channel_title">Nahrávanie zvuku</string>
     <string name="sound_channel_desc">Trvalé upozornenie pri nahrávaní zvuku a upozornenie po jeho dokončení</string>
-    <string name="screen_last_message">Trvanie: %1$d sekúnd</string>
     <string name="settings_title">Nastavenia</string>
     <string name="settings_location_message">Označte svoje nahrávky vašou aktuálnou pozíciou</string>
     <string name="settings_quality_high">Nahrávanie vo vysokej kvalite</string>
@@ -51,4 +52,5 @@
     <string name="list_edit_title">Upraviť názov nahrávky</string>
     <string name="list_edit_confirm">Zmeniť</string>
     <string name="list_item_menu">Ďalšie akcie</string>
+    <string name="delete_all_title">Výmazať všetko</string>
 </resources>
